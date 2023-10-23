@@ -1,0 +1,2484 @@
+@media screen and (max-width:1320px) {
+    .iconlist {
+        right: 0em !important;
+    }
+    .iconlist li {
+        margin-right: 1em !important;
+    }
+    .MenuList {
+        left: 22.5em !important;
+    }
+    .MenuList li {
+        margin-left: 1em !important;
+    }
+    .MenuList li a {
+        font-size: 20px !important;
+    }
+    .search {
+        width: 20px;
+    }
+    .cart {
+        width: 20px;
+    }
+    .dropbtn {
+        padding: 2px 10px;
+        min-width: 130px;
+    }
+    .dropdown-content {
+        min-width: 130px;
+    }
+    .sign {
+        font-size: 15px;
+    }
+    .login {
+        width: 15px;
+    }
+    .SlideOneHeader {
+        top: 5em;
+        left: 7em;
+    }
+    .Section2header1 h1 {
+        font-size: 35px !important;
+    }
+    .Section2header2 h1 {
+        font-size: 35px !important;
+    }
+    .CartShow {
+        right: 1em !important;
+        width: 30% !important;
+    }
+    .loginform {
+        width: 30%;
+    }
+    .User input {
+        width: 90% !important;
+    }
+    .Password input {
+        width: 90% !important;
+    }
+    .ProListing {
+        background-color: #f5f5f5;
+        width: 100%;
+        padding-right: var(--bs-gutter-x, .75rem) !important;
+        padding-left: var(--bs-gutter-x, .75rem) !important;
+        padding-top: var(--bs-gutter-y, 1rem) !important;
+    }
+    .filter {
+        width: 20% !important;
+    }
+    .filter .heading h5 {
+        font-size: 18px !important;
+    }
+    .CarList {
+        width: 77.5% !important;
+    }
+    .select-selected2 {
+        font-size: 15px !important;
+    }
+    .select-selected3 {
+        font-size: 15px !important;
+    }
+    .select-selected4 {
+        font-size: 15px !important;
+    }
+    .Site img {
+        width: 100%;
+    }
+    .Email {
+        float: left;
+        width: 100%;
+        padding-top: 3em;
+    }
+    
+    .ProDescription .row{
+        padding-bottom: 2em !important;
+        padding-right: 3em !important;
+        padding-left: 3em !important;
+    }
+    img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{ display: none; }    
+}
+
+@media screen and (max-width:1200px) {
+
+    .carousel-indicators{
+    bottom: 0em !important;
+    }
+
+    .titletheme img {
+        width: 80% !important;
+    }
+    .save {
+        left: 26.5em !important;
+        font-size: 13px !important;
+    }
+    .time {
+        font-size: 12px !important;
+    }
+    .viber {
+        font-size: 12px !important;
+    }
+    .MenuList {
+        left: 20.5em !important;
+        top: 3.9em !important;
+    }
+    .MenuList li a {
+        font-size: 18px !important;
+    }
+    .SlideOneHeader {
+        top: 3em;
+        left: 5em;
+    }
+    .Section2header1 h1 {
+        font-size: 30px !important;
+    }
+    .Section2header2 h1 {
+        font-size: 30px !important;
+    }
+    /*
+    .carousel-wrapper .carousel {
+        top: 22% !important;
+    }
+    */
+    .flickity-prev-next-button {
+        top: 45% !important;
+    }
+    .carousel-cell .CardBody .dscrption .dll li:nth-child(5) {
+        padding: 10px 10px !important;
+    }
+    .card2 .card-text {
+        font-size: 20px !important;
+    }
+    .card2 .card-body {
+        padding: 1rem 10rem;
+    }
+    .Section7 .newstitle h2 {
+        font-size: 35px !important;
+    }
+    .Section7 .newstitle h1 {
+        font-size: 35px !important;
+    }
+    .newsform li input {
+        width: 500px !important;
+        padding: 8px 16px;
+        font-size: 16px !important;
+    }
+    .newsform li button {
+        font-size: 16px !important;
+        padding: 8px 16px;
+    }
+    .CartShow {
+        width: 40% !important;
+    }
+    .clear {
+        font-size: 10px !important;
+    }
+    .check {
+        font-size: 10px !important;
+    }
+    .MainHead h1 {
+        font-size: 35px !important;
+    }
+    .filter {
+        position: unset;
+        position: unset;
+        top: 0em;
+    }
+    .SectionHeader img {
+        width: 30% !important;
+    }
+    .geartype2 {
+        margin-left: 1.5em !important;
+    }
+    .geartype2 li img {
+        margin-left: 1.5em !important;
+    }
+    .rating1>label {
+        font-size: 18px !important;
+    }
+    .rating2>label {
+        font-size: 18px !important;
+    }
+    .rating3>label {
+        font-size: 18px !important;
+    }
+    .rating4>label {
+        font-size: 18px !important;
+    }
+    .rating5>label {
+        font-size: 18px !important;
+    }
+    .rating6>label {
+        font-size: 18px !important;
+    }
+    .rating7>label {
+        font-size: 18px !important;
+    }
+    .rating8>label {
+        font-size: 18px !important;
+    }
+    .rating9>label {
+        font-size: 18px !important;
+    }
+    .rating10>label {
+        font-size: 18px !important;
+    }
+    .rating11>label {
+        font-size: 18px !important;
+    }
+    .rating12>label {
+        font-size: 18px !important;
+    }
+    .rating13>label {
+        font-size: 18px !important;
+    }
+    .rating14>label {
+        font-size: 18px !important;
+    }
+    .rating15>label {
+        font-size: 18px !important;
+    }
+    .Indicators {
+        top: 18em !important;
+    }
+    .next10,
+    .prev10 {
+        top: 19em !important;
+    }
+    .RentBtn {
+        padding-top: 10em !important;
+    }
+    .ProDescription{
+        padding-top: 11em !important;
+    }
+    .ProDescription .row{
+        padding-bottom: 2em !important;
+        padding-right: 2em !important;
+        padding-left: 2em !important;
+    }
+    .col-md-3 li{
+        font-size: 13px !important;
+    }
+    .gallery-cell{
+        margin-top: 0.8em;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    nav {
+        height: 4.5em !important;
+    }
+    .footerlist {
+        padding-left: 1em !important;
+        padding-right: 1em !important;
+    }
+    .paylist li a img {
+        width: 40px !important;
+    }
+    .social-links li a img {
+        width: 30px !important;
+    }
+    .footersublist p {
+        padding-top: 0px !important;
+    }
+    .social-links {
+        margin-left: -3em;
+    }
+    .paylist {
+        margin-right: -2em;
+    }
+    .save {
+        font-size: 12px !important;
+        left: 24.5em !important;
+    }
+    .time {
+        font-size: 12px !important;
+        right: 11em !important;
+    }
+    .time li img {
+        width: 12px !important;
+    }
+    .viber {
+        font-size: 12px !important;
+        right: 0.5em !important;
+    }
+    .viber li img {
+        width: 12px !important;
+    }
+    .titletheme img {
+        width: 67% !important;
+    }
+    .iconlist {
+        top: 3em !important;
+    }
+    .dropbtn {
+        font-size: 15px;
+        min-width: 120px !important;
+    }
+    .dropdown-content {
+        min-width: 120px !important;
+    }
+    .dropdown-content a {
+        font-size: 12px !important;
+    }
+    .drp-flag {
+        max-width: 20px !important;
+    }
+    .flag {
+        max-width: 20px;
+    }
+    .MenuList {
+        left: 17.2em !important;
+        top: 3.2em !important;
+    }
+    .main-nav {
+        padding-bottom: 1em !important;
+    }
+    .SlideOneHeader button {
+        font-size: 20px !important;
+    }
+    .Section2 {
+        padding: 0px !important;
+    }
+    .Section2 .row {
+        margin: 0px !important;
+    }
+    .Section21 li b {
+        font-size: 25px !important;
+        margin-right: 0.7em !important;
+        margin-left: 0.7em !important;
+    }
+    .location input {
+        width: 200px;
+        font-size: 12px !important;
+    }
+    .location span {
+        font-size: 15px;
+    }
+    .location2 span {
+        font-size: 15px;
+    }
+    .Date span{
+        font-size: 15px;
+    }
+    .Date2 span{
+        font-size: 15px;
+    }
+    .Time span{
+        font-size: 15px;
+    }
+    .Time2 span{
+        font-size: 15px;
+    }
+    .Time input {
+        width: 65px !important;
+        font-size: 10px !important;
+    }
+    .Time2 input {
+        width: 65px !important;
+        font-size: 10px !important;
+    }
+    .Date input {
+        width: 75px !important;
+        font-size: 10px !important;
+    }
+    .Date2 input {
+        width: 75px !important;
+        font-size: 10px !important;
+    }
+    .location2 input {
+        width: 200px;
+        font-size: 12px !important;
+    }
+    .custom-select {
+        width: 445px !important;
+        font-size: 12px !important;
+    }
+    .select-items div,
+    .select-selected {
+        width: 400px !important;
+        font-size: 12px !important;
+    }
+    .select-items {
+        width: 435px !important;
+        font-size: 12px !important;
+    }
+    .booklist3 li button {
+        width: 120px !important;
+        font-size: 15px;
+    }
+    .booklist3 li:nth-child(2) {
+        margin-left: 5em;
+    }
+    .custom-select span {
+        font-size: 20px !important;
+    }
+    .Section21 li img {
+        width: 80px !important;
+    }
+    .Section2header1 {
+        top: 30% !important;
+    }
+    .Section2header1 h1 {
+        font-size: 25px !important;
+    }
+    .Section2header2 {
+        top: 30% !important;
+    }
+    .Section2header2 h1 {
+        font-size: 25px !important;
+    }
+    .carousel-wrapper .carousel .carousel-cell {
+        margin: 0 20px !important;
+        width: 30% !important;
+    }
+    .carousel-cell .CardBody .dscrption .dll li:nth-child(5) {
+        padding: 0px 0px !important;
+    }
+    .carousel-cell .CardBody .dscrption .dll li button {
+        float: right !important;
+    }
+    .carousel-cell .CardBody .dscrption .dll {
+        width: 90px !important;
+    }
+    .carousel-cell .CardBody .dscrption .drl {
+        width: 130px !important;
+    }
+    .carousel-cell .CardBody {
+        padding: 0px 0px !important;
+    }
+    .carousel-cell .CardBody .dscrption .drl li {
+        padding-bottom: 1.5em !important;
+    }
+    .carousel-cell .CardBody .dscrption .dll li {
+        padding-bottom: 1.5em !important;
+    }
+    .carousel-wrapper {
+        height: 100% !important;
+        top: 50% !important;
+    }
+    .carousel-wrapper .carousel .carousel-cell {
+        height: 320% !important;
+    }
+    .carousel-wrapper .carousel .carousel-cell.is-selected {
+        height: 340% !important;
+    }
+    .card2 .card-text {
+        font-size: 20px !important;
+    }
+    .card2 .card-body {
+        padding: 1rem 5rem;
+    }
+    .Section6 {
+        height: 60px !important;
+    }
+    .brandicons li img {
+        width: 60% !important;
+    }
+    .brandicons li {
+        margin-right: 1em !important;
+    }
+    .brands h1 {
+        font-size: 25px !important;
+    }
+    .brands img {
+        width: 300px !important;
+    }
+    .MainHead h1 {
+        font-size: 30px !important;
+    }
+    .filter {
+        width: 100% !important;
+    }
+    .CarList {
+        width: 100% !important;
+        margin-left: 0em !important;
+        margin-top: 2em !important;
+    }
+    .ProListing {
+        padding-right: var(--bs-gutter-x, 2rem) !important;
+        padding-left: var(--bs-gutter-x, 2rem) !important;
+    }
+    .SectionHeader img {
+        width: 35% !important;
+    }
+    .Sectiontwo1 {
+        display: none !important;
+    }
+    .Sectiontwo2 {
+        display: block !important;
+        padding: 2em 0em !important;
+    }
+    .geartype2 {
+        margin-left: 2em !important;
+    }
+    .geartype2 li img {
+        margin-left: 2em !important;
+    }
+    .arrows {
+        right: -5em;
+    }
+    .col-lg-4 {
+        width: 33.3333333333% !important;
+    }
+    .rating1>label {
+        font-size: 15px !important;
+    }
+    .rating2>label {
+        font-size: 15px !important;
+    }
+    .rating3>label {
+        font-size: 15px !important;
+    }
+    .rating4>label {
+        font-size: 15px !important;
+    }
+    .rating5>label {
+        font-size: 15px !important;
+    }
+    .rating6>label {
+        font-size: 15px !important;
+    }
+    .rating7>label {
+        font-size: 15px !important;
+    }
+    .rating8>label {
+        font-size: 15px !important;
+    }
+    .rating9>label {
+        font-size: 15px !important;
+    }
+    .rating10>label {
+        font-size: 15px !important;
+    }
+    .rating11>label {
+        font-size: 15px !important;
+    }
+    .rating12>label {
+        font-size: 15px !important;
+    }
+    .rating13>label {
+        font-size: 15px !important;
+    }
+    .rating14>label {
+        font-size: 15px !important;
+    }
+    .rating15>label {
+        font-size: 15px !important;
+    }
+    .Indicators {
+        top: 15em !important;
+    }
+    .next10,
+    .prev10 {
+        top: 16em !important;
+    }
+    .next10 {
+        right: 0em !important;
+    }
+    .prev10 {
+        left: 0em !important;
+    }
+    .RentBtn {
+        padding-top: 10em !important;
+    }
+    .main-nav {
+        background-color: white !important;
+    }
+    .TableHead h4 {
+        font-size: 20px !important;
+    }
+    .TableHead img {
+        width: 300px !important;
+        height: 45px !important;
+    }
+    .table {
+        font-size: 12px !important;
+    }
+    .ProTitle h4 {
+        font-size: 20px !important;
+    }
+    .RentBtn {
+        padding-top: 10em !important;
+    }
+    .ProDescription{
+        padding-top: 11em !important;
+    }
+    .ProDescription .row{
+        padding-bottom: 2em !important;
+        padding-right: 0em !important;
+        padding-left: 0em !important;
+    }
+    .col-md-3 li{
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width:950px) {
+    body {
+        overflow: visible !important;
+    }
+    .iconlist {
+        right: 5em !important;
+    }
+    .MenuList {
+        display: none !important;
+    }
+    .menulst {
+        display: block;
+        top: 3.2em !important;
+        right: .5em !important;
+    }
+    .sidenav {
+        display: block;
+        height: 100%;
+        width: 300px;
+        margin-left: -300px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #252932;
+        overflow: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        z-index: 1000;
+    }
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        display: block;
+        transition: 0.3s;
+        border-bottom: 2px solid #d9eb3d;
+    }
+    .sidenav a:hover {
+        color: white !important;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 10px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    .closebtn {
+        border-bottom: 0px !important;
+    }
+    .MSearch {
+        font-family: Arial, Helvetica, sans-serif;
+        border: 10px solid #d9eb3d;
+        padding: .5em;
+        background-color: white;
+    }
+    .MSearch input {
+        width: 225px;
+        border: 0;
+        outline: none;
+        font-size: 20px;
+        color: #a5a5a5;
+        margin-left: .5em;
+    }
+    .TSearch {
+        font-size: 20px;
+        color: black !important;
+    }
+    .MSearch input::placeholder {
+        color: #a5a5a5;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .menubar {
+        width: 25px;
+        cursor: pointer;
+    }
+    .menu {
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .search {
+        display: none;
+    }
+    .carousel-indicators [data-bs-target] {
+        margin-right: 3em;
+        margin-left: 3em;
+    }
+    .SlideOneHeader button {
+        font-size: 15px !important;
+        padding: 5px 10px !important;
+    }
+    .SlideOneHeader button img {
+        width: 10px !important;
+    }
+    .SlideOneHeader h4 {
+        font-size: 17px;
+    }
+    .SlideOneHeader h1 {
+        font-size: 20px;
+    }
+    .SlideOneHeader h3 {
+        font-size: 15px;
+    }
+    .booklist1 li:nth-child(2) {
+        margin-right: 1em !important;
+        margin-left: 1em !important;
+    }
+    .booklist2 li:nth-child(2) {
+        margin-right: 1em !important;
+        margin-left: 1em !important;
+    }
+    .custom-select {
+        width: 350px !important;
+        font-size: 12px !important;
+    }
+    .select-items div,
+    .select-selected {
+        width: 300px !important;
+        font-size: 12px !important;
+    }
+    .select-items {
+        width: 340px !important;
+        font-size: 12px !important;
+    }
+    .card2 .card-text {
+        font-size: 18px !important;
+    }
+    .card2 .card-body {
+        padding: 1rem 1rem !important;
+    }
+    .card2 img {
+        width: 15% !important;
+        top: 15% !important;
+    }
+    .MainHead h1 {
+        font-size: 27px !important;
+    }
+    .geartype {
+        margin-left: 1.5em !important;
+    }
+    .geartype li img {
+        margin-left: 1.5em !important;
+    }
+    .FName {
+        float: left !important;
+    }
+    .FName li {
+        list-style: none !important;
+        display: list-item !important;
+    }
+    .FName li input {
+        width: 280px !important;
+        outline: none !important;
+        display: block !important;
+        font-family: Arial, Helvetica, sans-serif !important;
+        border: 1px solid black !important;
+        margin-left: 0em !important;
+        color: black !important;
+        font-size: 17px !important;
+    }
+    .FName li label {
+        font-family: Arial, Helvetica, sans-serif !important;
+        font-weight: bold !important;
+    }
+    .geartype2 {
+        margin-left: 1.5em !important;
+    }
+    .geartype2 li img {
+        margin-left: 1.5em !important;
+    }
+    .Register li {
+        font-size: 12px !important;
+    }
+    .loginform {
+        width: 35% !important;
+    }
+    .User input {
+        font-size: 12px !important;
+        width: 94% !important;
+    }
+    .User input::placeholder {
+        font-size: 12px !important;
+    }
+    .User span {
+        font-size: 12px !important;
+    }
+    .Register2 li {
+        font-size: 12px !important;
+    }
+    .Password input {
+        font-size: 12px !important;
+        width: 94% !important;
+    }
+    .Password input::placeholder {
+        font-size: 12px !important;
+    }
+    .Password span {
+        font-size: 12px !important;
+    }
+    .Remeber li:nth-child(1) {
+        font-size: 12px !important;
+    }
+    .Forget li:nth-child(1) {
+        font-size: 12px !important;
+    }
+    .signup {
+        font-size: 12px !important;
+    }
+    .SignIn2 {
+        font-size: 12px !important;
+    }
+    .Indicators {
+        display: none !important;
+    }
+    .next10,
+    .prev10 {
+        top: 5em !important;
+    }
+    .RentBtn {
+        padding-top: 2em !important;
+    }
+    .Indicators [data-bs-target] {
+        display: none !important;
+    }
+    .ProductHead .PSection {
+        height: 25em;
+    }
+    .ProDescription{
+        padding-top: 1em !important;
+    }
+    .col-md-3 li{
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (max-width:850px) {
+    footer h4 {
+        font-size: 17px !important;
+    }
+    .contact li {
+        font-size: 12px !important;
+    }
+    .Qlinks li a {
+        font-size: 12px !important;
+    }
+    .OAccount li a {
+        font-size: 12px !important;
+    }
+    .explore li a {
+        font-size: 12px !important;
+    }
+    .footersublist p {
+        font-size: 12px !important;
+    }
+    .carousel-indicators {
+        margin-right: 0% !important;
+        margin-bottom: 0rem !important;
+        margin-left: 0% !important;
+    }
+    .Section2header1 {
+        top: 30% !important;
+    }
+    .Section2header1 h1 {
+        font-size: 20px !important;
+    }
+    .Section2header2 {
+        top: 30% !important;
+    }
+    .Section2header2 h1 {
+        font-size: 20px !important;
+    }
+    .carousel-cell .CardBody .dscrption .drl li {
+        font-size: 9px !important;
+    }
+    .carousel-cell .CardBody .dscrption .dll li {
+        font-size: 9px !important;
+    }
+    .carousel-cell .CardBody .dscrption .drl li img {
+        width: 15px !important;
+    }
+    .carousel-cell .CardBody .dscrption .dll li img {
+        width: 15px !important;
+    }
+    .carousel-cell .CardBody .dscrption .dll {
+        width: 70px !important;
+    }
+    .carousel-wrapper .carousel .carousel-cell {
+        height: 280% !important;
+    }
+    .carousel-wrapper .carousel .carousel-cell.is-selected {
+        height: 300% !important;
+    }
+    .carousel-wrapper {
+        height: 80% !important;
+        top: 40% !important;
+    }
+    .card2 .card-text {
+        font-size: 16px !important;
+    }
+    .card2 .card-body {
+        padding: 1rem 2rem !important;
+    }
+    .card2 img {
+        width: 15% !important;
+        top: 15% !important;
+    }
+    .prev3 {
+        left: 1em !important;
+        top: 13em !important;
+    }
+    .prev3 img {
+        width: 120%;
+    }
+    .next3 {
+        right: 1em !important;
+        top: 13em !important;
+    }
+    .next3 img {
+        width: 120%;
+    }
+    .geartype {
+        margin-left: 1em !important;
+    }
+    .geartype li img {
+        margin-left: 1em !important;
+    }
+    .SectionHeader img {
+        width: 42% !important;
+    }
+    .geartype2 {
+        margin-left: 1em !important;
+    }
+    .geartype2 li img {
+        margin-left: 1em !important;
+    }
+    .arrows {
+        right: -4em;
+    }
+    .CarBar {
+        padding: 0px 0px !important;
+    }
+    .next10,
+    .prev10 {
+        top: 4em !important;
+    }
+    .RentBtn {
+        padding-top: 2em !important;
+    }
+}
+
+@media screen and (max-width:823px) {
+    .carousel-wrapper {
+        height: 125% !important;
+        top: 62% !important;
+    }
+    .CartShow {
+        width: 50% !important;
+    }
+    .table {
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .carousel-cell .CardBody .dscrption .drl li {
+        padding-bottom: 2em !important;
+    }
+    .carousel-cell .CardBody .dscrption .dll li {
+        padding-bottom: 2em !important;
+    }
+    .flickity-prev-next-button {
+        top: 45% !important;
+    }
+    .carousel-wrapper {
+        height: 85% !important;
+        top: 42% !important;
+    }
+    .card2 .card-text {
+        font-size: 15px !important;
+    }
+    .card2 .card-body {
+        padding: 1rem 3rem !important;
+    }
+    .Section7 {
+        padding-top: 3em !important;
+    }
+    .newsform {
+        padding-bottom: 3em !important;
+    }
+    .Section7 .newstitle h2 {
+        font-size: 25px !important;
+    }
+    .Section7 .newstitle h1 {
+        font-size: 25px !important;
+    }
+    .newsform li input {
+        width: 400px !important;
+        padding: 6px 12px;
+        font-size: 15px !important;
+    }
+    .newsform li input::placeholder {
+        font-size: 15px !important;
+    }
+    .newsform li button {
+        font-size: 15px !important;
+        padding: 6px 12px;
+    }
+    .ProListing {
+        padding-right: var(--bs-gutter-x, 1rem) !important;
+        padding-left: var(--bs-gutter-x, 1rem) !important;
+        padding-top: var(--bs-gutter-y, 1rem) !important;
+    }
+    .CarFilter {
+        text-align: left !important;
+        padding-right: 3rem !important;
+        padding-left: 3rem !important;
+    }
+    .CartShow {
+        width: 55% !important;
+    }
+    .MainHead h1 {
+        font-size: 20px !important;
+    }
+    .ProListing .filter {
+        width: 100% !important;
+    }
+    .custom-select2 {
+        width: 100% !important;
+        font-size: 15px !important;
+    }
+    .select-selected2 {
+        width: 100% !important;
+    }
+    .custom-select3 {
+        width: 100% !important;
+        font-size: 15px !important;
+    }
+    .select-selected3 {
+        width: 100% !important;
+    }
+    .custom-select4 {
+        width: 100% !important;
+        font-size: 15px !important;
+    }
+    .select-selected4 {
+        width: 100% !important;
+    }
+    .filter .heading h5 {
+        font-size: 18px !important;
+    }
+    .geartype {
+        margin-left: 0.8em !important;
+    }
+    .geartype li img {
+        margin-left: 0.8em !important;
+    }
+    .SectionHeader img {
+        width: 47% !important;
+    }
+    .geartype2 {
+        margin-left: 0.8em !important;
+    }
+    .geartype2 li img {
+        margin-left: 0.8em !important;
+    }
+    .loginform {
+        width: 42% !important;
+    }
+    .rating1>label {
+        font-size: 12px !important;
+    }
+    .rating2>label {
+        font-size: 12px !important;
+    }
+    .rating3>label {
+        font-size: 12px !important;
+    }
+    .rating4>label {
+        font-size: 12px !important;
+    }
+    .rating5>label {
+        font-size: 12px !important;
+    }
+    .rating6>label {
+        font-size: 12px !important;
+    }
+    .rating7>label {
+        font-size: 12px !important;
+    }
+    .rating8>label {
+        font-size: 12px !important;
+    }
+    .rating9>label {
+        font-size: 12px !important;
+    }
+    .rating10>label {
+        font-size: 12px !important;
+    }
+    .rating11>label {
+        font-size: 12px !important;
+    }
+    .rating12>label {
+        font-size: 12px !important;
+    }
+    .rating13>label {
+        font-size: 12px !important;
+    }
+    .rating14>label {
+        font-size: 12px !important;
+    }
+    .rating15>label {
+        font-size: 12px !important;
+    }
+    .next10,
+    .prev10 {
+        top: 3em !important;
+    }
+    .RentBtn {
+        padding-top: 2em !important;
+    }
+    .ProTitle h4 {
+        font-size: 15px !important;
+    }
+    .ProSpecification li:nth-child(1) {
+        font-size: 15px !important;
+    }
+    .ProSpecification li:nth-child(2) {
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    nav {
+        height: 2.5em !important;
+    }
+    footer {
+        text-align: center !important;
+    }
+    .social-links {
+        margin-left: -1em !important;
+    }
+    .paylist {
+        float: none;
+        margin-right: 0em;
+    }
+    footer .contact {
+        padding-bottom: 2em !important;
+    }
+    footer .Qlinks {
+        padding-bottom: 2em !important;
+    }
+    footer .OAccount {
+        padding-bottom: 2em !important;
+    }
+    .mobilenav {
+        display: block;
+    }
+    .mobilenav img {
+        width: 30%;
+    }
+    .mobilenav {
+        width: 100%;
+        text-align: center;
+        background-color: #d9eb3d;
+    }
+    .mobilenav img {
+        width: 20%;
+    }
+    .MSave {
+        width: 100%;
+        background-color: #3e6274;
+        color: white;
+        text-align: center;
+        line-height: 3em;
+        font-family: Arial, Helvetica, sans-serif;
+        border-bottom: 2px solid #d9eb3d;
+    }
+    .MTime {
+        width: 100%;
+        background-color: #3e6274;
+        color: white;
+        text-align: center;
+        line-height: 3em;
+        font-family: Arial, Helvetica, sans-serif;
+        border-bottom: 2px solid #d9eb3d;
+    }
+    .MViber {
+        width: 100%;
+        background-color: #3e6274;
+        color: white;
+        text-align: center;
+        line-height: 3em;
+        font-family: Arial, Helvetica, sans-serif;
+        border-bottom: 2px solid #d9eb3d;
+    }
+    .MobileMenu {
+        display: block;
+    }
+    .mainNavBar {
+        display: none !important;
+    }
+    .titletheme {
+        display: none !important;
+    }
+    .iconlist {
+        top: 1em !important;
+    }
+    .menulst {
+        top: 1.2em !important;
+    }
+    .carousel-indicators [data-bs-target] {
+        margin-right: 2em !important;
+        margin-left: 2em !important;
+    }
+    .SlideOneHeader {
+        top: 2em;
+        left: 3em;
+    }
+    .Section2 .container {
+        width: 100% !important;
+    }
+    .booklist1 li:nth-child(2) {
+        padding-top: 2em !important;
+    }
+    .booklist1 li:nth-child(3) {
+        padding-top: 2em !important;
+    }
+    .booklist2 li:nth-child(2) {
+        padding-top: 2em !important;
+    }
+    .booklist2 li:nth-child(3) {
+        padding-top: 2em !important;
+    }
+    .location input {
+        width: 400px !important;
+    }
+    .booklist1 li:nth-child(2) {
+        margin-right: 2em !important;
+        margin-left: 0em !important;
+    }
+    .Date input {
+        width: 150px !important;
+    }
+    .Time input {
+        width: 150px !important;
+    }
+    .location2 input {
+        width: 400px !important;
+    }
+    .booklist2 li:nth-child(2) {
+        margin-right: 2em !important;
+        margin-left: 0em !important;
+    }
+    .Date2 input {
+        width: 150px !important;
+    }
+    .Time2 input {
+        width: 150px !important;
+    }
+    .custom-select {
+        width: 300px !important;
+        font-size: 12px !important;
+    }
+    .select-items div,
+    .select-selected {
+        width: 250px !important;
+        font-size: 12px !important;
+    }
+    .select-items {
+        width: 290px !important;
+        font-size: 12px !important;
+    }
+    
+    .booklist3 li:nth-child(2) {
+        margin-left: 1em !important;
+    }
+    
+    .Section2 .row {
+        padding-top: 1em !important;
+    }
+    .Section21 li b {
+        font-size: 20px !important;
+        margin-right: 0.2em !important;
+        margin-left: 0.2em !important;
+    }
+    .Section21 li img {
+        width: 50px !important;
+    }
+    .Section2header1 {
+        top: 30% !important;
+    }
+    .Section2header1 h1 {
+        font-size: 18px !important;
+    }
+    .Section2header2 {
+        top: 30% !important;
+    }
+    .Section2header2 h1 {
+        font-size: 18px !important;
+    }
+    .carousel-wrapper {
+        display: none !important;
+    }
+    .Section4 {
+        display: block;
+    }
+    .rating4 span {
+        right: 4.8em !important;
+        bottom: 17.8% !important;
+        font-size: 10px !important;
+    }
+    .rating10 span {
+        right: 4.8em !important;
+        bottom: 17.8% !important;
+        font-size: 10px !important;
+    }
+    .rating11 span {
+        right: 4.8em !important;
+        bottom: 17.8% !important;
+        font-size: 10px !important;
+    }
+    .rating12 span {
+        right: 4.8em !important;
+        bottom: 17.8% !important;
+        font-size: 10px !important;
+    }
+    .rating4 .starfour {
+        right: 7.3em !important;
+        bottom: 17.8% !important;
+        font-size: 10px !important;
+    }
+    .rating10 .starten {
+        right: 7.3em !important;
+        bottom: 17.8% !important;
+        font-size: 10px !important;
+    }
+    .rating11 .stareleven {
+        right: 7.3em !important;
+        bottom: 17.8% !important;
+        font-size: 10px !important;
+    }
+    .rating12 .startwelve {
+        right: 7.3em !important;
+        bottom: 17.8% !important;
+        font-size: 10px !important;
+    }
+    .rating5 span {
+        right: 4.8em !important;
+        bottom: 17.8% !important;
+        font-size: 10px !important;
+    }
+    .rating5 .starfive {
+        right: 7.3em !important;
+        bottom: 17.8% !important;
+        font-size: 10px !important;
+    }
+    .rating6 span {
+        right: 4.8em !important;
+        bottom: 17.8% !important;
+        font-size: 10px !important;
+    }
+    .rating6 .starsix {
+        right: 7.3em !important;
+        bottom: 17.8% !important;
+        font-size: 10px !important;
+    }
+    .CarList .row>* {
+        width: 50% !important;
+    }
+    .geartype {
+        margin-left: 3em !important;
+    }
+    .geartype li img {
+        margin-left: 3em !important;
+    }
+    .geartype2 {
+        margin-left: 2.5em !important;
+    }
+    .geartype2 li img {
+        margin-left: 2.5em !important;
+    }
+    .CarList {
+        padding: 0rem 0rem !important;
+    }
+    .ProFoto img {
+        padding-top: 1rem !important;
+    }
+    .MiddleCard {
+        border: 0px !important;
+    }
+    .Sectiontwo2 {
+        display: none !important;
+    }
+    .Sectionthree {
+        display: block !important;
+        padding: 2em 0em !important;
+    }
+    .col-lg-6 {
+        width: 50% !important;
+    }
+    .arrows {
+        right: -3em;
+    }
+    .CarOusel {
+        width: 100% !important;
+    }
+    .next10,
+    .prev10 {
+        top: 8em !important;
+    }
+    .RentBtn {
+        padding-top: 2em !important;
+    }
+    .ProductHead .PSection {
+        height: 55em !important;
+    }
+    .ProTitle h4 {
+        font-size: 20px !important;
+        padding-top: 2em !important;
+    }
+    .table {
+        font-size: 15px !important;
+    }
+    .ProDescription .row .col-md-3{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .Scroll {
+        right: 1em !important;
+    }
+    .mobilenav img {
+        width: 35%;
+    }
+    .carousel-indicators [data-bs-target] {
+        margin-right: 2em !important;
+        margin-left: 2em !important;
+        width: 80px !important;
+        height: 20px;
+    }
+    .carousel-indicators {
+        margin-bottom: -0.5rem !important;
+    }
+    .SlideOneHeader {
+        top: 1em;
+        left: 1em;
+    }
+    .SlideOneHeader button {
+        margin-top: 0.5em !important;
+        font-size: 10px !important;
+        padding: 5px 5px !important;
+    }
+    .SlideOneHeader button img {
+        width: 7px !important;
+    }
+    .Section21 li b {
+        font-size: 15px !important;
+    }
+    .Section21 li img {
+        width: 40px !important;
+    }
+    .location input {
+        width: 300px !important;
+    }
+    .Date input {
+        width: 100px !important;
+    }
+    .Time input {
+        width: 100px !important;
+    }
+    .location2 input {
+        width: 300px !important;
+    }
+    .Date2 input {
+        width: 100px !important;
+    }
+    .Time2 input {
+        width: 100px !important;
+    }
+    .custom-select {
+        width: 200px !important;
+        font-size: 12px !important;
+    }
+    .select-items div,
+    .select-selected {
+        width: 180px !important;
+        font-size: 12px !important;
+    }
+    .select-items {
+        width: 195px !important;
+        font-size: 12px !important;
+    }
+    .Section21 {
+        padding-top: 0.5em !important;
+    }
+    .Section2header1 {
+        top: 30% !important;
+    }
+    .Section2header1 h1 {
+        font-size: 14px !important;
+    }
+    .Section2header2 {
+        top: 30% !important;
+    }
+    .Section2header2 h1 {
+        font-size: 14px !important;
+    }
+    .rating4 span {
+        right: 5.5em !important;
+        bottom: 19% !important;
+        font-size: 10px !important;
+    }
+    .rating10 span {
+        right: 5.5em !important;
+        bottom: 19% !important;
+        font-size: 10px !important;
+    }
+    .rating11 span {
+        right: 5.5em !important;
+        bottom: 19% !important;
+        font-size: 10px !important;
+    }
+    .rating12 span {
+        right: 5.5em !important;
+        bottom: 19% !important;
+        font-size: 10px !important;
+    }
+    .rating4 .starfour {
+        right: 8em !important;
+        bottom: 19% !important;
+        font-size: 10px !important;
+    }
+    .rating10 .starten {
+        right: 8em !important;
+        bottom: 19% !important;
+        font-size: 10px !important;
+    }
+    .rating11 .stareleven {
+        right: 8em !important;
+        bottom: 19% !important;
+        font-size: 10px !important;
+    }
+    .rating12 .startwelve {
+        right: 8em !important;
+        bottom: 19% !important;
+        font-size: 10px !important;
+    }
+    .rating5 span {
+        right: 5.5em !important;
+        bottom: 19% !important;
+        font-size: 10px !important;
+    }
+    .rating5 .starfive {
+        right: 8em !important;
+        bottom: 19% !important;
+        font-size: 10px !important;
+    }
+    .rating6 span {
+        right: 5.5em !important;
+        bottom: 19% !important;
+        font-size: 10px !important;
+    }
+    .rating6 .starsix {
+        right: 8em !important;
+        bottom: 19% !important;
+        font-size: 10px !important;
+    }
+    div.card {
+        width: 300px !important;
+        height: 330px !important;
+    }
+    .card .CardBody .dscrption .dll {
+        width: 100px !important;
+    }
+    .card .foto img {
+        width: 60% !important;
+    }
+    .card .CardBody h3 {
+        font-size: 15px !important;
+    }
+    .card .CardBody .dscrption .drl li img {
+        width: 20px !important;
+    }
+    .card .CardBody .dscrption .dll li img {
+        width: 20px !important;
+    }
+    .card .CardBody .dscrption .drl li {
+        font-size: 10px !important;
+    }
+    .card .CardBody .dscrption .dll li {
+        font-size: 10px !important;
+    }
+    .card .CardBody .dscrption .dll li:nth-child(5) {
+        padding: 0px 0px !important;
+    }
+    .prev2 {
+        top: 9em !important;
+    }
+    .prev2 img {
+        width: 100% !important;
+    }
+    .next2 {
+        top: 9em !important;
+    }
+    .next2 img {
+        width: 100% !important;
+    }
+    .card img {
+        width: 15% !important;
+        top: 15% !important;
+    }
+    .prev3 {
+        left: 1em !important;
+        top: 9em !important;
+    }
+    .prev3 img {
+        width: 120%;
+    }
+    .next3 {
+        right: 1em !important;
+        top: 9em !important;
+    }
+    .next3 img {
+        width: 120%;
+    }
+    .card2 .card-body {
+        padding: 1rem 0rem !important;
+    }
+    .card2 .card-text {
+        font-size: 15px !important;
+    }
+    .card2 img {
+        width: 25% !important;
+        left: 40% !important;
+    }
+    .brands h1 {
+        top: 10%;
+        font-size: 20px !important;
+    }
+    .brands img {
+        width: 200px !important;
+    }
+    .brandicons li {
+        margin-right: 0em !important;
+    }
+    .brandicons li img {
+        width: 40% !important;
+    }
+    .Section6 {
+        height: 40px !important;
+    }
+    .Section7 .newstitle h2 {
+        font-size: 20px !important;
+    }
+    .Section7 .newstitle h1 {
+        font-size: 20px !important;
+    }
+    .newsform li input {
+        width: 300px !important;
+        padding: 6px 12px;
+        font-size: 12px !important;
+    }
+    .newsform li input::placeholder {
+        font-size: 12px !important;
+    }
+    .newsform li button {
+        font-size: 12px !important;
+        padding: 6px 12px;
+    }
+    .CartShow {
+        width: 68% !important;
+    }
+    .MainHead {
+        padding-top: 5%;
+        padding-bottom: 4%;
+    }
+    .MainHead h1 {
+        font-size: 18px !important;
+    }
+    .CarFilter li {
+        margin-left: 3.7em !important;
+    }
+    .geartype {
+        margin-left: 1.7em !important;
+    }
+    .geartype li img {
+        margin-left: 1.7em !important;
+    }
+    .FName {
+        width: 100% !important;
+    }
+    .FName li input {
+        width: 100% !important;
+    }
+    .Email {
+        width: 100% !important;
+    }
+    .Email li input {
+        width: 100% !important;
+    }
+    .Phone {
+        width: 100% !important;
+    }
+    .Phone li input {
+        width: 100% !important;
+    }
+    .Details {
+        width: 100% !important;
+    }
+    .Details li textarea {
+        width: 100% !important;
+    }
+    .Submit button {
+        width: 100% !important;
+        font-size: 15px !important;
+    }
+    .Section2Header1 h1 {
+        font-size: 17px !important;
+    }
+    .SectionHeader img {
+        width: 50% !important;
+        height: 50px !important;
+    }
+    .SectionHeader {
+        height: 50px !important;
+    }
+    .ContactHead {
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem !important;
+    }
+    .CarBanner {
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem !important;
+    }
+    .geartype2 {
+        margin-left: 2em !important;
+    }
+    .geartype2 li img {
+        margin-left: 2em !important;
+    }
+    .loginform {
+        width: 55% !important;
+    }
+    .rating1>label {
+        font-size: 10px !important;
+    }
+    .rating2>label {
+        font-size: 10px !important;
+    }
+    .rating3>label {
+        font-size: 10px !important;
+    }
+    .rating4>label {
+        font-size: 10px !important;
+    }
+    .rating5>label {
+        font-size: 10px !important;
+    }
+    .rating6>label {
+        font-size: 10px !important;
+    }
+    .rating7>label {
+        font-size: 10px !important;
+    }
+    .rating8>label {
+        font-size: 10px !important;
+    }
+    .rating9>label {
+        font-size: 10px !important;
+    }
+    .rating10>label {
+        font-size: 10px !important;
+    }
+    .rating11>label {
+        font-size: 10px !important;
+    }
+    .rating12>label {
+        font-size: 10px !important;
+    }
+    .rating13>label {
+        font-size: 10px !important;
+    }
+    .rating14>label {
+        font-size: 10px !important;
+    }
+    .rating15>label {
+        font-size: 10px !important;
+    }
+    .next10,
+    .prev10 {
+        top: 7em !important;
+        width: 35px !important;
+        height: 35px !important;
+    }
+    .RentBtn {
+        padding-top: 2em !important;
+    }
+    .RentIt {
+        font-size: 15px !important;
+    }
+    .ProductHead .PSection {
+        height: 50em !important;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .geartype {
+        margin-left: 1.7em !important;
+    }
+    .geartype li {
+        font-size: 12px !important;
+    }
+    .geartype li img {
+        margin-left: 1.7em !important;
+        width: 20px !important;
+    }
+    .speed li {
+        font-size: 12px !important;
+    }
+    .speed li img {
+        width: 20px !important;
+    }
+    .model li {
+        font-size: 12px !important;
+    }
+    .model li img {
+        width: 20px !important;
+    }
+    .Section2Header1 h1 {
+        font-size: 15px !important;
+    }
+    .SectionHeader img {
+        width: 50% !important;
+        height: 50px !important;
+    }
+    .SectionHeader {
+        height: 50px !important;
+    }
+    .geartype2 {
+        margin-left: 1em !important;
+    }
+    .geartype2 li img {
+        margin-left: 1em !important;
+    }
+    .arrows {
+        right: -2em;
+    }
+    .next10,
+    .prev10 {
+        top: 6em !important;
+        width: 35px !important;
+        height: 35px !important;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .CarList .row>* {
+        width: 100% !important;
+    }
+    .geartype {
+        margin-left: 5.5em !important;
+    }
+    .geartype li img {
+        margin-left: 5.5em !important;
+    }
+    .geartype2 {
+        margin-left: 4.5em !important;
+    }
+    .geartype2 li img {
+        margin-left: 4.5em !important;
+    }
+    .Sectionthree {
+        display: none !important;
+    }
+    .Sectionfour {
+        display: block !important;
+        padding: 2em 0em !important;
+    }
+    .Previous {
+        font-size: 15px !important;
+        width: 25px !important;
+    }
+    .Next {
+        font-size: 15px !important;
+        width: 25px !important;
+    }
+    .arrows {
+        width: 80px !important;
+    }
+    .ProductHead {
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem !important;
+    }
+    .next10,
+    .prev10 {
+        top: 5em !important;
+        width: 35px !important;
+        height: 35px !important;
+    }
+    .ProductHead .PSection {
+        height: 46em !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .SlideOneHeader h4 {
+        font-size: 12px !important;
+    }
+    .SlideOneHeader h1 {
+        font-size: 15px !important;
+    }
+    .SlideOneHeader h3 {
+        font-size: 12px !important;
+    }
+    .SlideOneHeader button {
+        font-size: 8px !important;
+    }
+    .SlideOneHeader button img {
+        width: 5px !important;
+    }
+    .Section2header1 {
+        top: 30% !important;
+    }
+    .Section2header1 h1 {
+        font-size: 12px !important;
+    }
+    .Section2header2 {
+        top: 30% !important;
+    }
+    .Section2header2 h1 {
+        font-size: 12px !important;
+    }
+    .prev2 {
+        left: 0 !important;
+    }
+    .next2 {
+        right: 0 !important;
+    }
+    .rating4>label {
+        font-size: 10px !important;
+    }
+    .rating10>label {
+        font-size: 10px !important;
+    }
+    .rating11>label {
+        font-size: 10px !important;
+    }
+    .rating12>label {
+        font-size: 10px !important;
+    }
+    .rating5>label {
+        font-size: 10px !important;
+    }
+    .rating6>label {
+        font-size: 10px !important;
+    }
+    .prev3 img {
+        width: 100% !important;
+    }
+    .prev3 {
+        left: 0.2em !important;
+    }
+    .next3 img {
+        width: 100% !important;
+    }
+    .next3 {
+        right: 0.2em !important;
+    }
+    .Section7 .newstitle h2 {
+        font-size: 18px !important;
+    }
+    .Section7 .newstitle h1 {
+        font-size: 18px !important;
+    }
+    .newsform li input {
+        width: 250px !important;
+        padding: 6px 12px;
+        font-size: 12px !important;
+    }
+    .newsform li input::placeholder {
+        font-size: 12px !important;
+    }
+    .newsform li button {
+        font-size: 12px !important;
+        padding: 6px 12px;
+    }
+    .CartShow {
+        width: 78% !important;
+    }
+    .MainHead {
+        padding-top: 6%;
+        padding-bottom: 4%;
+    }
+    .MainHead h1 {
+        font-size: 15px !important;
+    }
+    .bagination {
+        border-top: 3px solid #f2f2f2;
+        padding-top: 1em;
+        padding-left: 0.5em !important;
+        margin-top: 3em !important;
+    }
+    .Page {
+        display: none !important;
+    }
+    .bagination {
+        border-top: 3px solid #f2f2f2;
+        padding-top: 1em;
+        padding-left: 0em !important;
+        margin-top: 3em !important;
+    }
+    .ContactHead {
+        padding: 1rem 1rem 1rem 1rem !important;
+    }
+    .table {
+        font-size: 12px !important;
+    }
+    .ProDescription .row:nth-child(2){
+        padding-bottom: 0em !important;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .mobilenav img {
+        width: 45%;
+    }
+    .carousel-indicators [data-bs-target] {
+        margin-right: 1em !important;
+        margin-left: 1em !important;
+        width: 50px !important;
+        height: 20px;
+    }
+    .carousel-indicators {
+        margin-bottom: -1rem !important;
+    }
+    .Section21 li img {
+        width: 25px !important;
+        font-size: 12px;
+    }
+    .Section21 li b {
+        margin-right: 0em !important;
+        margin-left: 0em !important;
+    }
+    .Section2 .container {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+    .Section2header {
+        top: -5px;
+    }
+    .Section2header1 {
+        top: 30% !important;
+    }
+    .Section2header2 {
+        top: 30% !important;
+    }
+    .Section2header1 h1 {
+        margin-bottom: 0px !important;
+    }
+    .Section2header2 h1 {
+        margin-bottom: 0px !important;
+    }
+    .Section4 {
+        margin-top: -.5em !important;
+    }
+    .brands img {
+        width: 150px !important;
+    }
+    .brands h1 {
+        top: 15%;
+        font-size: 15px !important;
+    }
+    .CartShow {
+        width: 100% !important;
+        right: 0em !important;
+    }
+    .geartype {
+        margin-left: 4.5em !important;
+    }
+    .geartype li img {
+        margin-left: 4.5em !important;
+    }
+    .Section2Header1 h1 {
+        font-size: 12px !important;
+    }
+    .SectionHeader {
+        height: 40px !important;
+    }
+    .SectionHeader img {
+        height: 40px !important;
+    }
+    .geartype2 {
+        margin-left: 3.7em !important;
+    }
+    .geartype2 li img {
+        margin-left: 3.7em !important;
+    }
+    .loginform {
+        width: 100% !important;
+        right: 0 !important;
+    }
+    .TableHead h4 {
+        font-size: 15px !important;
+    }
+    .TableHead img {
+        width: 200px !important;
+        height: 40px !important;
+    }
+    .ProTitle h4 {
+        font-size: 17px !important;
+    }
+    .ProductHead .PSection {
+        height: 43em !important;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .login {
+        display: none;
+    }
+    .iconlist {
+        right: 4.5em !important;
+    }
+    .iconlist li {
+        margin-right: .5em !important;
+    }
+    .SlideOneHeader h4 {
+        font-size: 10px !important;
+        margin-bottom: 2px !important;
+    }
+    .SlideOneHeader h1 {
+        font-size: 12px !important;
+        margin-bottom: 2px !important;
+    }
+    .SlideOneHeader h3 {
+        font-size: 10px !important;
+        margin-bottom: 2px !important;
+    }
+    .SlideOneHeader button {
+        font-size: 8px !important;
+        margin-top: 0em !important;
+    }
+    .Section21 li b {
+        font-size: 12px !important;
+    }
+    .Section21 li img {
+        width: 20px !important;
+    }
+    .booklist1 li h6 {
+        font-size: 12px !important;
+    }
+    .booklist2 li h6 {
+        font-size: 12px !important;
+    }
+    .booklist3 li h6 {
+        font-size: 12px !important;
+    }
+    .location input {
+        width: 250px !important;
+        font-size: 10px !important;
+    }
+    .booklist1 li:nth-child(2) {
+        margin-right: 0em !important;
+    }
+    .location2 input {
+        width: 250px !important;
+        font-size: 10px !important;
+    }
+    .booklist2 li:nth-child(2) {
+        margin-right: 0em !important;
+    }
+    .custom-select {
+        width: 150px !important;
+        font-size: 12px !important;
+    }
+    .select-items div,
+    .select-selected {
+        width: 145px !important;
+        font-size: 12px !important;
+        font-size: 10px !important;
+    }
+    .select-items {
+        width: 145px !important;
+        font-size: 12px !important;
+    }
+    .booklist3 li button {
+        font-size: 12px;
+        width: 100px !important;
+    }
+    
+    .booklist3 li:nth-child(2) {
+        margin-left: 1.5em !important;
+    }
+    
+    .Section2header1 {
+        top: 30% !important;
+    }
+    .Section2header1 h1 {
+        font-size: 10px !important;
+    }
+    .Section2header2 {
+        top: 30% !important;
+    }
+    .Section2header2 h1 {
+        font-size: 10px !important;
+    }
+    div.card {
+        width: 250px !important;
+        height: 305px !important;
+    }
+    .card .foto img {
+        width: 50% !important;
+    }
+    .card .CardBody h3 {
+        font-size: 12px !important;
+    }
+    .prev2 {
+        top: 8em !important;
+        left: 0.7em !important;
+    }
+    .next2 {
+        top: 8em !important;
+        right: 0.7em !important;
+    }
+    .prev2 img {
+        width: 80% !important;
+    }
+    .next2 img {
+        width: 80% !important;
+    }
+    .Section4 {
+        padding: 2em 0em !important;
+    }
+    .Section4 .col-md-12 {
+        padding: 0px !important;
+    }
+    .prev3 {
+        left: 0em !important;
+    }
+    .next3 {
+        right: 0em !important;
+    }
+    .colum {
+        padding: 0px !important;
+    }
+    .Section5 .col-md-12 {
+        padding: 0px !important;
+    }
+    .Section7 {
+        padding-top: 2em !important;
+    }
+    .newsform {
+        padding-bottom: 2em !important;
+    }
+    .Section7 .newstitle h2 {
+        font-size: 15px !important;
+    }
+    .Section7 .newstitle h1 {
+        font-size: 15px !important;
+    }
+    .newsform li input {
+        width: 200px !important;
+        padding: 5px 10px;
+        font-size: 10px !important;
+    }
+    .newsform li input::placeholder {
+        font-size: 10px !important;
+    }
+    .newsform li button {
+        font-size: 10px !important;
+        padding: 5px 10px;
+    }
+    .geartype {
+        margin-left: 3.5em !important;
+    }
+    .geartype li img {
+        margin-left: 3.5em !important;
+    }
+    .geartype2 {
+        margin-left: 3em !important;
+    }
+    .geartype2 li img {
+        margin-left: 3em !important;
+    }
+    .table {
+        font-size: 10px !important;
+    }
+    .ProductHead .PSection {
+        height: 42em !important;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .Section7 {
+        padding-top: 1em !important;
+    }
+    .newsform {
+        padding-bottom: 1em !important;
+    }
+    .Section7 .newstitle h2 {
+        font-size: 15px !important;
+    }
+    .Section7 .newstitle h1 {
+        font-size: 15px !important;
+    }
+    .newsform li input {
+        width: 150px !important;
+        padding: 5px 10px;
+        font-size: 10px !important;
+    }
+    .Section7 .newstitle h1 {
+        margin-bottom: 1rem !important;
+    }
+    .newsform li input::placeholder {
+        font-size: 10px !important;
+    }
+    .newsform li button {
+        font-size: 10px !important;
+        padding: 5px 10px;
+    }
+    .geartype {
+        margin-left: 3.3em !important;
+    }
+    .geartype li img {
+        margin-left: 3.3em !important;
+    }
+    .geartype2 {
+        margin-left: 2.8em !important;
+    }
+    .geartype2 li img {
+        margin-left: 2.8em !important;
+    }
+    .next10,
+    .prev10 {
+        top: 4em !important;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .geartype {
+        margin-left: 2.5em !important;
+    }
+    .geartype li img {
+        margin-left: 2.5em !important;
+    }
+    .pagination li {
+        margin-left: 0em;
+    }
+    .Section2Header1 h1 {
+        font-size: 10px !important;
+    }
+    .SectionHeader {
+        height: 30px !important;
+    }
+    .SectionHeader img {
+        height: 30px !important;
+    }
+    .geartype2 {
+        margin-left: 2em !important;
+    }
+    .geartype2 li img {
+        margin-left: 2em !important;
+    }
+    .Previous {
+        font-size: 10px !important;
+        width: 15px !important;
+    }
+    .Next {
+        font-size: 10px !important;
+        width: 15px !important;
+    }
+    .arrows {
+        width: 50px !important;
+        right: -1em !important;
+    }
+    .next10,
+    .prev10 {
+        top: 3em !important;
+    }
+    .RentIt {
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .dropbtn {
+        min-width: 110px !important;
+    }
+    .dropdown-content {
+        min-width: 110px !important;
+    }
+    .iconlist {
+        right: 4.88em !important;
+    }
+    .iconlist li {
+        margin-right: 0em !important;
+    }
+    .SlideOneHeader {
+        top: .2em !important;
+        left: .2em !important;
+    }
+    .location input {
+        width: 180px !important;
+    }
+    .location2 input {
+        width: 180px !important;
+    }
+    .Date input {
+        width: 80px !important;
+    }
+    .Date2 input {
+        width: 80px !important;
+    }
+    .Time input {
+        width: 75px !important;
+    }
+    .Time2 input {
+        width: 75px !important;
+    }
+    .booklist1 li:nth-child(2) {
+        margin-right: .2em !important;
+    }
+    .booklist2 li:nth-child(2) {
+        margin-right: .2em !important;
+    }
+    .booklist3 li:nth-child(2) {
+        margin-left: 0em !important;
+    }
+    .Section21 li b {
+        font-size: 10px !important;
+    }
+    .Section2header1 {
+        top: 35% !important;
+    }
+    .Section2header1 h1 {
+        font-size: 8px !important;
+    }
+    .Section2header2 {
+        top: 35% !important;
+    }
+    .Section2header2 h1 {
+        font-size: 8px !important;
+    }
+    .card2 .card-text {
+        font-size: 12px !important;
+    }
+    .card2 .card-body {
+        padding: 1rem 2rem !important;
+    }
+    .newsform li input {
+        width: 120px !important;
+        padding: 5px 10px;
+        font-size: 10px !important;
+    }
+    .geartype {
+        margin-left: 2em !important;
+    }
+    .geartype li img {
+        margin-left: 2em !important;
+    }
+    .geartype2 {
+        margin-left: 1.5em !important;
+    }
+    .geartype2 li img {
+        margin-left: 1.5em !important;
+    }
+}

@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>MietAraba | Join Us!</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/SignUp.css">
+    <link rel="stylesheet" href="css/OurCars.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="BSCarousel/bootstrap.min.css" />
+
+</head>
+
+<body>
+
+    <!--Mobile Side Nav-->
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="MSearch">
+            <form method="POST">
+                <b class="TSearch">&#128269;</b><input type="text" name="search" placeholder="Search...." />
+            </form>
+        </div>
+        <a href="index.html">Home</a>
+        <a href="OurCars.html">OurCars</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact Us</a>
+    </div>
+
+    <div class="main-nav">
+        <div class="MobileMenu">
+            <div class="mobilenav">
+                <a href="index.html" style="text-decoration: none;">
+                    <img src="images/home/Logo.png" alt="SiteLogo" />
+                </a>
+            </div>
+            <div class="MSave">
+                Save up to <b style="color: #d9eb3d;">40%</b> Hurry limited Offer!
+            </div>
+            <div class="MTime">
+                <img src="images/home/timer.png" alt="timer" /> &nbsp;Mon - Fri: 09am to 06pm
+            </div>
+            <div class="MViber">
+                <img src="images/home/viber.png" alt="viber" /> &nbsp;+1 800 789 0000
+            </div>
+        </div>
+
+        <!--Desktop Nav-->
+
+        <nav>
+            <div class="titletheme">
+                <a href="index.html" style="text-decoration: none; display: block;">
+                    <img src="images/home/Logo.png" alt="SiteLogo" />
+                </a>
+            </div>
+            <div class="mainNavBar">
+                <div class="save">
+                    Save up to <b style="color: #d9eb3d;">40%</b> Hurry limited Offer!
+                </div>
+                <div class="time">
+                    <li><img src="images/home/timer.png" alt="timer" /> &nbsp;Mon - Fri: 09am to 06pm</li>
+                </div>
+                <div class="viber">
+                    <li><img src="images/home/viber.png" alt="viber" /> &nbsp;+1 800 789 0000</li>
+                </div>
+            </div>
+            <div class="MenuList">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="OurCars.html">OurCars</a>
+                </li>
+                <li>
+                    <a href="About.html">About</a>
+                </li>
+                <li>
+                    <a href="Contact.html">Contact Us</a>
+                </li>
+            </div>
+            <div class="iconlist">
+                <li>
+                    <img src="images/home/search.png" alt="search" class="search" />
+                </li>
+                <li class="Cart">
+                    <img src="images/home/carticon.png" alt="Cart" class="cart" />
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">English<img src="images/home/British.png" alt="uk-flag" class="flag"/></button>
+                        <div class="dropdown-content">
+                            <a href="#" class="firstA">English<img src="images/home/British.png" alt="uk-flag" class="drp-flag drp-flag2" /> </a>
+                            <a href="#" class="lastA">Deutsch<img src="images/home/germany.png" alt="de-flag" class="drp-flag drp-flag2" /></a>
+                        </div>
+                    </div>
+                </li>
+                <li class="SignIn">
+                    <b class="sign">Sign In</b>&nbsp;&nbsp;<img src="images/home/password.png" alt="login" class="login" />
+                </li>
+            </div>
+            <div class="menulst">
+                <li>
+                    <b class="menu">Menu</b>&nbsp;&nbsp;<img src="images/home/menubar.png" alt="BurgerMenu" class="menubar" onclick="openNav()" />
+                </li>
+            </div>
+        </nav>
+    </div>
+
+    <!--End Desktop Nav-->
+
+    <!--Login Form-->
+
+    <div class="loginform">
+        <img src="images/home/cancel-button.jpg" alt="cancel" class="cancel" />
+        <div class="Register">
+            <li>UserName || Email Address</li>
+            <li>
+                <div class="User">
+                    <input type="text" name="EmailAddress" placeholder="Enter UserName" />
+                    <span class="fa fa-user"></span>
+                </div>
+            </li>
+        </div>
+        <hr/>
+        <div class="Register2">
+            <li>Password</li>
+            <li>
+                <div class="Password">
+                    <input type="password" name="Password" placeholder="Enter Password" />
+                    <span class="fa fa-lock"></span>
+                </div>
+            </li>
+        </div>
+        <hr/>
+        <div class="Remeber">
+            <li> <input type="checkbox" name="check" checked/> Remeber Me?</li>
+            <li>
+                <a href="Signup.html" style="text-decoration: none;">
+                    <button class="signup" type="button">Sign Up</button>
+                </a>
+            </li>
+        </div>
+        <div class="Forget">
+            <li><a href="index.html" style="color: black; text-decoration: none;">Forgot Password?</a></li>
+            <li>
+                <button class="SignIn2" type="button">Sign In</button>
+            </li>
+        </div>
+    </div>
+    <!--End Login Form-->
+
+    <!-- Cart Show -->
+    <div class="CartShow">
+
+        <div class="listdetails">
+            <span>2 items,</span>
+            <span>$259.99</span>
+        </div>
+
+        <div class="Product">
+            <span class="x">&#x2716;</span>
+            <div class="Productdetails">
+                <li>
+                    <img src="images/home/A-class.png" alt="ProductCart" />
+                </li>
+                <li>
+                    <ul class="itemdetails">
+                        <li>
+                            <span class="count">1</span>
+                            <span style="float: left;margin-right: 0.2rem;">x</span>
+                            <span class="price">$179.99</span>
+                        </li>
+                        <li>
+                            <span class="itemname">Mercedes-Benz A Class</span>
+                        </li>
+                    </ul>
+                </li>
+            </div>
+        </div>
+
+        <div class="Product">
+            <span class="x">&#x2716;</span>
+            <div class="Productdetails">
+                <li>
+                    <img src="images/home/vw-golfcart.png" alt="ProductCart" />
+                </li>
+                <li>
+                    <ul class="itemdetails">
+                        <li>
+                            <span class="count">1</span>
+                            <span style="float: left;margin-right: 0.2rem;">x</span>
+                            <span class="price">$580.00</span>
+                        </li>
+                        <li>
+                            <span class="itemname">VolksWagen Golf</span>
+                        </li>
+                    </ul>
+                </li>
+            </div>
+        </div>
+
+        <div class="ProductCheck">
+            <button type="button" class="check">&#10004;&nbsp;CHECKOUT</button>
+            <button type="button" class="clear">&#x2716;&nbsp;CANCEL</button>
+        </div>
+
+    </div>
+    <!-- End Cart Show -->
+
+    <!-- Product Search -->
+    <div class="SearchBlock">
+        <input type="text" name="search" placeholder="What are you looking For..?" />
+        <span><img src="images/home/cancel-search.png" alt="cancelsearch" class="cancelsearch" /></span>
+    </div>
+    <!-- End Product Search -->
+
+    <!-- Main Head -->
+    <div class="MainHead">
+        <h1>Login Or Create An Account</h1>
+    </div>
+    <!-- End Main Head -->
+
+    <div class="container-fluid AboutHead">
+        <div class="col-md-12 MSection2">
+            <img src="images/home/OurBrand.png" alt="brand" />
+            <div class="JoinHeader">
+               <h1>Join Us !</h1>
+            </div>
+            <div class="col-md-12 SignForm">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="FirstName2">
+                            <li>
+                                <h3>First Name</h3>
+                            </li>
+                            <li>
+                                <input type="text" name="FirstName" placeholder="Enter Your First Name" />
+                            </li>
+                        </div>
+                        <div class="YourEmail">
+                            <li>
+                                <h3>Your Email</h3>
+                            </li>
+                            <li>
+                                <input type="text" name="YourEmail" placeholder="UserName@example.com" />
+                            </li>
+                        </div>
+                        <div class="YourCity">
+                            <li>
+                                <h3>Your City</h3>
+                            </li>
+                            <li>
+                                <input type="text" name="YourCity" placeholder="Fill In Your City Name" />
+                            </li>
+                        </div>
+                        <div class="YourAddress1">
+                            <li>
+                                <h3>Your Address1</h3>
+                            </li>
+                            <li>
+                                <input type="text" name="YourAddress1" placeholder="Fill In Your Address1" />
+                            </li>
+                        </div>
+                        <div class="ZipCode">
+                            <li>
+                                <h3>Your Zip Code</h3>
+                            </li>
+                            <li>
+                                <input type="text" name="ZipCode" placeholder="Fill In Your ZipCode" min="4" />
+                            </li>
+                        </div>
+                        <div class="PrimaryPassword">
+                            <li>
+                                <h3>Password</h3>
+                            </li>
+                            <li>
+                                <input type="password" name="Password" placeholder="Fill In Your Password" />
+                            </li>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="LastName2">
+                            <li>
+                                <h3>Last Name</h3>
+                            </li>
+                            <li>
+                                <input type="text" name="LastName" placeholder="Enter Your Last Name" />
+                            </li>
+                        </div>
+                        <div class="Phone2">
+                            <li>
+                                <h3>Phone</h3>
+                            </li>
+                            <li>
+                                <input type="text" name="PhoneNumber" placeholder="Enter Your Phone Number" />
+                            </li>
+                        </div>
+                        <div class="YourState">
+                            <li>
+                                <h3>Your State</h3>
+                            </li>
+                            <li>
+                                <input type="text" name="YourState" placeholder="Fill In Your State Name" />
+                            </li>
+                        </div>
+                        <div class="YourAddress2">
+                            <li>
+                                <h3>Your Address2</h3>
+                            </li>
+                            <li>
+                                <input type="text" name="YourAddress2" placeholder="Fill In Your Address2" />
+                            </li>
+                        </div>
+                        <div class="Country">
+                            <li>
+                                <h3>Your Country</h3>
+                            </li>
+                            <li>
+                                <input type="text" name="Country" placeholder="Fill In Your Country Name" />
+                            </li>
+                        </div>
+                        <div class="Confirm">
+                            <li>
+                                <h3>Confirm Password</h3>
+                            </li>
+                            <li>
+                                <input type="password" name="Password" placeholder="Confirm Your Password" />
+                            </li>
+                        </div>
+                    </div>
+                </div>
+                <div class="row secondrow">
+                    <div class="col-md-6">
+                        <div class="policy">
+                            <li>
+                                <input type="checkbox" name="checking"/>
+                            </li>
+                            <li>
+                                <a href="#" style="color: black;">I accept terms and condition</a>
+                            </li>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="#" style="text-decoration: none;">
+                        <button type="button" class="Register3">Register Now</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------- Marquee Brands  -------->
+    <div class="container-fluid Section6">
+        <div class="brands">
+            <img src="images/home/OurBrand.png" alt="brandheader" />
+            <h1>OUR BRANDS</h1>
+        </div>
+        <div class="brandicons marquee">
+            <li>
+                <img src="images/home/Ford.png" alt="fordicon" />
+            </li>
+            <li>
+                <img src="images/home/Peugeot-logo.png" alt="peugeoticon" />
+            </li>
+            <li>
+                <img src="images/home/Toyota.png" alt="toyotaicon" />
+            </li>
+            <li>
+                <img src="images/home/BMW_628.png" alt="bmwicon" />
+            </li>
+            <li>
+                <img src="images/home/mercedes-benz.png" alt="mercedesicon" />
+            </li>
+            <li>
+                <img src="images/home/VolksWagen.png" alt="vlokswagenicon" />
+            </li>
+            <li>
+                <img src="images/home/Citroen.png" alt="citroenicon" />
+            </li>
+            <li>
+                <img src="images/home/Ford.png" alt="fordicon" />
+            </li>
+            <li>
+                <img src="images/home/Peugeot-logo.png" alt="peugeoticon" />
+            </li>
+            <li>
+                <img src="images/home/Toyota.png" alt="toyotaicon" />
+            </li>
+            <li>
+                <img src="images/home/BMW_628.png" alt="bmwicon" />
+            </li>
+            <li>
+                <img src="images/home/mercedes-benz.png" alt="mercedesicon" />
+            </li>
+            <li>
+                <img src="images/home/VolksWagen.png" alt="vlokswagenicon" />
+            </li>
+            <li>
+                <img src="images/home/Citroen.png" alt="citroenicon" />
+            </li>
+        </div>
+    </div>
+
+    <!-------- End Marquee Brands  -------->
+
+    <!-------- NewsLetter Subscribe  -------->
+
+    <div class="container-fluid Section7">
+        <div class="col-md-12 newstitle">
+            <h2>Subscribe Now...Stay Tuned</h2>
+            <h1>GET NOTIFIED OF ANY UPDATES!</h1>
+        </div>
+        <div class="col-md-12 newsform">
+            <li>
+                <input type="text" name="Email" placeholder="Enter your Email Address" />
+            </li>
+            <li>
+                <button type="submit"><span class="fa fa-envelope"></span> SUBSCRIBE</button>
+            </li>
+        </div>
+    </div>
+
+    <!-------- End NewsLetter Subscribe  -------->
+
+    <!--Main Page Footer-->
+
+    <footer id="OnTrigger">
+        <div class="Scroll" onclick="$('.main-nav').animatescroll({padding:0});">
+            <img src="images/home/up-arrow.png" alt="Scroll" />
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 footerlist">
+                    <h4>Contact Us</h4>
+                    <ul class="contact">
+                        <li>MietAraba, 789 Main rd, Anytwon, CA 12345 USA</li>
+                        <li>+1 800 789 0000</li>
+                        <li>MietAraba@protonmail.com</li>
+                        <li>Mon - Fr: 09 am to 06 pm</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footerlist">
+                    <h4>Quick Links</h4>
+                    <ul class="Qlinks">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="OurCars.html">OurCars</a>
+                        </li>
+                        <li>
+                            <a href="About.html">About</a>
+                        </li>
+                        <li>
+                            <a href="Contact.html">ContactUs</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footerlist">
+                    <h4>Open An Account</h4>
+                    <ul class="OAccount">
+                        <li>
+                            <a href="#">Your Account</a>
+                        </li>
+                        <li>
+                            <a href="#">Car Guide</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footerlist">
+                    <h4>Explore the site</h4>
+                    <ul class="explore">
+                        <li>
+                            <a href="#">SiteMap</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid footersublist">
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="social-links">
+                        <li>
+                            <a href="index.html">
+                                <img src="images/home/facebook.png" alt="facebook" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <img src="images/home/youtube.png" alt="youtube" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <img src="images/home/instagram.png" alt="instagram" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <p>@2021MietAraba. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-4">
+                    <ul class="paylist">
+                        <li>
+                            <a href="index.html">
+                                <img src="images/home/payment-1.png" alt="PayPal" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <img src="images/home/payment-2.png" alt="PayPal" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <img src="images/home/payment-3.png" alt="PayPal" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <img src="images/home/payment-4.png" alt="PayPal" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--End Main Page Footer-->
+
+    <script type="text/javascript" src="JavaScript/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="JavaScript/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="JavaScript/ScrollMagic.min.js"></script>
+    <script type="text/javascript" src="JavaScript/ScrollTrigger.min.js"></script>
+    <script type="text/javascript" src="JavaScript/debug.addIndicators.js"></script>
+    <script type="text/javascript" src="JavaScript/gsap.min.js"></script>
+    <script type="text/javascript" src="JavaScript/index.js"></script>
+    <script type="text/javascript" src="JavaScript/TweenMax.min.js"></script>
+    <script type="text/javascript" src="JavaScript/animation.gsap.js"></script>
+    <script type="text/javascript" src="JavaScript/ScrollToPlugin-latest-beta.js"></script>
+    <script type="text/javascript" src="JavaScript/CSSPlugin.min.js"></script>
+    <script type="text/javascript" src="JavaScript/TweenLite.min.js"></script>
+    <script type="text/javascript" src="JavaScript/TimelineLite.min.js"></script>
+    <script type="text/javascript" src="JavaScript/TweenMax-latest-beta.js"></script>
+    <script type="text/javascript" src="BSCarousel/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="cardlist/js/jquery.min.js"></script>
+    <script type="text/javascript" src="JavaScript/animatescroll.js"></script>
+    <script type="text/javascript" src="cardlist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="cardlist/js/popper.min.js"></script>
+    <script type="text/javascript" src="JavaScript/jquery.marquee.min.js"></script>
+
+    <script type="text/javascript">
+        function openNav() {
+            document.getElementById("mySidenav").style.marginLeft = "0px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.marginLeft = "-300px";
+        }
+    </script>
+
+</body>
+
+</html>

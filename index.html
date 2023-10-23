@@ -1,0 +1,2266 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>MietAraba | Home</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png" />
+    <link rel="manifest" href="favicon_io/site.webmanifest" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/jquery-ui.css" />
+    <link rel="stylesheet" href="css/jquery.timepicker.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="BSCarousel/bootstrap.min.css" />
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style" onload="this.rel='stylesheet'"/>
+    <link rel="stylesheet" href="css/flickity.min.css" />
+
+<style>
+    body{
+        background-color: #3e6274 !important;
+    }
+
+    #bodyframe{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #3e6274 !important;
+        display: block;
+        z-index: 250 !important;
+    }
+
+    #loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35%, -50%);
+    opacity: 1;
+    }
+
+    .svg{
+        display: block;
+        width: 100vw;
+        transform: scale(0.6) !important;
+    }
+
+    .Bslash{
+        opacity: 0;
+    }
+
+    @media screen and (max-width: 925px){
+        #loader{
+            transform: translate(-40%, -50%) !important;
+        }
+        .svg{
+        transform: scale(0.5) !important;
+        }
+    }
+
+    @media screen and (max-width: 768px){
+        #loader{
+            transform: translate(-37%, -50%) !important;
+        }
+
+        .svg{
+        display: block;
+        width: 150vw;
+         }
+    }
+
+    @media screen and (max-width: 640px){
+        #loader{
+            transform: translate(-40%, -50%) !important;
+        }
+
+        .svg{
+        display: block;
+        width: 200vw;
+         }
+
+         .svg{
+        transform: scale(0.4) !important;
+        }
+    }
+
+    @media screen and (max-width: 480px){
+        .svg{
+        transform: scale(0.3) !important;
+        width: 225vw;
+        }
+        #loader{
+            transform: translate(-45%, -50%) !important;
+        }
+    }
+
+    @media screen and (max-width: 350px){
+        #loader{
+            transform: translate(-47%, -50%) !important;
+        }
+        .svg{
+        transform: scale(0.2) !important;
+        width: 250vw;
+        }
+    }
+
+</style>
+
+<script type="text/javascript">
+
+    if(document.readyState === "loading"){
+            console.log("The Page Is On Loading State...");
+        }
+
+    document.onreadystatechange = function() {
+         if(document.readyState === "complete"){ 
+           document.getElementById("body").style.visibility = "visible";
+           console.log("The Page Is Fully Loaded...");
+        }
+    }
+</script>
+
+</head>
+
+<body id="body">
+
+    <div id="bodyframe">
+    <div id="loader">
+    <svg 
+    class="svg">
+<image  x="0px" y="0px" width="448px" height="131px"  xlink:href="data:img/png;base64,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" />
+<image  class="Bslash" x="378px" y="0px" width="102px" height="131px"  xlink:href="data:img/png;base64,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" />
+<image class="Bslash"  x="419px" y="0px" width="102px" height="131px"  xlink:href="data:img/png;base64,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" />
+<image class="Bslash" x="461px" y="0px" width="102px" height="131px"  xlink:href="data:img/png;base64,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" />
+<image class="Bslash" x="503px" y="0px" width="102px" height="131px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGYAAACDCAMAAABIiJ5hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACN1BMVEXZ6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3///+9SVflAAAAu3RSTlMALPvuSL2BA1DXOQfdXXizFxjyQKCPBDT+8CkBx2da0grkQYL8qwUf9yOqgD7ZCc9cZLoCD+rgjPmWJ/rMGrTtc7FDb5EV7x2XdC++U4oI3h57axvzoU84mPRecgyFIaz4JYbQ4WnxUhC7kOYot9ULS1SIm8swwbJVfdwN9aUrkl8O54fFIv2v7BHTaskSlSrruWBOzdqZ42XCNVidE3+nNz0WY9aLRnDUbqkZvAZ1QsawenxJuCZHTS5XFmjq3wAAAAFiS0dEvErS4u8AAAAHdElNRQfnBQMOAiuJ1BfMAAADjUlEQVRo3q3aeTeVYRjF4SdD6CicDK/ITBqkSOE0IClDOkUzonQqaUZlKFTSQPOcoqJ5Umnw5foCz/7v5wtca9/3eq17nWcbw/3N8Ju2//kHgIoJFMr0zCBQCVZKyCxQcYUqZjY5sjlKCQsHlQi3YuaSYSKVEhUNKjGOUGLngUpcvAoznxxZglISw0ElKVkxKWSYVIGkpWeAyoJMwbgXkmEWCSVzMaksUYvJWgoqQdlC8V9GhlmuwuTkgsqKPKGsJP//m1VCyS8glUKPYFavIZm1QllXRCoBav/F5P4zQoQSWkKGWa/ClJLKhjKhxG8kmU0qTDmpVKQJJd1FMpVCcaPHbJUa2WZSqd4ilCwvyWxVYbaRSk2tUHLQ/W9XYXaQyk51Zu4iFXlm7kaPmT1qZHtJpU6dmSHkMWPqVZhgUmkQZ6YTRipmn8jS2EQqKULx7CeVoAOCaa4jmYNC8R0ilcPizHSOkIppEWGOovtv9diV/Ho0zDER5vgJUjkplLJTpJKRJZhAdGRF6pMpJJUNsYI5jYY5I5Q29PtvV2dmFRqmQyhn40jlnFBqW0mlulkwUejIzguls4tUaroFk4CG6RFKB7p/dWamXSCV3DYR5iI6sl6h5PWRSle/YHrRMJeEchnd/5VGuzJQgYa5KsK0oEqJUAavkUr0dTEy9GXG3BBhbpI/ZpmhQbuSye6/1K44w6hyS7wz3h5CmTt2xXMXVe6J/d8nHzON64FdcbejYcpFmIeoEuGzK4/Q71+emY9RJWbArmSj+497Ir7Mp2iYZ2Jkz1ElSZyZvhGUeSHCoC+zxivOzER0/+al2P8oqoyJMzMSVdSZ6XuFMq/F/tEfs02fODPfkGUGY8ZFGPQx0zSJM7MHVUyxXall9z8hRvYWVaLf2ZUQssxgzHsRZgxVRsSZ+QFVzLBd6f6IKqLO5qCPGcZ8sofJ+owqos7mhzazjKvTzqSzIxN1ttoaVFF1ti9sGFFn62T3L85M5yuqxH2zh/nOjkzU2TLZ/as62yQbRtTZQtHHbOO1vzM6E2wYUWcrZpUxu9LoRZVcUWf7wYYRdbbmalRRdbafbBhRZ/vFKlMe+/4bWEbU2VJZ5bddSUbLDLLO9ocNI+pslawi6mweeP8F9jBoM8uYv/Z3xuQklqm0Kg76mC3rbIHoY4aqs/lNsWEm7WHGWUXU2frRMoM8M/+xyqj9ByD2MdP8Bwvb7UGmGAD3AAAAAElFTkSuQmCC" />
+<image class="Bslash" x="545px" y="0px" width="102px" height="131px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGYAAACDCAMAAABIiJ5hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACN1BMVEXZ6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3Z6z3///+9SVflAAAAu3RSTlMALPvuSL2BA1DXOQfdXXizFxjyQKCPBDT+8CkBx2da0grkQYL8qwUf9yOqgD7ZCc9cZLoCD+rgjPmWJ/rMGrTtc7FDb5EV7x2XdC++U4oI3h57axvzoU84mPRecgyFIaz4JYbQ4WnxUhC7kOYot9ULS1SIm8swwbJVfdwN9aUrkl8O54fFIv2v7BHTaskSlSrruWBOzdqZ42XCNVidE3+nNz0WY9aLRnDUbqkZvAZ1QsawenxJuCZHTS5XFmjq3wAAAAFiS0dEvErS4u8AAAAHdElNRQfnBQMOAiwXsIJvAAADjUlEQVRo3q3aeTeVYRjF4SdD6CicDK/ITBqkSOE0IClDOkUzonQqaUZlKFTSQPOcoqJ5Umnw5foCz/7v5wtca9/3eq17nWcbw/3N8Ju2//kHgIoJFMr0zCBQCVZKyCxQcYUqZjY5sjlKCQsHlQi3YuaSYSKVEhUNKjGOUGLngUpcvAoznxxZglISw0ElKVkxKWSYVIGkpWeAyoJMwbgXkmEWCSVzMaksUYvJWgoqQdlC8V9GhlmuwuTkgsqKPKGsJP//m1VCyS8glUKPYFavIZm1QllXRCoBav/F5P4zQoQSWkKGWa/ClJLKhjKhxG8kmU0qTDmpVKQJJd1FMpVCcaPHbJUa2WZSqd4ilCwvyWxVYbaRSk2tUHLQ/W9XYXaQyk51Zu4iFXlm7kaPmT1qZHtJpU6dmSHkMWPqVZhgUmkQZ6YTRipmn8jS2EQqKULx7CeVoAOCaa4jmYNC8R0ilcPizHSOkIppEWGOovtv9diV/Ho0zDER5vgJUjkplLJTpJKRJZhAdGRF6pMpJJUNsYI5jYY5I5Q29PtvV2dmFRqmQyhn40jlnFBqW0mlulkwUejIzguls4tUaroFk4CG6RFKB7p/dWamXSCV3DYR5iI6sl6h5PWRSle/YHrRMJeEchnd/5VGuzJQgYa5KsK0oEqJUAavkUr0dTEy9GXG3BBhbpI/ZpmhQbuSye6/1K44w6hyS7wz3h5CmTt2xXMXVe6J/d8nHzON64FdcbejYcpFmIeoEuGzK4/Q71+emY9RJWbArmSj+497Ir7Mp2iYZ2Jkz1ElSZyZvhGUeSHCoC+zxivOzER0/+al2P8oqoyJMzMSVdSZ6XuFMq/F/tEfs02fODPfkGUGY8ZFGPQx0zSJM7MHVUyxXall9z8hRvYWVaLf2ZUQssxgzHsRZgxVRsSZ+QFVzLBd6f6IKqLO5qCPGcZ8sofJ+owqos7mhzazjKvTzqSzIxN1ttoaVFF1ti9sGFFn62T3L85M5yuqxH2zh/nOjkzU2TLZ/as62yQbRtTZQtHHbOO1vzM6E2wYUWcrZpUxu9LoRZVcUWf7wYYRdbbmalRRdbafbBhRZ/vFKlMe+/4bWEbU2VJZ5bddSUbLDLLO9ocNI+pslawi6mweeP8F9jBoM8uYv/Z3xuQklqm0Kg76mC3rbIHoY4aqs/lNsWEm7WHGWUXU2frRMoM8M/+xyqj9ByD2MdP8Bwvb7UGmGAD3AAAAAElFTkSuQmCC" />
+<image class="Bslash" x="585px" y="0px" width="102px" height="131px"  xlink:href="data:img/png;base64,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" />
+</svg>
+</div>
+</div>
+
+    <!--Mobile Side Nav-->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="MSearch">
+            <form method="POST">
+                <b class="TSearch">&#128269;</b><input type="text" name="search" placeholder="Search...." />
+            </form>
+        </div>
+        <a href="index.html">Home</a>
+        <a href="OurCars.html">OurCars</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact Us</a>
+    </div>
+
+    <div class="main-nav">
+        <div class="MobileMenu">
+            <div class="mobilenav">
+                <a href="index.html" style="text-decoration: none;">
+                    <img width="auto" height="auto" src="images/compressed/Logo.webp" alt="SiteLogo" />
+                </a>
+            </div>
+            <div class="MSave">
+                Save up to <b style="color: #d9eb3d;">40%</b> Hurry limited Offer!
+            </div>
+            <div class="MTime">
+                <img width="auto" height="auto" src="images/compressed/timer.webp" alt="timer" /> &nbsp;Mon - Fri: 09am to 06pm
+            </div>
+            <div class="MViber">
+                <img width="auto" height="auto" src="images/compressed/viber.webp" alt="viber" /> &nbsp;+1 800 789 0000
+            </div>
+        </div>
+
+        <!--Desktop Nav-->
+
+        <nav>
+            <div class="titletheme">
+                <a href="index.html" style="text-decoration: none; display: block;">
+                    <img width="auto" height="auto" src="images/compressed/Logo.webp" alt="SiteLogo" />
+                </a>
+            </div>
+            <div class="mainNavBar">
+                <div class="save">
+                    Save up to <b style="color: #d9eb3d;">40%</b> Hurry limited Offer!
+                </div>
+                <div class="time">
+                    <li><img width="auto" height="auto" src="images/compressed/timer.webp" alt="timer" /> &nbsp;Mon - Fri: 09am to 06pm</li>
+                </div>
+                <div class="viber">
+                    <li><img width="auto" height="auto" src="images/compressed/viber.webp" alt="viber" /> &nbsp;+1 800 789 0000</li>
+                </div>
+            </div>
+            <div class="MenuList">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="OurCars.html">OurCars</a>
+                </li>
+                <li>
+                    <a href="About.html">About</a>
+                </li>
+                <li>
+                    <a href="Contact.html">Contact Us</a>
+                </li>
+            </div>
+            <div class="iconlist">
+                <li>
+                    <img width="auto" height="auto" src="images/compressed/search.webp" alt="search" class="search" />
+                </li>
+                <li class="Cart">
+                    <img width="auto" height="auto" src="images/compressed/carticon.webp" alt="Cart" class="cart" />
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">English<img width="auto" height="auto" src="images/compressed/British.webp" alt="uk-flag" class="flag"/></button>
+                        <div class="dropdown-content">
+                            <a href="#" class="firstA">English<img width="auto" height="auto" src="images/compressed/British.webp" alt="uk-flag" class="drp-flag drp-flag2" /> </a>
+                            <a href="#" class="lastA">Deutsch<img width="auto" height="auto" src="images/compressed/germany.webp" alt="de-flag" class="drp-flag drp-flag2" /></a>
+                        </div>
+                    </div>
+                </li>
+                <li class="SignIn">
+                    <b class="sign">Sign In</b>&nbsp;&nbsp;<img width="auto" height="auto" src="images/compressed/password.webp" alt="login" class="login" />
+                </li>
+            </div>
+            <div class="menulst">
+                <li>
+                    <b class="menu">Menu</b>&nbsp;&nbsp;<img width="auto" height="auto" src="images/compressed/menubar.webp" alt="BurgerMenu" class="menubar" onclick="openNav()" />
+                </li>
+            </div>
+        </nav>
+    </div>
+
+    <!--End Desktop Nav-->
+
+    <!--Login Form-->
+
+    <div class="loginform">
+        <img width="auto" height="auto" src="images/compressed/cancel-button.webp" alt="cancel" class="cancel" />
+        <div class="Register">
+            <li>UserName || Email Address</li>
+            <li>
+                <div class="User">
+                    <input type="text" name="EmailAddress" placeholder="Enter UserName" />
+                    <span class="fa fa-user"></span>
+                </div>
+            </li>
+        </div>
+        <hr/>
+        <div class="Register2">
+            <li>Password</li>
+            <li>
+                <div class="Password">
+                    <input type="password" name="Password" placeholder="Enter Password" />
+                    <span class="fa fa-lock"></span>
+                </div>
+            </li>
+        </div>
+        <hr/>
+        <div class="Remeber">
+            <li> <input type="checkbox" name="check" checked/> Remeber Me?</li>
+            <li>
+                <a href="Signup.html" style="text-decoration: none;">
+                    <button class="signup" type="button">Sign Up</button>
+                </a>
+            </li>
+        </div>
+        <div class="Forget">
+            <li><a href="index.html" style="color: black; text-decoration: none;">Forgot Password?</a></li>
+            <li>
+                <button class="SignIn2" type="button">Sign In</button>
+            </li>
+        </div>
+    </div>
+    <!--End Login Form-->
+
+    <!-- Cart Show -->
+    <div class="CartShow">
+
+        <div class="listdetails">
+            <span>2 items,</span>
+            <span>$259.99</span>
+        </div>
+
+        <div class="Product">
+            <span class="x">&#x2716;</span>
+            <div class="Productdetails">
+                <li>
+                    <img width="auto" height="auto" src="images/compressed/A-class.webp" alt="ProductCart" />
+                </li>
+                <li>
+                    <ul class="itemdetails">
+                        <li>
+                            <span class="count">1</span>
+                            <span style="float: left;margin-right: 0.2rem;">x</span>
+                            <span class="price">$179.99</span>
+                        </li>
+                        <li>
+                            <span class="itemname">Mercedes-Benz A Class</span>
+                        </li>
+                    </ul>
+                </li>
+            </div>
+        </div>
+
+        <div class="Product">
+            <span class="x">&#x2716;</span>
+            <div class="Productdetails">
+                <li>
+                    <img width="auto" height="auto" src="images/compressed/vw-golfcart.webp" alt="ProductCart" />
+                </li>
+                <li>
+                    <ul class="itemdetails">
+                        <li>
+                            <span class="count">1</span>
+                            <span style="float: left;margin-right: 0.2rem;">x</span>
+                            <span class="price">$580.00</span>
+                        </li>
+                        <li>
+                            <span class="itemname">VolksWagen Golf</span>
+                        </li>
+                    </ul>
+                </li>
+            </div>
+        </div>
+
+        <div class="ProductCheck">
+            <button type="button" class="check">&#10004;&nbsp;CHECKOUT</button>
+            <button type="button" class="clear">&#x2716;&nbsp;CANCEL</button>
+        </div>
+
+    </div>
+    <!-- End Cart Show -->
+
+    <!-- Product Search -->
+    <div class="SearchBlock">
+        <input type="text" name="search" placeholder="What are you looking For..?" />
+        <span><img width="auto" height="auto" src="images/compressed/cancel-search.webp" alt="cancelsearch" class="cancelsearch" /></span>
+    </div>
+    <!-- End Product Search -->
+
+    <!--Main Page CarOusel-->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img width="auto" height="auto" src="images/compressed/SlideOne.webp" class="d-block w-100" alt="img_fjords_wide">
+                <div class="SlideOneHeader">
+                    <h4>TOP BRANDS 2019</h4>
+                    <h1>MODERN-CLASSIC INCRIDEBLE</h1>
+                    <h3>GET <b style="color:#d9eb3d;">40%</b> OFF ON SELECTED ITEMS.</h3>
+                    <button class="ScrollBtn" onclick="$('.Section2').animatescroll({padding:0});">BOOk APPOINTMENT&nbsp;&nbsp;<img width="auto" height="auto" src="images/compressed/scroll.webp" alt="scroll" class="Bounce bounce2" /></button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img width="auto" height="auto" src="images/compressed/SlideTwo.webp" class="d-block w-100" alt="img_mountains_wide">
+                <div class="SlideOneHeader">
+                    <h4>TOP BRANDS 2019</h4>
+                    <h1>MODERN-CLASSIC INCRIDEBLE</h1>
+                    <h3>GET <b style="color:#d9eb3d;">40%</b> OFF ON SELECTED ITEMS.</h3>
+                    <button class="ScrollBtn" onclick="$('.Section2').animatescroll({padding:0});">BOOk APPOINTMENT&nbsp;&nbsp;<img width="auto" height="auto" src="images/compressed/scroll.webp" alt="scroll" class="Bounce bounce2" /></button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img width="auto" height="auto" src="images/compressed/SlideThree.webp" class="d-block w-100" alt="img_nature_wide">
+                <div class="SlideOneHeader">
+                    <h4>TOP BRANDS 2019</h4>
+                    <h1>MODERN-CLASSIC INCRIDEBLE</h1>
+                    <h3>GET <b style="color:#d9eb3d;">40%</b> OFF ON SELECTED ITEMS.</h3>
+                    <button class="ScrollBtn" onclick="$('.Section2').animatescroll({padding:0});">BOOk APPOINTMENT&nbsp;&nbsp;<img width="auto" height="auto" src="images/compressed/scroll.webp" alt="scroll" class="Bounce bounce2" /></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--End Main Page CarOusel-->
+
+    <!--Booking Section-->
+
+    <div class="container-fluid Section2">
+        <div class="container">
+            <div class="col-md-12 Section21">
+                <li>
+                    <img width="auto" height="auto" src="images/compressed/Skew.webp" alt="skew" />
+                    <b>Find The Right Car For Every Occasion</b>
+                    <img width="auto" height="auto" src="images/compressed/Skew.webp" alt="skew" />
+                </li>
+            </div>
+            <div class="row">
+                <div class="col-md-12 booklist1">
+                    <li>
+                        <h6>Pick Up Location</h6>
+                        <div class="location">
+                            <input type="text" name="PickLocation" placeholder="City, State or Airport Code" />
+                            <span class="fa fa-map-marker"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <h6>Pick Up Date</h6>
+                        <div class="Date">
+                            <input type="text" class="datepicker" placeholder="DD/MM/YYYY" readonly="readonly" />
+                            <span class="fa fa-calendar-o"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <h6>Booking Time</h6>
+                        <div class="Time">
+                            <input type="text" class="timepicker" placeholder="00:00" size="30" readonly="readonly" />
+                            <span class="fa fa-clock-o"></span>
+                        </div>
+                    </li>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 booklist2">
+                    <li>
+                        <h6>Return Car To A Different Location</h6>
+                        <div class="location2">
+                            <input type="text" name="PickLocation" placeholder="City, State or Airport Code" />
+                            <span class="fa fa-map-marker"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <h6>Return Date</h6>
+                        <div class="Date2">
+                            <input type="text" class="datepicker" placeholder="DD/MM/YYYY" readonly="readonly" />
+                            <span class="fa fa-calendar-o"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <h6>Return Time</h6>
+                        <div class="Time2">
+                            <input type="text" class="timepicker" placeholder="00:00" size="30" readonly="readonly" />
+                            <span class="fa fa-clock-o"></span>
+                        </div>
+                    </li>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 booklist3">
+                    <li>
+                        <h6>Select Car Type</h6>
+                        <div class="custom-select">
+                            <select>
+                              <option value="0">Our Cars</option>
+                              <option value="1">Audi</option>
+                              <option value="2">BMW</option>
+                              <option value="3">Citroen</option>
+                              <option value="4">Ford</option>
+                              <option value="5">Honda</option>
+                              <option value="6">Jaguar</option>
+                              <option value="7">Land Rover</option>
+                              <option value="8">Mercedes</option>
+                              <option value="9">Mini</option>
+                              <option value="10">Nissan</option>
+                              <option value="11">Toyota</option>
+                              <option value="12">Volvo</option>
+                            </select>
+                            <span class="fa fa-sort-down sorting"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <button>Book A Car</button>
+                    </li>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--End Booking Section-->
+
+    <!--Rental Cars Section-->
+
+    <div class="container-fluid" style="padding: 0;">
+        <div class="Section2header">
+            <img width="auto" height="auto" src="images/compressed/RenalHeader.webp" alt="Header" />
+            <div class="Section2header1">
+                <h1>DEALS OF THE WEEK</h1>
+            </div>
+            <div class="Section2header2">
+                <h1>OUR RENTAL <b style="color: #d9eb3d;">FLEETS</b> CARS</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--Our Rental Fleets Cars CarOusel-->
+
+    <!-- Flickity HTML init -->
+<div class="gallery js-flickity">
+
+  <div class="gallery-cell">
+    
+    <div class="foto">
+          <img width="auto" height="auto" src="images/compressed/VW-Golf.webp" />
+    </div>
+    <hr/>
+    <div class="CardBody">
+      <h3>
+          VolksWagen <b>GOLF</b>
+      </h3>
+      <div class="dscrption">
+
+        <div class="drl">
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/roadicon.webp" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Gearicon.webp" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/passengericon.webp" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/CarDoor.webp" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                            </li>
+                            <li>
+                                <div class="rating1">
+                                    <input type="radio" name="rating" value="5" id="5" />
+                                    <label for="5" class="star5">☆</label>
+                                    <input type="radio" name="rating" value="4" id="4" />
+                                    <label for="4" class="star4">☆</label>
+                                    <input type="radio" name="rating" value="3" id="3" />
+                                    <label for="3" class="star3">☆</label>
+                                    <input type="radio" name="rating" value="2" id="2" />
+                                    <label for="2" class="star2">☆</label>
+                                    <input type="radio" name="rating" value="1" id="1" />
+                                    <label for="1" class="star1">☆</label>
+                                </div>
+                            </li>
+                            <li>
+                                <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                            </li>
+                        </div>
+
+                        <div class="dll">
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Petrol.webp" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Model.webp" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Hybrid.webp" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/CarBudget.webp" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                            </li>
+                            <li>
+                                <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                            </li>
+                        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="gallery-cell">
+    
+    <div class="foto">
+          <img width="auto" height="auto" src="images/compressed/GLC.webp" />
+    </div>
+    <hr/>
+    <div class="CardBody">
+      <h3>
+          Mercedes-Benz <b>GLC</b>
+      </h3>
+      <div class="dscrption">
+
+        <div class="drl">
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/roadicon.webp" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Gearicon.webp" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/passengericon.webp" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/CarDoor.webp" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                            </li>
+                            <li>
+                                <div class="rating2">
+                                    <input type="radio" name="rating2" value="10" id="10" />
+                                    <label for="10" class="star10">☆</label>
+                                    <input type="radio" name="rating2" value="9" id="9" />
+                                    <label for="9" class="star9">☆</label>
+                                    <input type="radio" name="rating2" value="8" id="8" />
+                                    <label for="8" class="star8">☆</label>
+                                    <input type="radio" name="rating2" value="7" id="7" />
+                                    <label for="7" class="star7">☆</label>
+                                    <input type="radio" name="rating2" value="6" id="6" />
+                                    <label for="6" class="star6">☆</label>
+                                </div>
+                            </li>
+                            <li>
+                                <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                            </li>
+                        </div>
+
+                        <div class="dll">
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Petrol.webp" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Model.webp" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Hybrid.webp" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/CarBudget.webp" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                            </li>
+                            <li>
+                                <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                            </li>
+                        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="gallery-cell">
+    
+    <div class="foto">
+          <img width="auto" height="auto" src="images/compressed/VW-Passat.webp" />
+    </div>
+    <hr/>
+    <div class="CardBody">
+      <h3>
+          VolksWagen <b>Passat</b>
+      </h3>
+      <div class="dscrption">
+
+        <div class="drl">
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/roadicon.webp" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Gearicon.webp" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/passengericon.webp" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/CarDoor.webp" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                            </li>
+                            <li>
+                                <div class="rating3">
+                                    <input type="radio" name="rating3" value="15" id="15" />
+                                    <label for="15" class="star15">☆</label>
+                                    <input type="radio" name="rating3" value="14" id="14" />
+                                    <label for="14" class="star14">☆</label>
+                                    <input type="radio" name="rating3" value="13" id="13" />
+                                    <label for="13" class="star13">☆</label>
+                                    <input type="radio" name="rating3" value="12" id="12" />
+                                    <label for="12" class="star12">☆</label>
+                                    <input type="radio" name="rating3" value="11" id="11" />
+                                    <label for="11" class="star11">☆</label>
+                                </div>
+                            </li>
+                            <li>
+                                <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                            </li>
+                        </div>
+
+                        <div class="dll">
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Petrol.webp" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Model.webp" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Hybrid.webp" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/CarBudget.webp" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                            </li>
+                            <li>
+                                <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                            </li>
+                        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+    <!--
+    <div class="carousel-wrapper">
+        <div class="carousel carousel2" data-flickity>
+            <div class="carousel-cell">
+
+                <div class="foto">
+                    <img src="images/home/VW-Golf.png" />
+                </div>
+                <hr/>
+                <div class="CardBody">
+
+                    <h3>
+                        VolksWagen <b>GOLF</b>
+                    </h3>
+                    <div class="dscrption">
+                        <div class="drl">
+                            <li>
+                                <img src="images/home/roadicon.png" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Gearicon.png" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                            </li>
+                            <li>
+                                <img src="images/home/passengericon.png" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarDoor.png" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                            </li>
+                            <li>
+                                <div class="rating1">
+                                    <input type="radio" name="rating" value="5" id="5" />
+                                    <label for="5" class="star5">☆</label>
+                                    <input type="radio" name="rating" value="4" id="4" />
+                                    <label for="4" class="star4">☆</label>
+                                    <input type="radio" name="rating" value="3" id="3" />
+                                    <label for="3" class="star3">☆</label>
+                                    <input type="radio" name="rating" value="2" id="2" />
+                                    <label for="2" class="star2">☆</label>
+                                    <input type="radio" name="rating" value="1" id="1" />
+                                    <label for="1" class="star1">☆</label>
+                                    <span class="starone">0</span>
+                                    <span>(862)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                            </li>
+                        </div> 
+
+                        <div class="dll">
+                            <li>
+                                <img src="images/home/Petrol.png" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Model.png" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Hybrid.png" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarBudget.png" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                            </li>
+                            <li>
+                                <button type="button">Rent It</button>
+                            </li>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="carousel-cell">
+                <div class="foto">
+                    <img src="images/home/GLC.png" />
+                </div>
+                <hr/>
+                <div class="CardBody">
+                    <h3>
+                        Mercedes-Benz <b>GLC</b>
+                    </h3>
+                    <div class="dscrption">
+                        <div class="drl">
+                            <li>
+                                <img src="images/home/roadicon.png" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Gearicon.png" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                            </li>
+                            <li>
+                                <img src="images/home/passengericon.png" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarDoor.png" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                            </li>
+                            <li>
+                                <div class="rating2">
+                                    <input type="radio" name="rating2" value="10" id="10" />
+                                    <label for="10" class="star10">☆</label>
+                                    <input type="radio" name="rating2" value="9" id="9" />
+                                    <label for="9" class="star9">☆</label>
+                                    <input type="radio" name="rating2" value="8" id="8" />
+                                    <label for="8" class="star8">☆</label>
+                                    <input type="radio" name="rating2" value="7" id="7" />
+                                    <label for="7" class="star7 ">☆</label>
+                                    <input type="radio" name="rating2" value="6" id="6" />
+                                    <label for="6" class="star6">☆</label>
+                                    <span class="startwo">0</span>
+                                    <span>(862)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                            </li>
+                        </div>
+                        <div class="dll">
+                            <li>
+                                <img src="images/home/Petrol.png" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Model.png" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Hybrid.png" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarBudget.png" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                            </li>
+                            <li>
+                                <button type="button">Rent It</button>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="foto">
+                    <img src="images/home/VW-Passat.png" />
+                </div>
+                <hr/>
+                <div class="CardBody">
+                    <h3>
+                        VolksWagen <b>Passat</b>
+                    </h3>
+                    <div class="dscrption">
+                        <div class="drl">
+                            <li>
+                                <img src="images/home/roadicon.png" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Gearicon.png" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                            </li>
+                            <li>
+                                <img src="images/home/passengericon.png" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarDoor.png" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                            </li>
+                            <li>
+                                <div class="rating3">
+                                    <input type="radio" name="rating3" value="15" id="15" />
+                                    <label for="15" class="star15">☆</label>
+                                    <input type="radio" name="rating3" value="14" id="14" />
+                                    <label for="14" class="star14">☆</label>
+                                    <input type="radio" name="rating3" value="13" id="13" />
+                                    <label for="13" class="star13">☆</label>
+                                    <input type="radio" name="rating3" value="12" id="12" />
+                                    <label for="12" class="star12">☆</label>
+                                    <input type="radio" name="rating3" value="11" id="11" />
+                                    <label for="11" class="star11">☆</label>
+                                    <span class="starthree">0</span>
+                                    <span>(862)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                            </li>
+                        </div>
+                        <div class="dll">
+                            <li>
+                                <img src="images/home/Petrol.png" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Model.png" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Hybrid.png" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarBudget.png" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                            </li>
+                            <li>
+                                <button type="button">Rent It</button>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    -->
+
+    <!--End Rental Cars Section-->
+
+    <!-------- Responsive Carousel One Item  -------->
+
+    <div class="container-fluid Section4">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="inam3" class="carousel slide carousel4" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row" style="justify-content: space-around;">
+                                    <div class="col-md-6">
+                                        <div class="card" style="width: 75%;margin: auto;">
+                                            <div class="foto">
+                                                <img width="auto" height="auto" src="images/compressed/VW-Golf.webp" />
+                                            </div>
+                                            <hr/>
+                                            <div class="CardBody">
+                                                <h3>
+                                                    VolksWagen <b>GOLF</b>
+                                                </h3>
+                                                <div class="dscrption">
+                                                    <div class="drl">
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/roadicon.webp" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Gearicon.webp" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/passengericon.webp" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/CarDoor.webp" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                                                        </li>
+                                                        <li>
+                                                            <div class="rating4">
+                                                                <input type="radio" name="rating4" value="20" id="20" />
+                                                                <label for="20" class="star5">☆</label>
+                                                                <input type="radio" name="rating4" value="19" id="19" />
+                                                                <label for="19" class="star4">☆</label>
+                                                                <input type="radio" name="rating4" value="18" id="18" />
+                                                                <label for="18" class="star3">☆</label>
+                                                                <input type="radio" name="rating4" value="17" id="17" />
+                                                                <label for="17" class="star2">☆</label>
+                                                                <input type="radio" name="rating4" value="16" id="16" />
+                                                                <label for="16" class="star1">☆</label>
+                                                                <span class="starfour">0</span>
+                                                                <span>(862)</span>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                                                        </li>
+                                                    </div>
+                                                    <div class="dll">
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Petrol.webp" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Model.webp" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Hybrid.webp" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/CarBudget.webp" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                                                        </li>
+                                                        <li>
+                                                            <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                                                        </li>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row" style="justify-content: space-around;">
+                                    <div class="col-md-6">
+                                        <div class="card" style="width: 75%;margin: auto;">
+                                            <div class="foto">
+                                                <img width="auto" height="auto" src="images/compressed/GLC.webp" />
+                                            </div>
+                                            <hr/>
+                                            <div class="CardBody">
+                                                <h3>
+                                                    Mercedes-Benz <b>GLC</b>
+                                                </h3>
+                                                <div class="dscrption">
+                                                    <div class="drl">
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/roadicon.webp" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Gearicon.webp" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/passengericon.webp" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/CarDoor.webp" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                                                        </li>
+                                                        <li>
+                                                            <div class="rating5">
+                                                                <input type="radio" name="rating5" value="25" id="25" />
+                                                                <label for="25" class="star10">☆</label>
+                                                                <input type="radio" name="rating5" value="24" id="24" />
+                                                                <label for="24" class="star9">☆</label>
+                                                                <input type="radio" name="rating5" value="23" id="23" />
+                                                                <label for="23 " class="star8 ">☆</label>
+                                                                <input type="radio" name="rating5" value="22" id="22" />
+                                                                <label for="22" class="star7">☆</label>
+                                                                <input type="radio" name="rating5" value="21" id="21" />
+                                                                <label for="21" class="star6">☆</label>
+                                                                <span class="starfive">0</span>
+                                                                <span>(862)</span>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                                                        </li>
+                                                    </div>
+                                                    <div class="dll">
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Petrol.webp" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Model.webp" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Hybrid.webp" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/CarBudget.webp" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                                                        </li>
+                                                        <li>
+                                                            <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row" style="justify-content: space-around;">
+                                    <div class="col-md-6">
+                                        <div class="card" style="width: 75%;margin: auto;">
+                                            <div class="foto">
+                                                <img width="auto" height="auto" src="images/compressed/VW-Passat.webp" />
+                                            </div>
+                                            <hr/>
+                                            <div class="CardBody">
+                                                <h3>
+                                                    VolksWagen <b>Passat</b>
+                                                </h3>
+                                                <div class="dscrption">
+                                                    <div class="drl">
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/roadicon.webp" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Gearicon.webp" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/passengericon.webp" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/CarDoor.webp" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                                                        </li>
+                                                        <li>
+                                                            <div class="rating6">
+                                                                <input type="radio" name="rating6" value="30" id="30" />
+                                                                <label for="30" class="star15">☆</label>
+                                                                <input type="radio" name="rating6" value="29" id="29" />
+                                                                <label for="29" class="star14">☆</label>
+                                                                <input type="radio" name="rating6" value="28" id="28" />
+                                                                <label for="28" class="star13">☆</label>
+                                                                <input type="radio" name="rating6" value="27" id="27" />
+                                                                <label for="27" class="star12">☆</label>
+                                                                <input type="radio" name="rating6" value="26" id="26" />
+                                                                <label for="26" class="star11">☆</label>
+                                                                <span class="starsix">0</span>
+                                                                <span>(862)</span>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                                                        </li>
+                                                    </div>
+                                                    <div class="dll">
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Petrol.webp" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Model.webp" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Hybrid.webp" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/CarBudget.webp" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                                                        </li>
+                                                        <li>
+                                                            <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <a href="#inam3" class="carousel-control-prev prev2" data-bs-slide="prev">
+                        <img width="auto" height="auto" src="images/compressed/left-arrow.webp" alt="left-arrow" />
+                    </a>
+                    <a href="#inam3" class="carousel-control-next next2" data-bs-slide="next">
+                        <img width="auto" height="auto" src="images/compressed/right-arrow.webp" alt="right-arrow" />
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-------- End Responsive Carousel One Item  -------->
+
+    <!-------- Review Carousel One Item  -------->
+
+    <div class="col-md-12 Section5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="inam4" class="carousel slide carousel4" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <div class="container">
+                                    <div class="row" style="justify-content: space-around;">
+                                        <div class="col-md-12 colum">
+                                            <div class="card card2">
+                                                <img width="auto" height="auto" src="images/compressed/ClientIcon1.webp" alt="ClientFoto" />
+                                                <div class="card-body">
+                                                    <p class="card-text">
+                                                        Fun to drive, great to look at and difficult to use, the VolksWagen Golf is fantastic car that's let down by truly awful multimedia controls.
+                                                    </p>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="carousel-item">
+                                <div class="container">
+                                    <div class="row" style="justify-content: space-around;">
+                                        <div class="col-md-12 colum">
+                                            <div class="card card2">
+                                                <img width="auto" height="auto" src="images/compressed/ClientIcon2.webp" alt="ClientFoto" />
+                                                <div class="card-body">
+                                                    <p class="card-text">
+                                                        Fun to drive, great to look at and difficult to use, the Mercedes-Benz GLC is fantastic car that's let down by truly awful multimedia controls.
+                                                    </p>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+
+
+                            <div class="carousel-item">
+                                <div class="container">
+                                    <div class="row" style="justify-content: space-around;">
+                                        <div class="col-md-12 colum">
+                                            <div class="card card2">
+                                                <img width="auto" height="auto" src="images/compressed/ClientIcon3.webp" alt="ClientFoto" />
+                                                <div class="card-body">
+                                                    <p class="card-text">
+                                                        Fun to drive, great to look at and difficult to use, the VolksWagen Passat is fantastic car that's let down by truly awful multimedia controls.
+                                                    </p>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        <a href="#inam4" class="carousel-control-prev prev3" data-bs-slide="prev ">
+                            <img width="auto" height="auto" src="images/compressed/left-arrow2.webp" alt="left-arrow" />
+                        </a>
+                        <a href="#inam4" class="carousel-control-next next3" data-bs-slide="next">
+                            <img width="auto" height="auto" src="images/compressed/right-arrow2.webp" alt="right-arrow" />
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid" style="padding: 0;">
+        <div class="Section2header">
+            <img width="auto" height="auto" src="images/compressed/RenalHeader.webp" alt="Header" />
+            <div class="Section2header1">
+                <h1>BEST SELLER CARS</h1>
+            </div>
+            <div class="Section2header2">
+                <h1>OUR <b style="color: #d9eb3d;">FLEETS</b> CARS</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Best Seller Cars CarOusel -->
+
+    <!-- Flickity HTML init2 -->
+<div class="gallery js-flickity carousel2">
+
+  <div class="gallery-cell">
+    
+    <div class="foto">
+          <img width="auto" height="auto" src="images/compressed/VW-Golf.webp" />
+    </div>
+    <hr/>
+    <div class="CardBody">
+      <h3>
+          VolksWagen <b>GOLF</b>
+      </h3>
+      <div class="dscrption">
+
+        <div class="drl">
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/roadicon.webp" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Gearicon.webp" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/passengericon.webp" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/CarDoor.webp" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                            </li>
+                            <li>
+                                <div class="rating7">
+                                    <input type="radio" name="rating7" value="35" id="35" />
+                                    <label for="35" class="star35">☆</label>
+                                    <input type="radio" name="rating7" value="34" id="34" />
+                                    <label for="34" class="star34">☆</label>
+                                    <input type="radio" name="rating7" value="33" id="33" />
+                                    <label for="33" class="star33">☆</label>
+                                    <input type="radio" name="rating7" value="32" id="32" />
+                                    <label for="32" class="star32">☆</label>
+                                    <input type="radio" name="rating7" value="31" id="31" />
+                                    <label for="31" class="star31">☆</label>
+                                </div>
+                            </li>
+                            <li>
+                                <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                            </li>
+                        </div>
+
+                        <div class="dll">
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Petrol.webp" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Model.webp" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Hybrid.webp" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/CarBudget.webp" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                            </li>
+                            <li>
+                                <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                            </li>
+                        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="gallery-cell">
+    
+    <div class="foto">
+          <img width="auto" height="auto" src="images/compressed/GLC.webp" />
+    </div>
+    <hr/>
+    <div class="CardBody">
+      <h3>
+          Mercedes-Benz <b>GLC</b>
+      </h3>
+      <div class="dscrption">
+
+        <div class="drl">
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/roadicon.webp" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Gearicon.webp" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/passengericon.webp" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/CarDoor.webp" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                            </li>
+                            <li>
+                                <div class="rating8">
+                                    <input type="radio" name="rating8" value="40" id="40" />
+                                    <label for="40" class="star40">☆</label>
+                                    <input type="radio" name="rating8" value="39" id="39" />
+                                    <label for="39" class="star39">☆</label>
+                                    <input type="radio" name="rating8" value="38" id="38" />
+                                    <label for="38" class="star38">☆</label>
+                                    <input type="radio" name="rating8" value="37" id="37" />
+                                    <label for="37" class="star37">☆</label>
+                                    <input type="radio" name="rating8" value="36" id="36" />
+                                    <label for="36" class="star36">☆</label>
+                                </div>
+                            </li>
+                            <li>
+                                <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                            </li>
+                        </div>
+
+                        <div class="dll">
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Petrol.webp" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Model.webp" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Hybrid.webp" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/CarBudget.webp" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                            </li>
+                            <li>
+                                <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                            </li>
+                        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="gallery-cell">
+    
+    <div class="foto">
+          <img width="auto" height="auto" src="images/compressed/VW-Passat.webp" />
+    </div>
+    <hr/>
+    <div class="CardBody">
+      <h3>
+          VolksWagen <b>Passat</b>
+      </h3>
+      <div class="dscrption">
+
+        <div class="drl">
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/roadicon.webp" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Gearicon.webp" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/passengericon.webp" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/CarDoor.webp" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                            </li>
+                            <li>
+                                <div class="rating9">
+                                    <input type="radio" name="rating9" value="45" id="45" />
+                                    <label for="45" class="star45">☆</label>
+                                    <input type="radio" name="rating9" value="44" id="44" />
+                                    <label for="44" class="star44">☆</label>
+                                    <input type="radio" name="rating9" value="43" id="43" />
+                                    <label for="43" class="star43">☆</label>
+                                    <input type="radio" name="rating9" value="42" id="42" />
+                                    <label for="42" class="star42">☆</label>
+                                    <input type="radio" name="rating9" value="41" id="41" />
+                                    <label for="41" class="star41">☆</label>
+                                </div>
+                            </li>
+                            <li>
+                                <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                            </li>
+                        </div>
+
+                        <div class="dll">
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Petrol.webp" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Model.webp" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/Hybrid.webp" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                            </li>
+                            <li>
+                                <img width="auto" height="auto" src="images/compressed/CarBudget.webp" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                            </li>
+                            <li>
+                                <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                            </li>
+                        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+    <!--
+    <div class="carousel-wrapper">
+        <div class="carousel carousel5" data-flickity>
+            <div class="carousel-cell">
+                <div class="foto">
+                    <img src="images/home/VW-Golf.png" />
+                </div>
+                <hr/>
+                <div class="CardBody">
+
+                    <h3>
+                        VolksWagen <b>GOLF</b>
+                    </h3>
+                    <div class="dscrption">
+                        <div class="drl">
+                            <li>
+                                <img src="images/home/roadicon.png" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Gearicon.png" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                            </li>
+                            <li>
+                                <img src="images/home/passengericon.png" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarDoor.png" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                            </li>
+                            <li>
+                                <div class="rating7">
+                                    <input type="radio" name="rating7" value="35" id="35" />
+                                    <label for="35" class="star35">☆</label>
+                                    <input type="radio" name="rating7" value="34" id="34" />
+                                    <label for="34" class="star34">☆</label>
+                                    <input type="radio" name="rating7" value="33" id="33" />
+                                    <label for="33" class="star33">☆</label>
+                                    <input type="radio" name="rating7" value="32" id="32" />
+                                    <label for="32" class="star32">☆</label>
+                                    <input type="radio" name="rating7" value="31" id="31" />
+                                    <label for="31" class="star31">☆</label>
+                                    <span class="starseven">0</span>
+                                    <span>(862)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                            </li>
+                        </div>
+                        <div class="dll">
+                            <li>
+                                <img src="images/home/Petrol.png" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Model.png" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Hybrid.png" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarBudget.png" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                            </li>
+                            <li>
+                                <button type="button">Rent It</button>
+                            </li>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="foto">
+                    <img src="images/home/GLC.png" />
+                </div>
+                <hr/>
+                <div class="CardBody">
+                    <h3>
+                        Mercedes-Benz <b>GLC</b>
+                    </h3>
+                    <div class="dscrption">
+                        <div class="drl">
+                            <li>
+                                <img src="images/home/roadicon.png" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Gearicon.png" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                            </li>
+                            <li>
+                                <img src="images/home/passengericon.png" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarDoor.png" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                            </li>
+                            <li>
+                                <div class="rating8">
+                                    <input type="radio" name="rating8" value="40" id="40" />
+                                    <label for="40" class="star40">☆</label>
+                                    <input type="radio" name="rating8" value="39" id="39" />
+                                    <label for="39" class="star39">☆</label>
+                                    <input type="radio" name="rating8" value="38" id="38" />
+                                    <label for="38" class="star38">☆</label>
+                                    <input type="radio" name="rating8" value="37" id="37" />
+                                    <label for="37" class="star37">☆</label>
+                                    <input type="radio" name="rating8" value="36" id="36" />
+                                    <label for="36" class="star36">☆</label>
+                                    <span class="stareight">0</span>
+                                    <span>(862)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                            </li>
+                        </div>
+                        <div class="dll">
+                            <li>
+                                <img src="images/home/Petrol.png" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Model.png" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Hybrid.png" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarBudget.png" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                            </li>
+                            <li>
+                                <button type="button">Rent It</button>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="foto">
+                    <img src="images/home/VW-Passat.png" />
+                </div>
+                <hr/>
+                <div class="CardBody">
+                    <h3>
+                        VolksWagen <b>Passat</b>
+                    </h3>
+                    <div class="dscrption">
+                        <div class="drl">
+                            <li>
+                                <img src="images/home/roadicon.png" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Gearicon.png" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                            </li>
+                            <li>
+                                <img src="images/home/passengericon.png" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarDoor.png" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                            </li>
+                            <li>
+                                <div class="rating9">
+                                    <input type="radio" name="rating9" value="45" id="45" />
+                                    <label for="45" class="star45">☆</label>
+                                    <input type="radio" name="rating9" value="44" id="44" />
+                                    <label for="44" class="star44">☆</label>
+                                    <input type="radio" name="rating9" value="43" id="43" />
+                                    <label for="43" class="star43">☆</label>
+                                    <input type="radio" name="rating9" value="42" id="42" />
+                                    <label for="42" class="star42">☆</label>
+                                    <input type="radio" name="rating9" value="41" id="41" />
+                                    <label for="41" class="star41">☆</label>
+                                    <span class="starnine">0</span>
+                                    <span>(862)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                            </li>
+                        </div>
+                        <div class="dll">
+                            <li>
+                                <img src="images/home/Petrol.png" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Model.png" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Hybrid.png" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarBudget.png" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                            </li>
+                            <li>
+                                <button type="button">Rent It</button>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    -->
+
+    <!-- End Best Seller Cars CarOusel -->
+
+    <!-------- Responsive Carousel2 One Item  -------->
+
+    <div class="container-fluid Section4">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="inam5" class="carousel slide carousel4" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row" style="justify-content: space-around;">
+                                    <div class="col-md-6">
+                                        <div class="card" style="width: 75%;margin: auto;">
+                                            <div class="foto">
+                                                <img width="auto" height="auto" src="images/compressed/VW-Golf.webp" />
+                                            </div>
+                                            <hr/>
+                                            <div class="CardBody">
+                                                <h3>
+                                                    VolksWagen <b>GOLF</b>
+                                                </h3>
+                                                <div class="dscrption">
+                                                    <div class="drl">
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/roadicon.webp" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Gearicon.webp" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/passengericon.webp" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/CarDoor.webp" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                                                        </li>
+                                                        <li>
+                                                            <div class="rating10">
+                                                                <input type="radio" name="rating10" value="50" id="50" />
+                                                                <label for="50" class="star50">☆</label>
+                                                                <input type="radio" name="rating10" value="49" id="49" />
+                                                                <label for="49" class="star49">☆</label>
+                                                                <input type="radio" name="rating10" value="48" id="48" />
+                                                                <label for="48" class="star48">☆</label>
+                                                                <input type="radio" name="rating10" value="47" id="47" />
+                                                                <label for="47" class="star47">☆</label>
+                                                                <input type="radio" name="rating10" value="46" id="46" />
+                                                                <label for="46" class="star46">☆</label>
+                                                                <span class="starten">0</span>
+                                                                <span>(862)</span>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                                                        </li>
+                                                    </div>
+                                                    <div class="dll">
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Petrol.webp" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Model.webp" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Hybrid.webp" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/CarBudget.webp" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                                                        </li>
+                                                        <li>
+                                                            <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                                                        </li>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row" style="justify-content: space-around;">
+                                    <div class="col-md-6">
+                                        <div class="card" style="width: 75%;margin: auto;">
+                                            <div class="foto">
+                                                <img width="auto" height="auto" src="images/compressed/GLC.webp" />
+                                            </div>
+                                            <hr/>
+                                            <div class="CardBody">
+                                                <h3>
+                                                    Mercedes-Benz <b>GLC</b>
+                                                </h3>
+                                                <div class="dscrption">
+                                                    <div class="drl">
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/roadicon.webp" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Gearicon.webp" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/passengericon.webp" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/CarDoor.webp" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                                                        </li>
+                                                        <li>
+                                                            <div class="rating11">
+                                                                <input type="radio" name="rating11" value="55" id="55" />
+                                                                <label for="55" class="star55">☆</label>
+                                                                <input type="radio" name="rating11" value="54" id="54" />
+                                                                <label for="54" class="star54">☆</label>
+                                                                <input type="radio" name="rating11" value="53" id="53" />
+                                                                <label for="53" class="star53">☆</label>
+                                                                <input type="radio" name="rating11" value="52" id="52" />
+                                                                <label for="52" class="star52">☆</label>
+                                                                <input type="radio" name="rating11" value="51" id="51" />
+                                                                <label for="51" class="star51">☆</label>
+                                                                <span class="stareleven">0</span>
+                                                                <span>(862)</span>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                                                        </li>
+                                                    </div>
+                                                    <div class="dll">
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Petrol.webp" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Model.webp" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Hybrid.webp" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/CarBudget.webp" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                                                        </li>
+                                                        <li>
+                                                            <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row" style="justify-content: space-around;">
+                                    <div class="col-md-6">
+                                        <div class="card" style="width: 75%;margin: auto;">
+                                            <div class="foto">
+                                                <img width="auto" height="auto" src="images/compressed/VW-Passat.webp" />
+                                            </div>
+                                            <hr/>
+                                            <div class="CardBody">
+                                                <h3>
+                                                    VolksWagen <b>Passat</b>
+                                                </h3>
+                                                <div class="dscrption">
+                                                    <div class="drl">
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/roadicon.webp" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Gearicon.webp" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/passengericon.webp" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/CarDoor.webp" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                                                        </li>
+                                                        <li>
+                                                            <div class="rating12 ">
+                                                                <input type="radio" name="rating12" value="60" id="60" />
+                                                                <label for="60" class="star60">☆</label>
+                                                                <input type="radio" name="rating12" value="59" id="59" />
+                                                                <label for="59" class="star59">☆</label>
+                                                                <input type="radio" name="rating12" value="58" id="58" />
+                                                                <label for="58" class="star58">☆</label>
+                                                                <input type="radio" name="rating12" value="57" id="57" />
+                                                                <label for="57" class="star57">☆</label>
+                                                                <input type="radio" name="rating12" value="56" id="56" />
+                                                                <label for="56" class="star56">☆</label>
+                                                                <span class="startwelve">0</span>
+                                                                <span>(862)</span>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                                                        </li>
+                                                    </div>
+                                                    <div class="dll">
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Petrol.webp" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Model.webp" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/Hybrid.webp" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                                                        </li>
+                                                        <li>
+                                                            <img width="auto" height="auto" src="images/compressed/CarBudget.webp" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                                                        </li>
+                                                        <li>
+                                                            <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <a href="#inam5" class="carousel-control-prev prev2" data-bs-slide="prev">
+                        <img width="auto" height="auto" src="images/compressed/left-arrow.webp" alt="left-arrow" />
+                    </a>
+                    <a href="#inam5" class="carousel-control-next next2" data-bs-slide="next">
+                        <img width="auto" height="auto" src="images/compressed/right-arrow.webp" alt="right-arrow" />
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-------- End Responsive Carousel2 One Item  -------->
+
+    <!-------- Marquee Brands  -------->
+    <div class="container-fluid Section6">
+        <div class="brands">
+            <img width="auto" height="auto" src="images/compressed/OurBrand.webp" alt="brandheader" />
+            <h1>OUR BRANDS</h1>
+        </div>
+        <div class="brandicons marquee">
+            <li>
+                <img width="auto" height="auto" src="images/compressed/Ford.webp" alt="fordicon" />
+            </li>
+            <li>
+                <img width="auto" height="auto" src="images/compressed/Peugeot-logo.webp" alt="peugeoticon" />
+            </li>
+            <li>
+                <img width="auto" height="auto" src="images/compressed/Toyota.webp" alt="toyotaicon" />
+            </li>
+            <li>
+                <img width="auto" height="auto" src="images/compressed/BMW_628.webp" alt="bmwicon" />
+            </li>
+            <li>
+                <img width="auto" height="auto" src="images/compressed/mercedes-benz.webp" alt="mercedesicon" />
+            </li>
+            <li>
+                <img width="auto" height="auto" src="images/compressed/VolksWagen.webp" alt="vlokswagenicon" />
+            </li>
+            <li>
+                <img width="auto" height="auto" src="images/compressed/Citroen.webp" alt="citroenicon" />
+            </li>
+            <li>
+                <img width="auto" height="auto" src="images/compressed/Ford.webp" alt="fordicon" />
+            </li>
+            <li>
+                <img width="auto" height="auto" src="images/compressed/Peugeot-logo.webp" alt="peugeoticon" />
+            </li>
+            <li>
+                <img width="auto" height="auto" src="images/compressed/Toyota.webp" alt="toyotaicon" />
+            </li>
+            <li>
+                <img width="auto" height="auto" src="images/compressed/BMW_628.webp" alt="bmwicon" />
+            </li>
+            <li>
+                <img width="auto" height="auto" src="images/compressed/mercedes-benz.webp" alt="mercedesicon" />
+            </li>
+            <li>
+                <img width="auto" height="auto" src="images/compressed/VolksWagen.webp" alt="vlokswagenicon" />
+            </li>
+            <li>
+                <img width="auto" height="auto" src="images/compressed/Citroen.webp" alt="citroenicon" />
+            </li>
+        </div>
+    </div>
+
+    <!-------- End Marquee Brands  -------->
+
+    <!-------- NewsLetter Subscribe  -------->
+
+    <div class="container-fluid Section7">
+        <div class="col-md-12 newstitle">
+            <h2>Subscribe Now...Stay Tuned</h2>
+            <h1>GET NOTIFIED OF ANY UPDATES!</h1>
+        </div>
+        <div class="col-md-12 newsform">
+            <li>
+                <input type="text" name="Email" placeholder="Enter your Email Address" />
+            </li>
+            <li>
+                <button type="submit"><span class="fa fa-envelope"></span> SUBSCRIBE</button>
+            </li>
+        </div>
+    </div>
+
+    <!-------- End NewsLetter Subscribe  -------->
+
+    <!--Main Page Footer-->
+
+    <footer id="OnTrigger">
+        <div class="Scroll" onclick="$('.main-nav').animatescroll({padding:0});">
+            <img width="auto" height="auto" src="images/compressed/up-arrow.webp" alt="Scroll" />
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 footerlist">
+                    <h4>Contact Us</h4>
+                    <ul class="contact">
+                        <li>MietAraba, 789 Main rd, Anytwon, CA 12345 USA</li>
+                        <li>+1 800 789 0000</li>
+                        <li>MietAraba@protonmail.com</li>
+                        <li>Mon - Fr: 09 am to 06 pm</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footerlist">
+                    <h4>Quick Links</h4>
+                    <ul class="Qlinks">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="OurCars.html">OurCars</a>
+                        </li>
+                        <li>
+                            <a href="About.html">About</a>
+                        </li>
+                        <li>
+                            <a href="Contact.html">ContactUs</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footerlist">
+                    <h4>Open An Account</h4>
+                    <ul class="OAccount">
+                        <li>
+                            <a href="#">Your Account</a>
+                        </li>
+                        <li>
+                            <a href="#">Car Guide</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footerlist">
+                    <h4>Explore the site</h4>
+                    <ul class="explore">
+                        <li>
+                            <a href="#">SiteMap</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid footersublist">
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="social-links">
+                        <li>
+                            <a href="index.html">
+                                <img width="auto" height="auto" src="images/compressed/facebook.webp" alt="facebook" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <img width="auto" height="auto" src="images/compressed/youtube.webp" alt="youtube" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <img width="auto" height="auto" src="images/compressed/instagram.webp" alt="instagram" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <p>@2021MietAraba. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-4">
+                    <ul class="paylist">
+                        <li>
+                            <a href="index.html">
+                                <img width="auto" height="auto" src="images/compressed/payment-1.webp" alt="PayPal" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <img width="auto" height="auto" src="images/compressed/payment-2.webp" alt="PayPal" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <img width="auto" height="auto" src="images/compressed/payment-3.webp" alt="PayPal" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <img width="auto" height="auto" src="images/compressed/payment-4.webp" alt="PayPal" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+</content>
+    <!--End Main Page Footer-->
+
+    <script type="text/javascript" src="JavaScript/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="JavaScript/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="JavaScript/ScrollMagic.min.js"></script>
+    <script type="text/javascript" src="JavaScript/debug.addIndicators.js"></script>
+    <script type="text/javascript" src="JavaScript/gsap.min.js"></script>
+    <script type="text/javascript" src="JavaScript/flickity.pkgd.min.js"></script>
+    <script type="text/javascript" src="JavaScript/TweenMax.min.js"></script>
+    <script type="text/javascript" src="JavaScript/animation.gsap.js"></script>
+    <script type="text/javascript" src="JavaScript/ScrollToPlugin-latest-beta.js"></script>
+    <script type="text/javascript" src="JavaScript/CSSPlugin.min.js"></script>
+    <script type="text/javascript" src="JavaScript/TweenLite.min.js"></script>
+    <script type="text/javascript" src="JavaScript/TimelineLite.min.js"></script>
+    <script type="text/javascript" src="JavaScript/TweenMax-latest-beta.js"></script>
+    <script type="text/javascript" src="BSCarousel/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="cardlist/js/jquery.min.js"></script>
+    <script type="text/javascript" src="JavaScript/animatescroll.js"></script>
+    <script type="text/javascript" src="cardlist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="cardlist/js/popper.min.js"></script>
+    <script type="text/javascript" src="JavaScript/jquery.marquee.min.js"></script>
+    <script type="text/javascript" src="JavaScript/jquery-ui.js"></script>
+    <script type="text/javascript" src="JavaScript/jquery.timepicker.min.js"></script>
+    <script type="text/javascript" src="JavaScript/loadCSS.js"></script>
+    <script type="text/javascript" src="JavaScript/index.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+         $('input.timepicker').timepicker({});
+        });
+    </script>
+    
+    <script type="text/javascript">
+        function openNav() {
+            document.getElementById("mySidenav").style.marginLeft = "0px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.marginLeft = "-300px";
+        }
+    </script>
+    <!---->
+    <script>
+        var x, i, j, l, ll, selElmnt, a, b, c;
+        /*look for any elements with the class "custom-select ":*/
+        x = document.getElementsByClassName("custom-select");
+        l = x.length;
+        for (i = 0; i < l; i++) {
+            selElmnt = x[i].getElementsByTagName("select")[0];
+            ll = selElmnt.length;
+            /*for each element, create a new DIV that will act as the selected item:*/
+            a = document.createElement("DIV");
+            a.setAttribute("class", "select-selected");
+            a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+            x[i].appendChild(a);
+            /*for each element, create a new DIV that will contain the option list:*/
+            b = document.createElement("DIV");
+            b.setAttribute("class", "select-items select-hide");
+            for (j = 1; j < ll; j++) {
+                /*for each option in the original select element,
+                create a new DIV that will act as an option item:*/
+                c = document.createElement("DIV");
+                c.innerHTML = selElmnt.options[j].innerHTML;
+                c.addEventListener("click", function(e) {
+                    /*when an item is clicked, update the original select box,
+                    and the selected item:*/
+                    var y, i, k, s, h, sl, yl;
+                    s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+                    sl = s.length;
+                    h = this.parentNode.previousSibling;
+                    for (i = 0; i < sl; i++) {
+                        if (s.options[i].innerHTML == this.innerHTML) {
+                            s.selectedIndex = i;
+                            h.innerHTML = this.innerHTML;
+                            y = this.parentNode.getElementsByClassName("same-as-selected");
+                            yl = y.length;
+                            for (k = 0; k < yl; k++) {
+                                y[k].removeAttribute("class");
+                            }
+                            this.setAttribute("class", "same-as-selected");
+                            break;
+                        }
+                    }
+                    h.click();
+                });
+                b.appendChild(c);
+            }
+            x[i].appendChild(b);
+            a.addEventListener("click", function(e) {
+                /*when the select box is clicked, close any other select boxes,
+                and open/close the current select box:*/
+                e.stopPropagation();
+                closeAllSelect(this);
+                this.nextSibling.classList.toggle("select-hide");
+                this.classList.toggle("select-arrow-active");
+            });
+        }
+
+        function closeAllSelect(elmnt) {
+            /*a function that will close all select boxes in the document,
+            except the current select box:*/
+            var x, y, i, xl, yl, arrNo = [];
+            x = document.getElementsByClassName("select-items");
+            y = document.getElementsByClassName("select-selected");
+            xl = x.length;
+            yl = y.length;
+            for (i = 0; i < yl; i++) {
+                if (elmnt == y[i]) {
+                    arrNo.push(i)
+                } else {
+                    y[i].classList.remove("select-arrow-active");
+                }
+            }
+            for (i = 0; i < xl; i++) {
+                if (arrNo.indexOf(i)) {
+                    x[i].classList.add("select-hide");
+                }
+            }
+        }
+        /*if the user clicks anywhere outside the select box,
+        then close all select boxes:*/
+        document.addEventListener("click", closeAllSelect);
+    </script>
+
+
+    <script type="text/javascript">
+
+        var flkty = new Flickity( '.js-flickity', {
+                initialIndex: 1
+        });
+
+        var flkty2 = new Flickity( '.carousel2', {
+                initialIndex: 1
+        });
+
+        /*
+        var flkty = new Flickity('.carousel2', {
+            initialIndex: 1
+        });
+        var flkty2 = new Flickity('.carousel5', {
+            initialIndex: 1
+        });
+        */
+    </script>
+
+</body>
+</html>

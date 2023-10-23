@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CarOusel Wrapper</title>
+  <link rel="stylesheet" type="text/css" href="BSCarousel/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/flickity.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+	<style type="text/css">
+		
+  body{
+    list-style: none;
+  }
+
+    /* external css: flickity.css */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+} 
+
+body { font-family: sans-serif; }
+
+.gallery {
+  width: 100%;
+  background-color: #f5f5f5;
+  height: 658px;
+  overflow: hidden;
+}
+
+.gallery-cell {
+  width: 32%;
+  background: white;
+  counter-increment: gallery-cell;
+  margin: 0 30px;
+  opacity: 0.4;
+  transition: all 0.7s ease-in-out !important;
+  display: block;
+  font-size: 80px;
+  color: black;
+  padding: 10px;
+  margin-top: 1.2em;
+}
+
+.is-selected {
+    opacity: 1;
+}
+
+.gallery .gallery-cell.is-selected {
+  background: white;
+  transform: scale(1.2);
+}
+
+.flickity-page-dots{
+  display: none !important;
+}
+
+.gallery-cell .foto{
+    text-align: center !important;
+    padding: 15px 10px 0px 10px !important;
+}
+
+.gallery-cell .foto img {
+    max-width: 80% !important;
+    transition: all 0.7s ease-out !important;
+}
+
+.is-selected .foto img {
+    max-width: 100% !important;
+}
+
+.gallery-cell .CardBody {
+    position: relative;
+    padding: 0rem 1.5rem;
+}
+
+.gallery-cell .CardBody h3 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1461d5;
+    font-size: 20px !important;
+    margin-bottom: 0;
+    transition: all 0.7s ease-out !important;
+}
+
+.is-selected .CardBody h3 {
+    font-size: 25px !important;
+}
+
+.gallery-cell .CardBody .dscrption {
+    margin-top: 0.2em;
+    width: 100%;
+}
+
+.gallery-cell .CardBody .dscrption .drl {
+    width: 135px;
+    float: left;
+}
+
+.gallery-cell .CardBody .dscrption .dll {
+    width: 110px;
+    float: right;
+}
+
+.gallery-cell .CardBody .dscrption .drl li {
+    list-style: none;
+    color: #b0b0b0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-bottom: 1em;
+}
+
+.gallery-cell .CardBody .dscrption .dll li {
+  list-style: none; 
+    color: #b0b0b0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-bottom: 1em;
+}
+
+.gallery-cell .CardBody .dscrption .drl li img {
+    width: 25px;
+}
+
+.gallery-cell .CardBody .dscrption .dll li img {
+    width: 25px;
+}
+
+.gallery-cell .CardBody .dscrption .drl li del {
+    font-family: 'Calibri';
+    color: red !important;
+    font-size: 10px !important;
+}
+
+.gallery-cell .CardBody .dscrption .drl li .b1 {
+    font-family: 'Calibri';
+    color: black !important;
+    font-weight: normal !important;
+    font-size: 15px !important;
+}
+
+.gallery-cell .CardBody .dscrption .drl li .b2 {
+    font-weight: normal !important;
+}
+
+.gallery-cell .CardBody .dscrption .dll li button {
+    border: 2px solid #1461d5;
+    outline: none;
+    width: 70px;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: transparent;
+    color: #1461d5;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.gallery-cell .CardBody .dscrption.dll li:nth-child(5) {
+    padding: 20px 20px;
+}
+
+.gallery-cell .CardBody .dscrption .drl li:nth-child(5) {
+    padding-bottom: 0em !important;
+}
+
+
+.flickity-prev-next-button {
+    width: 70px !important;
+    height: 70px !important;
+    background-color: transparent !important;
+    top: 48% !important;
+}
+
+.flickity-prev-next-button.previous {
+    left: 2px !important;
+}
+
+.flickity-prev-next-button.next {
+    right: 2px !important;
+}
+
+
+.gallery .flickity-viewport,
+.gallery .flickity-slider {
+    overflow: visible;
+}
+
+@media screen and (max-width: 767px){
+
+.gallery-cell{
+  display: none !important;
+}
+
+}
+
+@media screen and (max-width: 1200px){
+
+  .gallery-cell .CardBody .dscrption .dll{
+    width: 80px !important;
+  }
+
+  .gallery-cell .CardBody .dscrption .drl li{
+    font-size: 10px !important;
+  }
+
+  .gallery-cell .CardBody .dscrption .dll li{
+    font-size: 10px !important;
+  }
+
+  .gallery-cell .CardBody .dscrption .drl li img{
+    width: 20px;
+  }
+
+  .gallery-cell .CardBody .dscrption .dll li img{
+    width: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .gallery-cell .CardBody{
+    padding: 0rem 0.5rem !important;
+  }
+
+  .gallery-cell .CardBody h3{
+    font-size: 18px !important;
+  }
+
+  .is-selected .CardBody h3{
+    font-size: 20px !important;
+  }
+
+  .gallery {
+    height: 640px !important;
+  }
+
+  .gallery-cell .CardBody .dscrption .drl li img{
+    width: 15px;
+  }
+
+  .gallery-cell .CardBody .dscrption .dll li img{
+    width: 15px;
+  }
+}
+
+@media screen and (max-width: 850px){
+  .gallery-cell .CardBody{
+    padding: 0rem 0rem !important;
+  }
+}
+
+	</style>
+</head>
+<body>
+
+<!-- Flickity HTML init -->
+<div class="gallery js-flickity">
+
+  <div class="gallery-cell">
+    
+    <div class="foto">
+          <img src="images/home/VW-Golf.png" />
+    </div>
+    <hr/>
+    <div class="CardBody">
+      <h3>
+          VolksWagen <b>GOLF</b>
+      </h3>
+      <div class="dscrption">
+
+        <div class="drl">
+                            <li>
+                                <img src="images/home/roadicon.png" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Gearicon.png" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                            </li>
+                            <li>
+                                <img src="images/home/passengericon.png" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarDoor.png" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                            </li>
+                            <li>
+                                <div class="rating1">
+                                    <input type="radio" name="rating" value="5" id="5" />
+                                    <label for="5" class="star5">☆</label>
+                                    <input type="radio" name="rating" value="4" id="4" />
+                                    <label for="4" class="star4">☆</label>
+                                    <input type="radio" name="rating" value="3" id="3" />
+                                    <label for="3" class="star3">☆</label>
+                                    <input type="radio" name="rating" value="2" id="2" />
+                                    <label for="2" class="star2">☆</label>
+                                    <input type="radio" name="rating" value="1" id="1" />
+                                    <label for="1" class="star1">☆</label>
+                                </div>
+                            </li>
+                            <li>
+                                <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                            </li>
+                        </div>
+
+                        <div class="dll">
+                            <li>
+                                <img src="images/home/Petrol.png" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Model.png" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Hybrid.png" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarBudget.png" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                            </li>
+                            <li>
+                                <button type="button">Rent It</button>
+                            </li>
+                        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="gallery-cell">
+    
+    <div class="foto">
+          <img src="images/home/GLC.png" />
+    </div>
+    <hr/>
+    <div class="CardBody">
+      <h3>
+          Mercedes-Benz <b>GLC</b>
+      </h3>
+      <div class="dscrption">
+
+        <div class="drl">
+                            <li>
+                                <img src="images/home/roadicon.png" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Gearicon.png" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                            </li>
+                            <li>
+                                <img src="images/home/passengericon.png" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarDoor.png" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                            </li>
+                            <li>
+                                <div class="rating2">
+                                    <input type="radio" name="rating2" value="10" id="10" />
+                                    <label for="10" class="star10">☆</label>
+                                    <input type="radio" name="rating2" value="9" id="9" />
+                                    <label for="9" class="star9">☆</label>
+                                    <input type="radio" name="rating2" value="8" id="8" />
+                                    <label for="8" class="star8">☆</label>
+                                    <input type="radio" name="rating2" value="7" id="7" />
+                                    <label for="7" class="star7">☆</label>
+                                    <input type="radio" name="rating2" value="6" id="6" />
+                                    <label for="6" class="star6">☆</label>
+                                </div>
+                            </li>
+                            <li>
+                                <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                            </li>
+                        </div>
+
+                        <div class="dll">
+                            <li>
+                                <img src="images/home/Petrol.png" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Model.png" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Hybrid.png" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarBudget.png" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                            </li>
+                            <li>
+                                <button type="button">Rent It</button>
+                            </li>
+                        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="gallery-cell">
+    
+    <div class="foto">
+          <img src="images/home/VW-Passat.png" />
+    </div>
+    <hr/>
+    <div class="CardBody">
+      <h3>
+          VolksWagen <b>Passat</b>
+      </h3>
+      <div class="dscrption">
+
+        <div class="drl">
+                            <li>
+                                <img src="images/home/roadicon.png" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Gearicon.png" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                            </li>
+                            <li>
+                                <img src="images/home/passengericon.png" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarDoor.png" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                            </li>
+                            <li>
+                                <div class="rating3">
+                                    <input type="radio" name="rating3" value="15" id="15" />
+                                    <label for="15" class="star15">☆</label>
+                                    <input type="radio" name="rating3" value="14" id="14" />
+                                    <label for="14" class="star14">☆</label>
+                                    <input type="radio" name="rating3" value="13" id="13" />
+                                    <label for="13" class="star13">☆</label>
+                                    <input type="radio" name="rating3" value="12" id="12" />
+                                    <label for="12" class="star12">☆</label>
+                                    <input type="radio" name="rating3" value="11" id="11" />
+                                    <label for="11" class="star11">☆</label>
+                                </div>
+                            </li>
+                            <li>
+                                <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                            </li>
+                        </div>
+
+                        <div class="dll">
+                            <li>
+                                <img src="images/home/Petrol.png" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Model.png" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Hybrid.png" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarBudget.png" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                            </li>
+                            <li>
+                                <button type="button">Rent It</button>
+                            </li>
+                        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+
+<!-- Flickity HTML init2 -->
+<div class="gallery js-flickity carousel2">
+
+  <div class="gallery-cell">
+    
+    <div class="foto">
+          <img src="images/home/VW-Golf.png" />
+    </div>
+    <hr/>
+    <div class="CardBody">
+      <h3>
+          VolksWagen <b>GOLF</b>
+      </h3>
+      <div class="dscrption">
+
+        <div class="drl">
+                            <li>
+                                <img src="images/home/roadicon.png" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Gearicon.png" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                            </li>
+                            <li>
+                                <img src="images/home/passengericon.png" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarDoor.png" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                            </li>
+                            <li>
+                                <div class="rating7">
+                                    <input type="radio" name="rating7" value="35" id="35" />
+                                    <label for="35" class="star35">☆</label>
+                                    <input type="radio" name="rating7" value="34" id="34" />
+                                    <label for="34" class="star34">☆</label>
+                                    <input type="radio" name="rating7" value="33" id="33" />
+                                    <label for="33" class="star33">☆</label>
+                                    <input type="radio" name="rating7" value="32" id="32" />
+                                    <label for="32" class="star32">☆</label>
+                                    <input type="radio" name="rating7" value="31" id="31" />
+                                    <label for="31" class="star31">☆</label>
+                                </div>
+                            </li>
+                            <li>
+                                <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                            </li>
+                        </div>
+
+                        <div class="dll">
+                            <li>
+                                <img src="images/home/Petrol.png" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Model.png" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Hybrid.png" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarBudget.png" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                            </li>
+                            <li>
+                                <button type="button">Rent It</button>
+                            </li>
+                        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="gallery-cell">
+    
+    <div class="foto">
+          <img src="images/home/GLC.png" />
+    </div>
+    <hr/>
+    <div class="CardBody">
+      <h3>
+          Mercedes-Benz <b>GLC</b>
+      </h3>
+      <div class="dscrption">
+
+        <div class="drl">
+                            <li>
+                                <img src="images/home/roadicon.png" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Gearicon.png" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                            </li>
+                            <li>
+                                <img src="images/home/passengericon.png" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarDoor.png" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                            </li>
+                            <li>
+                                <div class="rating8">
+                                    <input type="radio" name="rating8" value="40" id="40" />
+                                    <label for="40" class="star40">☆</label>
+                                    <input type="radio" name="rating8" value="39" id="39" />
+                                    <label for="39" class="star39">☆</label>
+                                    <input type="radio" name="rating8" value="38" id="38" />
+                                    <label for="38" class="star38">☆</label>
+                                    <input type="radio" name="rating8" value="37" id="37" />
+                                    <label for="37" class="star37">☆</label>
+                                    <input type="radio" name="rating8" value="36" id="36" />
+                                    <label for="36" class="star36">☆</label>
+                                </div>
+                            </li>
+                            <li>
+                                <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                            </li>
+                        </div>
+
+                        <div class="dll">
+                            <li>
+                                <img src="images/home/Petrol.png" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Model.png" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Hybrid.png" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarBudget.png" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                            </li>
+                            <li>
+                                <button type="button">Rent It</button>
+                            </li>
+                        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="gallery-cell">
+    
+    <div class="foto">
+          <img src="images/home/VW-Passat.png" />
+    </div>
+    <hr/>
+    <div class="CardBody">
+      <h3>
+          VolksWagen <b>Passat</b>
+      </h3>
+      <div class="dscrption">
+
+        <div class="drl">
+                            <li>
+                                <img src="images/home/roadicon.png" alt="roadicon" />&nbsp;&nbsp;<b>4980 KM</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Gearicon.png" alt="Gearicon" />&nbsp;&nbsp;<b>Manual</b>
+                            </li>
+                            <li>
+                                <img src="images/home/passengericon.png" alt="Passengericon" />&nbsp;&nbsp;<b>5 Passenger</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarDoor.png" alt="Dooricon" />&nbsp;&nbsp;<b>5 Doors</b>
+                            </li>
+                            <li>
+                                <div class="rating9">
+                                    <input type="radio" name="rating9" value="45" id="45" />
+                                    <label for="45" class="star45">☆</label>
+                                    <input type="radio" name="rating9" value="44" id="44" />
+                                    <label for="44" class="star44">☆</label>
+                                    <input type="radio" name="rating9" value="43" id="43" />
+                                    <label for="43" class="star43">☆</label>
+                                    <input type="radio" name="rating9" value="42" id="42" />
+                                    <label for="42" class="star42">☆</label>
+                                    <input type="radio" name="rating9" value="41" id="41" />
+                                    <label for="41" class="star41">☆</label>
+                                </div>
+                            </li>
+                            <li>
+                                <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                            </li>
+                        </div>
+
+                        <div class="dll">
+                            <li>
+                                <img src="images/home/Petrol.png" alt="Petrolicon" />&nbsp;&nbsp;<b>Diesel</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Model.png" alt="Modelicon" />&nbsp;&nbsp;<b>2015</b>
+                            </li>
+                            <li>
+                                <img src="images/home/Hybrid.png" alt="Hybridicon" />&nbsp;&nbsp;<b>Hybrid</b>
+                            </li>
+                            <li>
+                                <img src="images/home/CarBudget.png" alt="Budgeticon" />&nbsp;&nbsp;<b>Budget Car</b>
+                            </li>
+                            <li>
+                                <button type="button">Rent It</button>
+                            </li>
+                        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<script type="text/javascript" src="JavaScript/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="JavaScript/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="BSCarousel/bootstrap.min.js"></script>
+<script type="text/javascript" src="BSCarousel/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="JavaScript/flickity.pkgd.min.js"></script>
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+
+     $('.flickity-prev-next-button.previous').html('<img src="images/home/left-arrow.png" alt="left-arrow"/>');
+    $('.flickity-prev-next-button.next').html('<img src="images/home/right-arrow.png" alt="right-arrow"/>');
+
+  });
+</script>
+
+<script type="text/javascript">
+
+var flkty = new Flickity( '.js-flickity', {
+  initialIndex: 1
+});
+
+var flkty2 = new Flickity( '.carousel2', {
+  initialIndex: 1
+});
+
+</script>
+
+</body>
+</html>

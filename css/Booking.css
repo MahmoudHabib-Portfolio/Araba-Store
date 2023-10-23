@@ -1,0 +1,667 @@
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{ display: none; }
+
+.ProductHead .PSection2{
+    background-color: white;
+    box-shadow: 0px 0px 10.79px 2.21px rgb(0 0 0 / 31%);
+    padding: 1rem 1rem !important;
+}
+
+.ProDescription {
+    width: 100%;
+    text-align: center;
+    padding-top: 12em;
+}
+
+.colmd3 li{
+    list-style: none !important;
+    display: list-item !important;
+    text-align: center !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #adadad;
+    padding-bottom: 0.5em;
+}
+
+.ProDescription .row{
+    padding-bottom: 1.5em !important;
+    padding-right: 5em !important;
+    padding-left: 5em !important;
+}
+
+.ProductSide {
+    padding-bottom: 0.5em;
+    border-bottom: 0px !important;
+}
+
+.ProSpecification{
+    padding-top: 0em !important;
+    padding-bottom: 1em !important;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.booklist03{
+    width: 100%;
+    text-align: center !important;
+    padding-top: 1em !important;
+}
+
+.booklist04{
+    width: 100%;
+    text-align: center !important;
+    padding-top: 3em !important;
+    padding-bottom: 2em !important;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.booklist03 li h6{
+    color: black !important;
+    font-weight: bold;
+    font-size: 13px !important;
+}
+
+.booklist04 li h6{
+    color: black !important;
+    font-weight: bold;
+    font-size: 13px !important;
+}
+
+.booklist03 li {
+    text-align: left !important;
+    display: inline-block;
+}
+
+.booklist04 li {
+    text-align: left !important;
+    display: inline-block;
+}
+
+.booklist03 li:nth-child(1){
+    margin: 0em !important;
+    float: left !important;
+}
+
+.booklist03 li:nth-child(2){
+    margin: 0em !important;
+    margin-left: -.1em !important;
+}
+
+.booklist03 li:nth-child(3){
+    margin: 0em !important;
+    float: right !important;
+}
+
+.booklist04 li:nth-child(1){
+    margin: 0em !important;
+    float: left !important;
+}
+
+.booklist04 li:nth-child(2){
+    margin: 0em !important;
+    margin-left: -.1em !important;
+}
+
+.booklist04 li:nth-child(3){
+    margin: 0em !important;
+    float: right !important;
+}
+
+.Location input{
+    width: 220px !important;
+    color: #615e5e;
+    font-size: 12px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 0;
+    background-color: white;
+    outline: none;
+}
+
+.Location2 input{
+    width: 220px !important;
+    color: #615e5e;
+    font-size: 12px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 0;
+    background-color: white;
+    outline: none;
+}
+
+.Location{
+    padding: 5px 10px !important;
+    border: 2px solid black !important;
+    border-radius: 0px !important;
+    font-size: 12px !important;
+}
+
+.Location2{
+    padding: 5px 10px !important;
+    border: 2px solid black !important;
+    border-radius: 0px !important;
+    font-size: 12px !important;
+}
+
+.date input{
+    width: 145px !important;
+    color: #615e5e;
+    font-size: 12px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 0;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.date2 input{
+    width: 145px !important;
+    color: #615e5e;
+    font-size: 12px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 0;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.date{
+    padding: 5px 5px !important;
+    border: 2px solid black !important;
+    border-radius: 0px !important;
+    font-size: 12px !important;
+    cursor: pointer;
+}
+
+.date2{
+    padding: 5px 5px !important;
+    border: 2px solid black !important;
+    border-radius: 0px !important;
+    font-size: 12px !important;
+    cursor: pointer;
+}
+
+.time2 input{
+    width: 100px !important;
+    color: #615e5e;
+    font-size: 12px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 0;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.time3 input{
+    width: 100px !important;
+    color: #615e5e;
+    font-size: 12px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 0;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.time2{
+    padding: 5px 5px !important;
+    border: 2px solid black !important;
+    border-radius: 0px !important;
+    font-size: 12px !important;
+    cursor: pointer;
+}
+
+.time3{
+    padding: 5px 5px !important;
+    border: 2px solid black !important;
+    border-radius: 0px !important;
+    font-size: 12px !important;
+    cursor: pointer;
+}
+
+.Location span{
+    font-size: 12px !important;
+    color: #615e5e;
+}
+
+.date span{
+    font-size: 12px !important;
+}
+
+.Location2 span{
+    font-size: 12px !important;
+    color: #615e5e;
+}
+
+.date2 span{
+    font-size: 12px !important;
+}
+
+.Customer{
+    padding-top: 1em;
+}
+
+.Customer h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.FLName{
+    width: 100%;
+    padding-top: 1em;
+}
+
+.EmailPhone{
+    width: 100%;
+    padding-top: 5em;
+}
+
+.FLName li {
+    list-style: none;
+    display: inline-block;
+}
+
+.EmailPhone li {
+    list-style: none;
+    display: inline-block;
+}
+
+.FLName li input{
+    width: 250px;
+    padding: 5px;
+    color: black;
+    outline: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border: 2px solid black;
+}
+
+.EmailPhone li input{
+    width: 250px;
+    padding: 5px;
+    color: black;
+    outline: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border: 2px solid black;
+}
+
+.FLName li:nth-child(1){
+    float: left;
+}
+
+.EmailPhone li:nth-child(1){
+    float: left;
+}
+
+.FLName li:nth-child(2){
+    float: right;
+}
+
+.EmailPhone li:nth-child(2){
+    float: right;
+}
+
+.CutomerDetails{
+    width: 100%;
+    padding-top: 5em;
+}
+
+.CutomerDetails textarea{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+    padding: 10px;
+    border: 2px solid black;
+    height: 150px;
+}
+
+.BookNow{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    border: 0px;
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    background-color: tomato;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width:1320px) {
+    .Location input{
+        width: 180px !important;
+    }
+    .Location2 input{
+        width: 180px !important;
+    }
+    .booklist03 li h6{
+        font-size: 12px !important;
+    }
+    .booklist04 li h6{
+        font-size: 12px !important;
+    }
+    .date input{
+        width: 120px !important;
+    }
+    .date2 input{
+        width: 120px !important;
+    }
+    .time2 input{
+        width: 85px !important;
+    }
+    .time3 input{
+        width: 85px !important;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .FLName li input{
+        width: 225px !important;
+    }
+    .EmailPhone li input{
+        width: 225px !important;
+    }
+    .date input{
+        width: 80px !important;
+    }
+    .date2 input{
+        width: 80px !important;
+    }
+    .time2 input{
+        width: 80px !important;
+    }
+    .time3 input{
+        width: 80px !important;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .Location input{
+        width: 160px !important;
+        font-size: 11px !important;
+    }
+    .Location2 input{
+        width: 160px !important;
+        font-size: 11px !important;
+    }
+    .booklist03 li h6{
+        font-size: 12px !important;
+    }
+    .booklist04 li h6{
+        font-size: 11px !important;
+    }
+    .date input{
+        width: 80px !important;
+        font-size: 11px !important;
+    }
+    .date2 input{
+        width: 80px !important;
+        font-size: 11px !important;
+    }
+    .time2 input{
+        width: 80px !important;
+        font-size: 11px !important;
+    }
+    .time3 input{
+        width: 80px !important;
+        font-size: 11px !important;
+    }
+    .booklist03 li:nth-child(2){
+        margin-left: 0px !important;
+    }
+    .ProTitle2{
+        font-size: 20px !important;
+    }
+    .FLName li input{
+        width: 180px !important;
+    }
+    .EmailPhone li input{
+        width: 180px !important;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .booklist03{
+        text-align: left !important;
+    }
+    .booklist04{
+        text-align: left !important;
+        padding-top: 0em !important;
+    }
+    .booklist03 li{
+        display: list-item !important;
+        padding-bottom: 1em !important;
+    }
+    .booklist04 li{
+        display: list-item !important;
+        padding-bottom: 1em !important;
+    }
+    .ProductHead .PSection2{
+        height: 100% !important;
+    }
+    .booklist03 li:nth-child(1){
+        float: none !important;
+    }
+    .booklist04 li:nth-child(1){
+        float: none !important;
+    }
+    .booklist03 li:nth-child(3){
+        float: none !important;
+    }
+    .booklist04 li:nth-child(3){
+        float: none !important;
+    }
+    .date input{
+        width: 94% !important;
+    }
+    .time2 input{
+        width: 94% !important;
+    }
+    .Location input{
+        width: 95% !important;
+    }
+    .date2 input{
+        width: 94% !important;
+    }
+    .time3 input{
+        width: 94% !important;
+    }
+    .Location2 input{
+        width: 95% !important;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .FLName li input{
+        width: 150px !important;
+    }
+    .EmailPhone li input{
+        width: 150px !important;
+    }
+}
+
+@media screen and (max-width:767px){
+    .booklist03{
+        text-align: center !important;
+    }
+    .booklist04{
+        text-align: center !important;
+        padding-top: 1em !important;
+    }
+    .booklist03 li{
+        display: inline-block !important;
+        padding-bottom: 1em !important;
+        text-align: left !important;
+    }
+    .booklist04 li{
+        display: inline-block !important;
+        padding-bottom: 1em !important;
+        text-align: left !important;
+    }
+    .ProductHead .PSection2{
+        height: 100% !important;
+    }
+    .booklist03 li:nth-child(1){
+        float: left !important;
+    }
+    .booklist04 li:nth-child(1){
+        float: left !important;
+    }
+    .booklist03 li:nth-child(3){
+        float: right !important;
+    }
+    .booklist04 li:nth-child(3){
+        float: right !important;
+    }
+    .date input{
+        width: 110px !important;
+    }
+    .time2 input{
+        width: 80px !important;
+    }
+    .Location input{
+        width: 160px !important;
+    }
+    .date2 input{
+        width: 110px !important;
+    }
+    .time3 input{
+        width: 80px !important;
+    }
+    .Location2 input{
+        width: 160px !important;
+    }
+    .ProTitle2 h4{
+        padding-top: 0em !important;
+    }
+    .FLName li input{
+        width: 250px !important;
+    }
+    .EmailPhone li input{
+        width: 250px !important;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .FLName li input{
+        width: 200px !important;
+    }
+    .EmailPhone li input{
+        width: 200px !important;
+    }
+    .date input{
+        width: 72px !important;
+    }
+    .date2 input{
+        width: 72px !important;
+    }
+    .time2 input{
+        width: 72px !important;
+    }
+    .time3 input{
+        width: 72px !important;
+    }
+}
+
+@media screen and (max-width:520px){
+    .booklist03{
+        text-align: left !important;
+    }
+    .booklist04{
+        text-align: left !important;
+        padding-top: 0em !important;
+    }
+    .booklist03 li{
+        display: list-item !important;
+        padding-bottom: 1em !important;
+    }
+    .booklist04 li{
+        display: list-item !important;
+        padding-bottom: 1em !important;
+    }
+    .ProductHead .PSection2{
+        height: 100% !important;
+    }
+    .booklist03 li:nth-child(1){
+        float: none !important;
+    }
+    .booklist04 li:nth-child(1){
+        float: none !important;
+    }
+    .booklist03 li:nth-child(3){
+        float: none !important;
+    }
+    .booklist04 li:nth-child(3){
+        float: none !important;
+    }
+    .date input{
+        width: 94% !important;
+    }
+    .time2 input{
+        width: 94% !important;
+    }
+    .Location input{
+        width: 95% !important;
+    }
+    .date2 input{
+        width: 94% !important;
+    }
+    .time3 input{
+        width: 94% !important;
+    }
+    .Location2 input{
+        width: 95% !important;
+    }
+}
+
+@media screen and (max-width:480px){
+    .FLName li input{
+        width: 100% !important;
+    }
+    .EmailPhone li input{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:420px){
+    .FLName li{
+        display: list-item !important;
+        padding-bottom: 1em !important;
+    }
+    .FLName li:nth-child(1){
+        float: none !important;
+    }
+    .FLName li:nth-child(2){
+        float: none !important;
+    }
+    .EmailPhone{
+        padding-top: 0em !important;    
+    }
+    .EmailPhone li{
+        display: list-item !important;
+        padding-bottom: 1em !important;
+    }
+    .EmailPhone li:nth-child(1){
+        float: none !important;
+    }
+    .EmailPhone li:nth-child(2){
+        float: none !important;
+    }
+    .EmailPhone li input{
+        width: 100% !important;
+    }
+    .CutomerDetails{
+        padding-top: 0em !important;
+    }
+}

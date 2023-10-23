@@ -1,0 +1,374 @@
+body {
+    margin: 0px;
+    background-color: #f5f5f5 !important;
+}
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{ display: none; }
+
+.ContactHead {
+    background-color: #f5f5f5;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem !important;
+}
+
+.ContactHead .MSection {
+    background-color: white;
+    box-shadow: 0px 0px 10.79px 2.21px rgba(0, 0, 0, 0.31);
+    padding: 1rem 1rem !important;
+}
+
+.FName {
+    float: left;
+}
+
+.FName li {
+    list-style: none;
+    display: list-item;
+}
+
+.FName li input {
+    width: 280px;
+    outline: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.FName li label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.Email {
+    float: right;
+}
+
+.Email li {
+    list-style: none;
+    display: list-item;
+}
+
+.Email li input {
+    width: 280px;
+    outline: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Email li label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.Phone {
+    float: left;
+    padding-top: 3em;
+}
+
+.Phone li {
+    list-style: none;
+    display: list-item;
+}
+
+.Phone li input {
+    width: 280px;
+    outline: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Phone li label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.Details {
+    float: left;
+    padding-top: 3em;
+}
+
+.Details li {
+    list-style: none;
+    display: list-item;
+}
+
+.Details li textarea {
+    padding: 1em;
+    width: 500px;
+    height: 150px;
+    outline: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    resize: none;
+}
+
+.Details li textarea::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.Details li label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.Submit {
+    float: left;
+    padding-top: 3em;
+    width: 100%;
+}
+
+.Submit button {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #d9eb3d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 250px;
+    color: #3e6274;
+    font-weight: bold;
+    outline: none;
+    padding: 10px;
+    border: 0;
+}
+
+.Site {
+    padding: 15px;
+    width: 100%;
+}
+
+.CarBanner {
+    background-color: #f5f5f5;
+    padding: 1.5rem 1.5rem 2.5rem 1.5rem !important;
+}
+
+.CarBanner .CarSection {
+    background-color: white;
+    box-shadow: 0px 0px 10.79px 2.21px rgba(0, 0, 0, 0.31);
+    padding: 2rem 0rem !important;
+}
+
+.SectionHeader {
+    width: 100%;
+    box-shadow: 0px 0px 10.79px 2.21px rgba(0, 0, 0, 0.31);
+    background-color: #3e6174;
+    height: 60px;
+}
+
+.CarBanner .row {
+    margin: 0px !important;
+}
+
+.Section2Header1 {
+    top: 33% !important;
+}
+
+.Section2Header1 h1 {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 20px !important;
+    font-weight: bold;
+}
+
+.SectionHeader {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.SectionHeader img {
+    height: 60px !important;
+    width: 25%;
+}
+
+.Section2Header1 {
+    position: absolute;
+    top: 25%;
+    left: 1%;
+    font-weight: bold;
+    font-family: 'ar-essence';
+    color: #3e6274;
+}
+
+.Section2Header2 {
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    font-weight: bold;
+    color: white;
+}
+
+.arrows {
+    position: absolute;
+    top: 0;
+    width: 100px;
+    text-align: center;
+    float: right;
+}
+
+.Previous {
+    width: 35px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: white;
+    float: left;
+    border: 0px;
+    display: block;
+}
+
+.Previous:hover {
+    color: black;
+}
+
+.Next {
+    width: 35px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    float: right;
+    background-color: white;
+    border: 0px;
+    display: block;
+}
+
+.Next:hover {
+    color: black;
+}
+
+.ProFoto2 {
+    text-align: center;
+}
+
+.ProFoto2 img {
+    width: 80%;
+}
+
+.CardTitle2 {
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.MiddleCard2 {
+    border-right: 2px solid #f2f2f2;
+    border-left: 2px solid #f2f2f2;
+}
+
+.CardDesc2 {
+    padding-top: 0.1rem;
+}
+
+.RateSide2 {
+    float: left;
+}
+
+.RateSide2 li {
+    display: list-item;
+    list-style: none;
+    color: #b0b0b0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.RateSide2 li .b1 {
+    font-family: 'Calibri';
+    color: black !important;
+    font-weight: normal !important;
+    font-size: 15px !important;
+}
+
+.RateSide2 li .b2 {
+    font-weight: normal !important;
+}
+
+.RateSide2 li del {
+    font-family: 'Calibri';
+    color: red !important;
+    font-size: 10px !important;
+}
+
+.RentSide2 {
+    float: right;
+    padding-top: 1.2em;
+}
+
+.RentSide2 button {
+    border: 2px solid #1461d5;
+    outline: none;
+    width: 70px;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: transparent;
+    color: #1461d5;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.ProductDesc2 {
+    margin-top: 4em;
+    border-top: 3px solid #f2f2f2;
+    padding-top: 0.5em;
+}
+
+.speed2 {
+    float: left;
+}
+
+.speed2 li {
+    list-style: none;
+    display: list-item;
+    text-align: center;
+    padding-bottom: 0.2rem;
+    color: #adadad;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.speed2 li img {
+    width: 25px;
+}
+
+.geartype2 {
+    float: left;
+    margin-left: 2em;
+}
+
+.geartype2 li {
+    list-style: none;
+    display: list-item;
+    text-align: center;
+    padding-bottom: 0.2rem;
+    color: #adadad;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.geartype2 li img {
+    margin-left: 2em !important;
+    width: 20px;
+}
+
+.model2 {
+    float: right;
+}
+
+.model2 li {
+    list-style: none;
+    display: list-item;
+    text-align: center;
+    padding-bottom: 0.2rem;
+    color: #adadad;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.model2 li img {
+    width: 20px;
+}
+
+.CarBar {
+    padding: 0px 10px !important;
+}
+
+.col-lg-3 {
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+}

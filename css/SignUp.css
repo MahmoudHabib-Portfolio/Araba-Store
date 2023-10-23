@@ -1,0 +1,413 @@
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{ display: none; }
+
+.AboutHead .MSection2{
+    padding: 0em !important;
+}
+
+.MSection2{
+    border-top: 1em solid #d9eb3d;
+    padding: 0em !important;
+    background-color: white;
+    box-shadow: 0px 0px 10.79px 2.21px rgb(0 0 0 / 31%);
+}
+
+.MSection2{
+    position: relative;
+    top: 0;
+}
+
+.JoinHeader{
+    position: absolute;
+    top: -0.5em;
+    left: 3.5em;
+}
+
+.MSection2 img{
+    width: 20em;
+    height: 3em;
+}
+
+.JoinHeader h1{
+    color: #3e6274;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.SignForm{
+    padding: 2em 2em;
+    padding-bottom: 0em !important;
+}
+
+.SignForm .col-md-6{
+    padding: 0em 3em;
+}
+
+.policy{
+    width: 100%;
+}
+
+.policy li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 0.5em;
+}
+
+.Register3{
+    color: black;
+    background-color: #d9eb3d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    padding: 5px;
+    width: 40%;
+}
+
+.secondrow{
+    border-top: 3px solid #f2f2f2;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+/* FirstName Block */
+
+.FirstName2{
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+.FirstName2 li h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.FirstName2 li{
+    list-style: none;
+    display: list-item;
+}
+
+.FirstName2 input{
+    width: 100%;
+    font-size: 15px;
+    padding: 8px;
+    outline: none;
+    color: black;
+}
+
+/* LastName Block */
+
+.LastName2{
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+.LastName2 li h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.LastName2 li{
+    list-style: none;
+    display: list-item;
+}
+
+.LastName2 input{
+    width: 100%;
+    font-size: 15px;
+    padding: 8px;
+    outline: none;
+    color: black;
+}
+
+/* YourCity Block */
+
+.YourEmail{
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+.YourEmail li h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.YourEmail li{
+    list-style: none;
+    display: list-item;
+}
+
+.YourEmail input{
+    width: 100%;
+    font-size: 15px;
+    padding: 8px;
+    outline: none;
+    color: black;
+}
+
+/* Phone Block */
+
+.Phone2{
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+.Phone2 li h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.Phone2 li{
+    list-style: none;
+    display: list-item;
+}
+
+.Phone2 input{
+    width: 100%;
+    font-size: 15px;
+    padding: 8px;
+    outline: none;
+    color: black;
+}
+
+/* YourCity Block */
+
+.YourCity{
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+.YourCity li h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.YourCity li{
+    list-style: none;
+    display: list-item;
+}
+
+.YourCity input{
+    width: 100%;
+    font-size: 15px;
+    padding: 8px;
+    outline: none;
+    color: black;
+}
+
+/* YourState Block */
+
+.YourState{
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+.YourState li h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.YourState li{
+    list-style: none;
+    display: list-item;
+}
+
+.YourState input{
+    width: 100%;
+    font-size: 15px;
+    padding: 8px;
+    outline: none;
+    color: black;
+}
+
+/* YourAddress1 Block */
+
+.YourAddress1{
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+.YourAddress1 li h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.YourAddress1 li{
+    list-style: none;
+    display: list-item;
+}
+
+.YourAddress1 input{
+    width: 100%;
+    font-size: 15px;
+    padding: 8px;
+    outline: none;
+    color: black;
+}
+
+/* YourAddress2 Block */
+
+.YourAddress2{
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+.YourAddress2 li h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.YourAddress2 li{
+    list-style: none;
+    display: list-item;
+}
+
+.YourAddress2 input{
+    width: 100%;
+    font-size: 15px;
+    padding: 8px;
+    outline: none;
+    color: black;
+}
+
+/* ZipCode Block */
+
+.ZipCode{
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+.ZipCode li h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.ZipCode li{
+    list-style: none;
+    display: list-item;
+}
+
+.ZipCode input{
+    width: 100%;
+    font-size: 15px;
+    padding: 8px;
+    outline: none;
+    color: black;
+}
+
+/* Country Block */
+
+.Country{
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+.Country li h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.Country li{
+    list-style: none;
+    display: list-item;
+}
+
+.Country input{
+    width: 100%;
+    font-size: 15px;
+    padding: 8px;
+    outline: none;
+    color: black;
+}
+
+/* Password Block */
+
+.PrimaryPassword{
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+.PrimaryPassword li h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.PrimaryPassword li{
+    list-style: none;
+    display: list-item;
+}
+
+.PrimaryPassword input{
+    width: 100%;
+    font-size: 15px;
+    padding: 8px;
+    outline: none;
+    color: black;
+}
+
+/* Confirm Block */
+
+.Confirm{
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+.Confirm li h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.Confirm li{
+    list-style: none;
+    display: list-item;
+}
+
+.Confirm input{
+    width: 100%;
+    font-size: 15px;
+    padding: 8px;
+    outline: none;
+    color: black;
+}
+
+@media screen and (max-width:1024px){
+    .Register3{
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width:850px){
+    .Register3{
+        width: 65% !important;
+    }
+}
+
+@media screen and (max-width:767px){
+    .Register3{
+        width: 50% !important;
+        margin-top: 2em;
+        font-size: 15px !important;
+    }
+    .SignForm{
+        padding: 2em 0em !important;
+    }
+    .SignForm .col-md-6{
+        padding: 0em 2em;
+    }
+    .secondrow{
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+    .JoinHeader{
+        top: 0em !important;
+    }
+}
+
+@media screen and (max-width:420px){
+    .MSection2 img{
+        width: 16em;
+    }
+    .JoinHeader{
+        left: 3em;
+    }
+}

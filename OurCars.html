@@ -1,0 +1,1713 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>MietAraba | OurCars</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/OurCars.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="BSCarousel/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .page-item .active {
+            background-color: #d9eb3d;
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!--Mobile Side Nav-->
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="MSearch">
+            <form method="POST">
+                <b class="TSearch">&#128269;</b><input type="text" name="search" placeholder="Search...." />
+            </form>
+        </div>
+        <a href="index.html">Home</a>
+        <a href="OurCars.html">OurCars</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact Us</a>
+    </div>
+
+    <div class="main-nav">
+        <div class="MobileMenu">
+            <div class="mobilenav">
+                <a href="index.html" style="text-decoration: none;">
+                    <img src="images/home/Logo.png" alt="SiteLogo" />
+                </a>
+            </div>
+            <div class="MSave">
+                Save up to <b style="color: #d9eb3d;">40%</b> Hurry limited Offer!
+            </div>
+            <div class="MTime">
+                <img src="images/home/timer.png" alt="timer" /> &nbsp;Mon - Fri: 09am to 06pm
+            </div>
+            <div class="MViber">
+                <img src="images/home/viber.png" alt="viber" /> &nbsp;+1 800 789 0000
+            </div>
+        </div>
+
+        <!--Desktop Nav-->
+
+        <nav>
+            <div class="titletheme">
+                <a href="index.html" style="text-decoration: none; display: block;">
+                    <img src="images/home/Logo.png" alt="SiteLogo" />
+                </a>
+            </div>
+            <div class="mainNavBar">
+                <div class="save">
+                    Save up to <b style="color: #d9eb3d;">40%</b> Hurry limited Offer!
+                </div>
+                <div class="time">
+                    <li><img src="images/home/timer.png" alt="timer" /> &nbsp;Mon - Fri: 09am to 06pm</li>
+                </div>
+                <div class="viber">
+                    <li><img src="images/home/viber.png" alt="viber" /> &nbsp;+1 800 789 0000</li>
+                </div>
+            </div>
+            <div class="MenuList">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="OurCars.html">OurCars</a>
+                </li>
+                <li>
+                    <a href="About.html">About</a>
+                </li>
+                <li>
+                    <a href="Contact.html">Contact Us</a>
+                </li>
+            </div>
+            <div class="iconlist">
+                <li>
+                    <img src="images/home/search.png" alt="search" class="search" />
+                </li>
+                <li class="Cart">
+                    <img src="images/home/carticon.png" alt="Cart" class="cart" />
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">English<img src="images/home/British.png" alt="uk-flag" class="flag"/></button>
+                        <div class="dropdown-content">
+                            <a href="#" class="firstA">English<img src="images/home/British.png" alt="uk-flag" class="drp-flag drp-flag2" /> </a>
+                            <a href="#" class="lastA">Deutsch<img src="images/home/germany.png" alt="de-flag" class="drp-flag drp-flag2" /></a>
+                        </div>
+                    </div>
+                </li>
+                <li class="SignIn">
+                    <b class="sign">Sign In</b>&nbsp;&nbsp;<img src="images/home/password.png" alt="login" class="login" />
+                </li>
+            </div>
+            <div class="menulst">
+                <li>
+                    <b class="menu">Menu</b>&nbsp;&nbsp;<img src="images/home/menubar.png" alt="BurgerMenu" class="menubar" onclick="openNav()" />
+                </li>
+            </div>
+        </nav>
+    </div>
+
+    <!--End Desktop Nav-->
+
+    <!--Login Form-->
+
+    <div class="loginform">
+        <img src="images/home/cancel-button.jpg" alt="cancel" class="cancel" />
+        <div class="Register">
+            <li>UserName || Email Address</li>
+            <li>
+                <div class="User">
+                    <input type="text" name="EmailAddress" placeholder="Enter UserName" />
+                    <span class="fa fa-user"></span>
+                </div>
+            </li>
+        </div>
+        <hr/>
+        <div class="Register2">
+            <li>Password</li>
+            <li>
+                <div class="Password">
+                    <input type="password" name="Password" placeholder="Enter Password" />
+                    <span class="fa fa-lock"></span>
+                </div>
+            </li>
+        </div>
+        <hr/>
+        <div class="Remeber">
+            <li> <input type="checkbox" name="check" checked/> Remeber Me?</li>
+            <li>
+                <a href="Signup.html" style="text-decoration: none;">
+                    <button class="signup" type="button">Sign Up</button>
+                </a>
+            </li>
+        </div>
+        <div class="Forget">
+            <li><a href="index.html" style="color: black; text-decoration: none;">Forgot Password?</a></li>
+            <li>
+                <button class="SignIn2" type="button">Sign In</button>
+            </li>
+        </div>
+    </div>
+    <!--End Login Form-->
+
+    <!-- Cart Show -->
+    <div class="CartShow">
+
+        <div class="listdetails">
+            <span>2 items,</span>
+            <span>$259.99</span>
+        </div>
+
+        <div class="Product">
+            <span class="x">&#x2716;</span>
+            <div class="Productdetails">
+                <li>
+                    <img src="images/home/A-class.png" alt="ProductCart" />
+                </li>
+                <li>
+                    <ul class="itemdetails">
+                        <li>
+                            <span class="count">1</span>
+                            <span style="float: left;margin-right: 0.2rem;">x</span>
+                            <span class="price">$179.99</span>
+                        </li>
+                        <li>
+                            <span class="itemname">Mercedes-Benz A Class</span>
+                        </li>
+                    </ul>
+                </li>
+            </div>
+        </div>
+
+        <div class="Product">
+            <span class="x">&#x2716;</span>
+            <div class="Productdetails">
+                <li>
+                    <img src="images/home/vw-golfcart.png" alt="ProductCart" />
+                </li>
+                <li>
+                    <ul class="itemdetails">
+                        <li>
+                            <span class="count">1</span>
+                            <span style="float: left;margin-right: 0.2rem;">x</span>
+                            <span class="price">$580.00</span>
+                        </li>
+                        <li>
+                            <span class="itemname">VolksWagen Golf</span>
+                        </li>
+                    </ul>
+                </li>
+            </div>
+        </div>
+
+        <div class="ProductCheck">
+            <button type="button" class="check">&#10004;&nbsp;CHECKOUT</button>
+            <button type="button" class="clear">&#x2716;&nbsp;CANCEL</button>
+        </div>
+
+    </div>
+    <!-- End Cart Show -->
+
+    <!-- Product Search -->
+    <div class="SearchBlock">
+        <input type="text" name="search" placeholder="What are you looking For..?" />
+        <span><img src="images/home/cancel-search.png" alt="cancelsearch" class="cancelsearch" /></span>
+    </div>
+    <!-- End Product Search -->
+
+    <!-- Main Head -->
+    <div class="MainHead">
+        <h1>PRODUCT LISTING</h1>
+    </div>
+    <!-- End Main Head -->
+
+    <!-- Product Listing -->
+    <div class="container-fluid ProListing">
+        <div class="row">
+            <div class="col-md-3 filter">
+                <div class="heading">
+                    <h5>find your right car</h5>
+                </div>
+                <div class="CarFilter">
+                    <div class="custom-select2">
+                        <select>
+                          <option value="0">Select Car</option>
+                          <option value="1">Audi</option>
+                          <option value="2">BMW</option>
+                          <option value="3">Citroen</option>
+                          <option value="4">Ford</option>
+                          <option value="5">Honda</option>
+                          <option value="6">Jaguar</option>
+                          <option value="7">Land Rover</option>
+                          <option value="8">Mercedes</option>
+                          <option value="9">Mini</option>
+                          <option value="10">Nissan</option>
+                          <option value="11">Toyota</option>
+                        </select>
+                        <span class="fa fa-sort-down sorting"></span>
+                    </div>
+                    <div class="custom-select3">
+                        <select>
+                          <option value="0">Select Model</option>
+                          <option value="1">A6 Avant</option>
+                          <option value="2">320i</option>
+                          <option value="3">C-Elysee</option>
+                          <option value="4">Fusion</option>
+                          <option value="5">Civic</option>
+                          <option value="6">E-Class</option>
+                          <option value="7">C-Class</option>
+                          <option value="8">G-Class</option>
+                          <option value="9">GLA</option>
+                          <option value="10">Sunny</option>
+                          <option value="11">Cammry</option>
+                        </select>
+                        <span class="fa fa-sort-down sorting"></span>
+                    </div>
+                    <div class="custom-select4">
+                        <select>
+                          <option value="0">Select Year</option>
+                          <option value="1">2012</option>
+                          <option value="2">2013</option>
+                          <option value="3">2014</option>
+                          <option value="4">2015</option>
+                          <option value="5">2015</option>
+                          <option value="6">2016</option>
+                          <option value="7">2016</option>
+                          <option value="8">2017</option>
+                          <option value="9">2017</option>
+                          <option value="10">2018</option>
+                          <option value="11">2018</option>
+                        </select>
+                        <span class="fa fa-sort-down sorting"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 CarList">
+
+                <div class="row">
+
+                    <div class="col-md-4">
+
+                        <div class="ProFoto">
+                            <img src="images/home/p1.jpg" alt="Suzuki-balleno" />
+                        </div>
+                        <div class="CardTitle">
+                            <h6>Gorgeous Mercedes-Benz Class</h6>
+                        </div>
+                        <div class="CardDesc">
+                            <div class="RateSide">
+                                <li>
+                                    <div class="rating1">
+                                        <input type="radio" name="rating" value="5" id="5">
+                                        <label for="5" class="star5">☆</label>
+                                        <input type="radio" name="rating" value="4" id="4">
+                                        <label for="4" class="star4">☆</label>
+                                        <input type="radio" name="rating" value="3" id="3">
+                                        <label for="3" class="star3">☆</label>
+                                        <input type="radio" name="rating" value="2" id="2">
+                                        <label for="2" class="star2">☆</label>
+                                        <input type="radio" name="rating" value="1" id="1">
+                                        <label for="1" class="star1">☆</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                                </li>
+                            </div>
+                            <div class="RentSide">
+                                <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                            </div>
+                            <div class="ProductDesc">
+                                <div class="speed">
+                                    <li>
+                                        <img src="images/home/speedometer.png" alt="speed" />
+                                    </li>
+                                    <li>
+                                        <span class="speedcount">4875 km</span>
+                                    </li>
+                                </div>
+                                <div class="geartype">
+                                    <li>
+                                        <img src="images/home/gear.png" alt="geartype" />
+                                    </li>
+                                    <li>
+                                        <span class="geartype">Automatic</span>
+                                    </li>
+                                </div>
+                                <div class="model">
+                                    <li>
+                                        <img src="images/home/calendar2.png" alt="calendar" />
+                                    </li>
+                                    <li>
+                                        <span class="modelnum">2018</span>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 MiddleCard">
+                        <div class="ProFoto">
+                            <img src="images/home/p2.jpg" alt="Suzuki-balleno" />
+                        </div>
+                        <div class="CardTitle">
+                            <h6>Gorgeous Mercedes-Benz Class</h6>
+                        </div>
+                        <div class="CardDesc">
+                            <div class="RateSide">
+                                <li>
+                                    <div class="rating2">
+                                        <input type="radio" name="rating2" value="10" id="10">
+                                        <label for="10" class="star10">☆</label>
+                                        <input type="radio" name="rating2" value="9" id="9">
+                                        <label for="9" class="star9">☆</label>
+                                        <input type="radio" name="rating2" value="8" id="8">
+                                        <label for="8" class="star8">☆</label>
+                                        <input type="radio" name="rating2" value="7" id="7">
+                                        <label for="7" class="star7">☆</label>
+                                        <input type="radio" name="rating2" value="6" id="6">
+                                        <label for="6" class="star6">☆</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                                </li>
+                            </div>
+                            <div class="RentSide">
+                                <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                            </div>
+                            <div class="ProductDesc">
+                                <div class="speed">
+                                    <li>
+                                        <img src="images/home/speedometer.png" alt="speed" />
+                                    </li>
+                                    <li>
+                                        <span class="speedcount">4875 km</span>
+                                    </li>
+                                </div>
+                                <div class="geartype">
+                                    <li>
+                                        <img src="images/home/gear.png" alt="geartype" />
+                                    </li>
+                                    <li>
+                                        <span class="geartype">Automatic</span>
+                                    </li>
+                                </div>
+                                <div class="model">
+                                    <li>
+                                        <img src="images/home/calendar2.png" alt="calendar" />
+                                    </li>
+                                    <li>
+                                        <span class="modelnum">2018</span>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="ProFoto">
+                            <img src="images/home/p3.jpg" alt="Suzuki-balleno" />
+                        </div>
+                        <div class="CardTitle">
+                            <h6>Gorgeous Mercedes-Benz Class</h6>
+                        </div>
+                        <div class="CardDesc">
+                            <div class="RateSide">
+                                <li>
+                                    <div class="rating3">
+                                        <input type="radio" name="rating3" value="15" id="15">
+                                        <label for="15" class="star15">☆</label>
+                                        <input type="radio" name="rating3" value="14" id="14">
+                                        <label for="14" class="star14">☆</label>
+                                        <input type="radio" name="rating3" value="13" id="13">
+                                        <label for="13" class="star13">☆</label>
+                                        <input type="radio" name="rating3" value="12" id="12">
+                                        <label for="12" class="star12">☆</label>
+                                        <input type="radio" name="rating3" value="11" id="11">
+                                        <label for="11" class="star11">☆</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                                </li>
+                            </div>
+                            <div class="RentSide">
+                                <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                            </div>
+                            <div class="ProductDesc">
+                                <div class="speed">
+                                    <li>
+                                        <img src="images/home/speedometer.png" alt="speed" />
+                                    </li>
+                                    <li>
+                                        <span class="speedcount">4875 km</span>
+                                    </li>
+                                </div>
+                                <div class="geartype">
+                                    <li>
+                                        <img src="images/home/gear.png" alt="geartype" />
+                                    </li>
+                                    <li>
+                                        <span class="geartype">Automatic</span>
+                                    </li>
+                                </div>
+                                <div class="model">
+                                    <li>
+                                        <img src="images/home/calendar2.png" alt="calendar" />
+                                    </li>
+                                    <li>
+                                        <span class="modelnum">2018</span>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="ProFoto">
+                            <img src="images/home/p4.jpg" alt="Suzuki-balleno" />
+                        </div>
+                        <div class="CardTitle">
+                            <h6>Gorgeous Mercedes-Benz Class</h6>
+                        </div>
+                        <div class="CardDesc">
+                            <div class="RateSide">
+                                <li>
+                                    <div class="rating4">
+                                        <input type="radio" name="ratin4" value="20" id="20">
+                                        <label for="20" class="star20">☆</label>
+                                        <input type="radio" name="ratin4" value="19" id="19">
+                                        <label for="19" class="star19">☆</label>
+                                        <input type="radio" name="ratin4" value="18" id="18">
+                                        <label for="18" class="star18">☆</label>
+                                        <input type="radio" name="rating4" value="17" id="17">
+                                        <label for="17" class="star17">☆</label>
+                                        <input type="radio" name="rating4" value="16" id="16">
+                                        <label for="16" class="star16">☆</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                                </li>
+                            </div>
+                            <div class="RentSide">
+                                <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                            </div>
+                            <div class="ProductDesc">
+                                <div class="speed">
+                                    <li>
+                                        <img src="images/home/speedometer.png" alt="speed" />
+                                    </li>
+                                    <li>
+                                        <span class="speedcount">4875 km</span>
+                                    </li>
+                                </div>
+                                <div class="geartype">
+                                    <li>
+                                        <img src="images/home/gear.png" alt="geartype" />
+                                    </li>
+                                    <li>
+                                        <span class="geartype">Automatic</span>
+                                    </li>
+                                </div>
+                                <div class="model">
+                                    <li>
+                                        <img src="images/home/calendar2.png" alt="calendar" />
+                                    </li>
+                                    <li>
+                                        <span class="modelnum">2018</span>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 MiddleCard">
+                        <div class="ProFoto">
+                            <img src="images/home/p5.jpg" alt="Suzuki-balleno" />
+                        </div>
+                        <div class="CardTitle">
+                            <h6>Gorgeous Mercedes-Benz Class</h6>
+                        </div>
+                        <div class="CardDesc">
+                            <div class="RateSide">
+                                <li>
+                                    <div class="rating5">
+                                        <input type="radio" name="rating25" value="25" id="25">
+                                        <label for="25" class="star25">☆</label>
+                                        <input type="radio" name="rating24" value="24" id="24">
+                                        <label for="24" class="star24">☆</label>
+                                        <input type="radio" name="rating23" value="23" id="23">
+                                        <label for="23" class="star23">☆</label>
+                                        <input type="radio" name="rating22" value="22" id="22">
+                                        <label for="22" class="star22">☆</label>
+                                        <input type="radio" name="rating21" value="21" id="21">
+                                        <label for="21" class="star21">☆</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                                </li>
+                            </div>
+                            <div class="RentSide">
+                                <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                            </div>
+                            <div class="ProductDesc">
+                                <div class="speed">
+                                    <li>
+                                        <img src="images/home/speedometer.png" alt="speed" />
+                                    </li>
+                                    <li>
+                                        <span class="speedcount">4875 km</span>
+                                    </li>
+                                </div>
+                                <div class="geartype">
+                                    <li>
+                                        <img src="images/home/gear.png" alt="geartype" />
+                                    </li>
+                                    <li>
+                                        <span class="geartype">Automatic</span>
+                                    </li>
+                                </div>
+                                <div class="model">
+                                    <li>
+                                        <img src="images/home/calendar2.png" alt="calendar" />
+                                    </li>
+                                    <li>
+                                        <span class="modelnum">2018</span>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="ProFoto">
+                            <img src="images/home/p6.jpg" alt="Suzuki-balleno" />
+                        </div>
+                        <div class="CardTitle">
+                            <h6>Gorgeous Mercedes-Benz Class</h6>
+                        </div>
+                        <div class="CardDesc">
+                            <div class="RateSide">
+                                <li>
+                                    <div class="rating6">
+                                        <input type="radio" name="rating6" value="30" id="30">
+                                        <label for="30" class="star30">☆</label>
+                                        <input type="radio" name="rating6" value="29" id="29">
+                                        <label for="29" class="star29">☆</label>
+                                        <input type="radio" name="rating6" value="28" id="28">
+                                        <label for="28" class="star28">☆</label>
+                                        <input type="radio" name="rating6" value="27" id="27">
+                                        <label for="27" class="star27">☆</label>
+                                        <input type="radio" name="rating6" value="26" id="26">
+                                        <label for="26" class="star26">☆</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                                </li>
+                            </div>
+                            <div class="RentSide">
+                                <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                            </div>
+                            <div class="ProductDesc">
+                                <div class="speed">
+                                    <li>
+                                        <img src="images/home/speedometer.png" alt="speed" />
+                                    </li>
+                                    <li>
+                                        <span class="speedcount">4875 km</span>
+                                    </li>
+                                </div>
+                                <div class="geartype">
+                                    <li>
+                                        <img src="images/home/gear.png" alt="geartype" />
+                                    </li>
+                                    <li>
+                                        <span class="geartype">Automatic</span>
+                                    </li>
+                                </div>
+                                <div class="model">
+                                    <li>
+                                        <img src="images/home/calendar2.png" alt="calendar" />
+                                    </li>
+                                    <li>
+                                        <span class="modelnum">2018</span>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="ProFoto">
+                            <img src="images/home/p7.jpg" alt="Suzuki-balleno" />
+                        </div>
+                        <div class="CardTitle">
+                            <h6>Gorgeous Mercedes-Benz Class</h6>
+                        </div>
+                        <div class="CardDesc">
+                            <div class="RateSide">
+                                <li>
+                                    <div class="rating7">
+                                        <input type="radio" name="ratin7" value="35" id="35">
+                                        <label for="35" class="star35">☆</label>
+                                        <input type="radio" name="ratin7" value="34" id="34">
+                                        <label for="34" class="star34">☆</label>
+                                        <input type="radio" name="ratin7" value="33" id="33">
+                                        <label for="33" class="star33">☆</label>
+                                        <input type="radio" name="rating7" value="32" id="32">
+                                        <label for="32" class="star32">☆</label>
+                                        <input type="radio" name="rating7" value="31" id="31">
+                                        <label for="31" class="star31">☆</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                                </li>
+                            </div>
+                            <div class="RentSide">
+                                <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                            </div>
+                            <div class="ProductDesc">
+                                <div class="speed">
+                                    <li>
+                                        <img src="images/home/speedometer.png" alt="speed" />
+                                    </li>
+                                    <li>
+                                        <span class="speedcount">4875 km</span>
+                                    </li>
+                                </div>
+                                <div class="geartype">
+                                    <li>
+                                        <img src="images/home/gear.png" alt="geartype" />
+                                    </li>
+                                    <li>
+                                        <span class="geartype">Automatic</span>
+                                    </li>
+                                </div>
+                                <div class="model">
+                                    <li>
+                                        <img src="images/home/calendar2.png" alt="calendar" />
+                                    </li>
+                                    <li>
+                                        <span class="modelnum">2018</span>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 MiddleCard">
+                        <div class="ProFoto">
+                            <img src="images/home/p8.jpg" alt="Suzuki-balleno" />
+                        </div>
+                        <div class="CardTitle">
+                            <h6>Gorgeous Mercedes-Benz Class</h6>
+                        </div>
+                        <div class="CardDesc">
+                            <div class="RateSide">
+                                <li>
+                                    <div class="rating8">
+                                        <input type="radio" name="rating8" value="40" id="40">
+                                        <label for="40" class="star40">☆</label>
+                                        <input type="radio" name="rating8" value="39" id="39">
+                                        <label for="39" class="star39">☆</label>
+                                        <input type="radio" name="rating8" value="38" id="38">
+                                        <label for="38" class="star38">☆</label>
+                                        <input type="radio" name="rating8" value="37" id="37">
+                                        <label for="37" class="star37">☆</label>
+                                        <input type="radio" name="rating8" value="36" id="36">
+                                        <label for="36" class="star36">☆</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                                </li>
+                            </div>
+                            <div class="RentSide">
+                                <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                            </div>
+                            <div class="ProductDesc">
+                                <div class="speed">
+                                    <li>
+                                        <img src="images/home/speedometer.png" alt="speed" />
+                                    </li>
+                                    <li>
+                                        <span class="speedcount">4875 km</span>
+                                    </li>
+                                </div>
+                                <div class="geartype">
+                                    <li>
+                                        <img src="images/home/gear.png" alt="geartype" />
+                                    </li>
+                                    <li>
+                                        <span class="geartype">Automatic</span>
+                                    </li>
+                                </div>
+                                <div class="model">
+                                    <li>
+                                        <img src="images/home/calendar2.png" alt="calendar" />
+                                    </li>
+                                    <li>
+                                        <span class="modelnum">2018</span>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="ProFoto">
+                            <img src="images/home/p9.jpg" alt="Suzuki-balleno" />
+                        </div>
+                        <div class="CardTitle">
+                            <h6>Gorgeous Mercedes-Benz Class</h6>
+                        </div>
+                        <div class="CardDesc">
+                            <div class="RateSide">
+                                <li>
+                                    <div class="rating9">
+                                        <input type="radio" name="rating9" value="45" id="45">
+                                        <label for="45" class="star45">☆</label>
+                                        <input type="radio" name="rating9" value="44" id="44">
+                                        <label for="44" class="star44">☆</label>
+                                        <input type="radio" name="rating9" value="43" id="43">
+                                        <label for="43" class="star43">☆</label>
+                                        <input type="radio" name="rating9" value="42" id="42">
+                                        <label for="42" class="star42">☆</label>
+                                        <input type="radio" name="rating9" value="41" id="41">
+                                        <label for="41" class="star41">☆</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                                </li>
+                            </div>
+                            <div class="RentSide">
+                                <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                            </div>
+                            <div class="ProductDesc">
+                                <div class="speed">
+                                    <li>
+                                        <img src="images/home/speedometer.png" alt="speed" />
+                                    </li>
+                                    <li>
+                                        <span class="speedcount">4875 km</span>
+                                    </li>
+                                </div>
+                                <div class="geartype">
+                                    <li>
+                                        <img src="images/home/gear.png" alt="geartype" />
+                                    </li>
+                                    <li>
+                                        <span class="geartype">Automatic</span>
+                                    </li>
+                                </div>
+                                <div class="model">
+                                    <li>
+                                        <img src="images/home/calendar2.png" alt="calendar" />
+                                    </li>
+                                    <li>
+                                        <span class="modelnum">2018</span>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="ProFoto">
+                            <img src="images/home/p10.jpg" alt="Suzuki-balleno" />
+                        </div>
+                        <div class="CardTitle">
+                            <h6>Gorgeous Mercedes-Benz Class</h6>
+                        </div>
+                        <div class="CardDesc">
+                            <div class="RateSide">
+                                <li>
+                                    <div class="rating10">
+                                        <input type="radio" name="ratin10" value="50" id="50">
+                                        <label for="50" class="star50">☆</label>
+                                        <input type="radio" name="ratin10" value="49" id="49">
+                                        <label for="49" class="star49">☆</label>
+                                        <input type="radio" name="ratin10" value="48" id="48">
+                                        <label for="48" class="star48">☆</label>
+                                        <input type="radio" name="rating10" value="47" id="47">
+                                        <label for="47" class="star47">☆</label>
+                                        <input type="radio" name="rating10" value="46" id="46">
+                                        <label for="46" class="star46">☆</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                                </li>
+                            </div>
+                            <div class="RentSide">
+                                <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                            </div>
+                            <div class="ProductDesc">
+                                <div class="speed">
+                                    <li>
+                                        <img src="images/home/speedometer.png" alt="speed" />
+                                    </li>
+                                    <li>
+                                        <span class="speedcount">4875 km</span>
+                                    </li>
+                                </div>
+                                <div class="geartype">
+                                    <li>
+                                        <img src="images/home/gear.png" alt="geartype" />
+                                    </li>
+                                    <li>
+                                        <span class="geartype">Automatic</span>
+                                    </li>
+                                </div>
+                                <div class="model">
+                                    <li>
+                                        <img src="images/home/calendar2.png" alt="calendar" />
+                                    </li>
+                                    <li>
+                                        <span class="modelnum">2018</span>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 MiddleCard">
+                        <div class="ProFoto">
+                            <img src="images/home/p11.jpg" alt="Suzuki-balleno" />
+                        </div>
+                        <div class="CardTitle">
+                            <h6>Gorgeous Mercedes-Benz Class</h6>
+                        </div>
+                        <div class="CardDesc">
+                            <div class="RateSide">
+                                <li>
+                                    <div class="rating11">
+                                        <input type="radio" name="rating11" value="55" id="55">
+                                        <label for="55" class="star55">☆</label>
+                                        <input type="radio" name="rating11" value="54" id="54">
+                                        <label for="54" class="star54">☆</label>
+                                        <input type="radio" name="rating11" value="53" id="53">
+                                        <label for="53" class="star53">☆</label>
+                                        <input type="radio" name="rating11" value="52" id="52">
+                                        <label for="52" class="star52">☆</label>
+                                        <input type="radio" name="rating11" value="51" id="51">
+                                        <label for="51" class="star51">☆</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                                </li>
+                            </div>
+                            <div class="RentSide">
+                                <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                            </div>
+                            <div class="ProductDesc">
+                                <div class="speed">
+                                    <li>
+                                        <img src="images/home/speedometer.png" alt="speed" />
+                                    </li>
+                                    <li>
+                                        <span class="speedcount">4875 km</span>
+                                    </li>
+                                </div>
+                                <div class="geartype">
+                                    <li>
+                                        <img src="images/home/gear.png" alt="geartype" />
+                                    </li>
+                                    <li>
+                                        <span class="geartype">Automatic</span>
+                                    </li>
+                                </div>
+                                <div class="model">
+                                    <li>
+                                        <img src="images/home/calendar2.png" alt="calendar" />
+                                    </li>
+                                    <li>
+                                        <span class="modelnum">2018</span>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="ProFoto">
+                            <img src="images/home/p12.jpg" alt="Suzuki-balleno" />
+                        </div>
+                        <div class="CardTitle">
+                            <h6>Gorgeous Mercedes-Benz Class</h6>
+                        </div>
+                        <div class="CardDesc">
+                            <div class="RateSide">
+                                <li>
+                                    <div class="rating12">
+                                        <input type="radio" name="rating12" value="60" id="60">
+                                        <label for="60" class="star60">☆</label>
+                                        <input type="radio" name="rating12" value="59" id="59">
+                                        <label for="59" class="star59">☆</label>
+                                        <input type="radio" name="rating12" value="58" id="58">
+                                        <label for="58" class="star58">☆</label>
+                                        <input type="radio" name="rating12" value="57" id="57">
+                                        <label for="57" class="star57">☆</label>
+                                        <input type="radio" name="rating12" value="56" id="56">
+                                        <label for="56" class="star56">☆</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                                </li>
+                            </div>
+                            <div class="RentSide">
+                                <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                            </div>
+                            <div class="ProductDesc">
+                                <div class="speed">
+                                    <li>
+                                        <img src="images/home/speedometer.png" alt="speed" />
+                                    </li>
+                                    <li>
+                                        <span class="speedcount">4875 km</span>
+                                    </li>
+                                </div>
+                                <div class="geartype">
+                                    <li>
+                                        <img src="images/home/gear.png" alt="geartype" />
+                                    </li>
+                                    <li>
+                                        <span class="geartype">Automatic</span>
+                                    </li>
+                                </div>
+                                <div class="model">
+                                    <li>
+                                        <img src="images/home/calendar2.png" alt="calendar" />
+                                    </li>
+                                    <li>
+                                        <span class="modelnum">2018</span>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="ProFoto">
+                            <img src="images/home/p13.jpg" alt="Suzuki-balleno" />
+                        </div>
+                        <div class="CardTitle">
+                            <h6>Gorgeous Mercedes-Benz Class</h6>
+                        </div>
+                        <div class="CardDesc">
+                            <div class="RateSide">
+                                <li>
+                                    <div class="rating13">
+                                        <input type="radio" name="ratin13" value="65" id="65">
+                                        <label for="65" class="star65">☆</label>
+                                        <input type="radio" name="ratin13" value="64" id="64">
+                                        <label for="64" class="star64">☆</label>
+                                        <input type="radio" name="ratin13" value="63" id="63">
+                                        <label for="63" class="star63">☆</label>
+                                        <input type="radio" name="rating13" value="62" id="62">
+                                        <label for="62" class="star62">☆</label>
+                                        <input type="radio" name="rating13" value="61" id="61">
+                                        <label for="61" class="star61">☆</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                                </li>
+                            </div>
+                            <div class="RentSide">
+                                <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                            </div>
+                            <div class="ProductDesc">
+                                <div class="speed">
+                                    <li>
+                                        <img src="images/home/speedometer.png" alt="speed" />
+                                    </li>
+                                    <li>
+                                        <span class="speedcount">4875 km</span>
+                                    </li>
+                                </div>
+                                <div class="geartype">
+                                    <li>
+                                        <img src="images/home/gear.png" alt="geartype" />
+                                    </li>
+                                    <li>
+                                        <span class="geartype">Automatic</span>
+                                    </li>
+                                </div>
+                                <div class="model">
+                                    <li>
+                                        <img src="images/home/calendar2.png" alt="calendar" />
+                                    </li>
+                                    <li>
+                                        <span class="modelnum">2018</span>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 MiddleCard">
+                        <div class="ProFoto">
+                            <img src="images/home/p14.jpg" alt="Suzuki-balleno" />
+                        </div>
+                        <div class="CardTitle">
+                            <h6>Gorgeous Mercedes-Benz Class</h6>
+                        </div>
+                        <div class="CardDesc">
+                            <div class="RateSide">
+                                <li>
+                                    <div class="rating14">
+                                        <input type="radio" name="rating14" value="70" id="70">
+                                        <label for="70" class="star70">☆</label>
+                                        <input type="radio" name="rating14" value="69" id="69">
+                                        <label for="69" class="star69">☆</label>
+                                        <input type="radio" name="rating14" value="68" id="68">
+                                        <label for="68" class="star68">☆</label>
+                                        <input type="radio" name="rating14" value="67" id="67">
+                                        <label for="67" class="star67">☆</label>
+                                        <input type="radio" name="rating14" value="66" id="66">
+                                        <label for="66" class="star66">☆</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                                </li>
+                            </div>
+                            <div class="RentSide">
+                                <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                            </div>
+                            <div class="ProductDesc">
+                                <div class="speed">
+                                    <li>
+                                        <img src="images/home/speedometer.png" alt="speed" />
+                                    </li>
+                                    <li>
+                                        <span class="speedcount">4875 km</span>
+                                    </li>
+                                </div>
+                                <div class="geartype">
+                                    <li>
+                                        <img src="images/home/gear.png" alt="geartype" />
+                                    </li>
+                                    <li>
+                                        <span class="geartype">Automatic</span>
+                                    </li>
+                                </div>
+                                <div class="model">
+                                    <li>
+                                        <img src="images/home/calendar2.png" alt="calendar" />
+                                    </li>
+                                    <li>
+                                        <span class="modelnum">2018</span>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="ProFoto">
+                            <img src="images/home/p15.jpg" alt="Suzuki-balleno" />
+                        </div>
+                        <div class="CardTitle">
+                            <h6>Gorgeous Mercedes-Benz Class</h6>
+                        </div>
+                        <div class="CardDesc">
+                            <div class="RateSide">
+                                <li>
+                                    <div class="rating15">
+                                        <input type="radio" name="rating15" value="75" id="75">
+                                        <label for="75" class="star75">☆</label>
+                                        <input type="radio" name="rating15" value="74" id="74">
+                                        <label for="74" class="star74">☆</label>
+                                        <input type="radio" name="rating15" value="73" id="73">
+                                        <label for="73" class="star73">☆</label>
+                                        <input type="radio" name="rating15" value="72" id="72">
+                                        <label for="72" class="star72">☆</label>
+                                        <input type="radio" name="rating15" value="71" id="71">
+                                        <label for="71" class="star71">☆</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <del>$11.99</del>&nbsp;<b class="b1">$194.99</b> <b class="b2">Per Day</b>
+                                </li>
+                            </div>
+                            <div class="RentSide">
+                                <a href="Rent.html" style="text-decoration: none;">
+                                    <button type="button">Rent It</button>
+                                </a>
+                            </div>
+                            <div class="ProductDesc">
+                                <div class="speed">
+                                    <li>
+                                        <img src="images/home/speedometer.png" alt="speed" />
+                                    </li>
+                                    <li>
+                                        <span class="speedcount">4875 km</span>
+                                    </li>
+                                </div>
+                                <div class="geartype">
+                                    <li>
+                                        <img src="images/home/gear.png" alt="geartype" />
+                                    </li>
+                                    <li>
+                                        <span class="geartype">Automatic</span>
+                                    </li>
+                                </div>
+                                <div class="model">
+                                    <li>
+                                        <img src="images/home/calendar2.png" alt="calendar" />
+                                    </li>
+                                    <li>
+                                        <span class="modelnum">2018</span>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 bagination">
+                    <div aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="Page">Page:&nbsp;&nbsp;</li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link active" href="OurCars.html">1</a></li>
+                            <li class="page-item"><a class="page-link" href="OurCars.html">2</a></li>
+                            <li class="page-item"><a class="page-link" href="OurCars.html">3</a></li>
+                            <li class="page-item"><a class="page-link" href="OurCars.html">4</a></li>
+                            <li class="page-item"><a class="page-link" href="OurCars.html">5</a></li>
+                            <li class="page-item"><a class="page-link" href="OurCars.html">6</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Product Listing -->
+
+    <!-------- Marquee Brands  -------->
+    <div class="container-fluid Section6">
+        <div class="brands">
+            <img src="images/home/OurBrand.png" alt="brandheader" />
+            <h1>OUR BRANDS</h1>
+        </div>
+        <div class="brandicons marquee">
+            <li>
+                <img src="images/home/Ford.png" alt="fordicon" />
+            </li>
+            <li>
+                <img src="images/home/Peugeot-logo.png" alt="peugeoticon" />
+            </li>
+            <li>
+                <img src="images/home/Toyota.png" alt="toyotaicon" />
+            </li>
+            <li>
+                <img src="images/home/BMW_628.png" alt="bmwicon" />
+            </li>
+            <li>
+                <img src="images/home/mercedes-benz.png" alt="mercedesicon" />
+            </li>
+            <li>
+                <img src="images/home/VolksWagen.png" alt="vlokswagenicon" />
+            </li>
+            <li>
+                <img src="images/home/Citroen.png" alt="citroenicon" />
+            </li>
+            <li>
+                <img src="images/home/Ford.png" alt="fordicon" />
+            </li>
+            <li>
+                <img src="images/home/Peugeot-logo.png" alt="peugeoticon" />
+            </li>
+            <li>
+                <img src="images/home/Toyota.png" alt="toyotaicon" />
+            </li>
+            <li>
+                <img src="images/home/BMW_628.png" alt="bmwicon" />
+            </li>
+            <li>
+                <img src="images/home/mercedes-benz.png" alt="mercedesicon" />
+            </li>
+            <li>
+                <img src="images/home/VolksWagen.png" alt="vlokswagenicon" />
+            </li>
+            <li>
+                <img src="images/home/Citroen.png" alt="citroenicon" />
+            </li>
+        </div>
+    </div>
+
+    <!-------- End Marquee Brands  -------->
+
+    <!-------- NewsLetter Subscribe  -------->
+
+    <div class="container-fluid Section7">
+        <div class="col-md-12 newstitle">
+            <h2>Subscribe Now...Stay Tuned</h2>
+            <h1>GET NOTIFIED OF ANY UPDATES!</h1>
+        </div>
+        <div class="col-md-12 newsform">
+            <li>
+                <input type="text" name="Email" placeholder="Enter your Email Address" />
+            </li>
+            <li>
+                <button type="submit"><span class="fa fa-envelope"></span> SUBSCRIBE</button>
+            </li>
+        </div>
+    </div>
+
+    <!-------- End NewsLetter Subscribe  -------->
+
+    <!--Main Page Footer-->
+
+    <footer id="OnTrigger">
+        <div class="Scroll" onclick="$('.main-nav').animatescroll({padding:0});">
+            <img src="images/home/up-arrow.png" alt="Scroll" />
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 footerlist">
+                    <h4>Contact Us</h4>
+                    <ul class="contact">
+                        <li>MietAraba, 789 Main rd, Anytwon, CA 12345 USA</li>
+                        <li>+1 800 789 0000</li>
+                        <li>MietAraba@protonmail.com</li>
+                        <li>Mon - Fr: 09 am to 06 pm</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footerlist">
+                    <h4>Quick Links</h4>
+                    <ul class="Qlinks">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="OurCars.html">OurCars</a>
+                        </li>
+                        <li>
+                            <a href="About.html">About</a>
+                        </li>
+                        <li>
+                            <a href="Contact.html">ContactUs</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footerlist">
+                    <h4>Open An Account</h4>
+                    <ul class="OAccount">
+                        <li>
+                            <a href="#">Your Account</a>
+                        </li>
+                        <li>
+                            <a href="#">Car Guide</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footerlist">
+                    <h4>Explore the site</h4>
+                    <ul class="explore">
+                        <li>
+                            <a href="#">SiteMap</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid footersublist">
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="social-links">
+                        <li>
+                            <a href="index.html">
+                                <img src="images/home/facebook.png" alt="facebook" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <img src="images/home/youtube.png" alt="youtube" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <img src="images/home/instagram.png" alt="instagram" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <p>@2021MietAraba. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-4">
+                    <ul class="paylist">
+                        <li>
+                            <a href="index.html">
+                                <img src="images/home/payment-1.png" alt="PayPal" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <img src="images/home/payment-2.png" alt="PayPal" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <img src="images/home/payment-3.png" alt="PayPal" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <img src="images/home/payment-4.png" alt="PayPal" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--End Main Page Footer-->
+
+    <script type="text/javascript" src="JavaScript/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="JavaScript/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="JavaScript/ScrollMagic.min.js"></script>
+    <script type="text/javascript" src="JavaScript/ScrollTrigger.min.js"></script>
+    <script type="text/javascript" src="JavaScript/debug.addIndicators.js"></script>
+    <script type="text/javascript" src="JavaScript/gsap.min.js"></script>
+    <script type="text/javascript" src="JavaScript/index.js"></script>
+    <script type="text/javascript" src="JavaScript/TweenMax.min.js"></script>
+    <script type="text/javascript" src="JavaScript/animation.gsap.js"></script>
+    <script type="text/javascript" src="JavaScript/ScrollToPlugin-latest-beta.js"></script>
+    <script type="text/javascript" src="JavaScript/CSSPlugin.min.js"></script>
+    <script type="text/javascript" src="JavaScript/TweenLite.min.js"></script>
+    <script type="text/javascript" src="JavaScript/TimelineLite.min.js"></script>
+    <script type="text/javascript" src="JavaScript/TweenMax-latest-beta.js"></script>
+    <script type="text/javascript" src="BSCarousel/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="cardlist/js/jquery.min.js"></script>
+    <script type="text/javascript" src="JavaScript/animatescroll.js"></script>
+    <script type="text/javascript" src="cardlist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="cardlist/js/popper.min.js"></script>
+    <script type="text/javascript" src="JavaScript/jquery.marquee.min.js"></script>
+
+    <script type="text/javascript">
+        function openNav() {
+            document.getElementById("mySidenav").style.marginLeft = "0px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.marginLeft = "-300px";
+        }
+    </script>
+    <!---->
+    <script>
+        var x, i, j, l, ll, selElmnt, a, b, c;
+        /*look for any elements with the class "custom-select ":*/
+        x = document.getElementsByClassName("custom-select2");
+        l = x.length;
+        for (i = 0; i < l; i++) {
+            selElmnt = x[i].getElementsByTagName("select")[0];
+            ll = selElmnt.length;
+            /*for each element, create a new DIV that will act as the selected item:*/
+            a = document.createElement("DIV");
+            a.setAttribute("class", "select-selected2");
+            a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+            x[i].appendChild(a);
+            /*for each element, create a new DIV that will contain the option list:*/
+            b = document.createElement("DIV");
+            b.setAttribute("class", "select-items2 select-hide2");
+            for (j = 1; j < ll; j++) {
+                /*for each option in the original select element,
+                create a new DIV that will act as an option item:*/
+                c = document.createElement("DIV");
+                c.innerHTML = selElmnt.options[j].innerHTML;
+                c.addEventListener("click", function(e) {
+                    /*when an item is clicked, update the original select box,
+                    and the selected item:*/
+                    var y, i, k, s, h, sl, yl;
+                    s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+                    sl = s.length;
+                    h = this.parentNode.previousSibling;
+                    for (i = 0; i < sl; i++) {
+                        if (s.options[i].innerHTML == this.innerHTML) {
+                            s.selectedIndex = i;
+                            h.innerHTML = this.innerHTML;
+                            y = this.parentNode.getElementsByClassName("same-as-selected2");
+                            yl = y.length;
+                            for (k = 0; k < yl; k++) {
+                                y[k].removeAttribute("class");
+                            }
+                            this.setAttribute("class", "same-as-selected2");
+                            break;
+                        }
+                    }
+                    h.click();
+                });
+                b.appendChild(c);
+            }
+            x[i].appendChild(b);
+            a.addEventListener("click", function(e) {
+                /*when the select box is clicked, close any other select boxes,
+                and open/close the current select box:*/
+                e.stopPropagation();
+                closeAllSelect(this);
+                this.nextSibling.classList.toggle("select-hide2");
+                this.classList.toggle("select-arrow-active2");
+            });
+        }
+
+        function closeAllSelect(elmnt) {
+            /*a function that will close all select boxes in the document,
+            except the current select box:*/
+            var x, y, i, xl, yl, arrNo = [];
+            x = document.getElementsByClassName("select-items2");
+            y = document.getElementsByClassName("select-selected2");
+            xl = x.length;
+            yl = y.length;
+            for (i = 0; i < yl; i++) {
+                if (elmnt == y[i]) {
+                    arrNo.push(i)
+                } else {
+                    y[i].classList.remove("select-arrow-active2");
+                }
+            }
+            for (i = 0; i < xl; i++) {
+                if (arrNo.indexOf(i)) {
+                    x[i].classList.add("select-hide2");
+                }
+            }
+        }
+        /*if the user clicks anywhere outside the select box,
+        then close all select boxes:*/
+        document.addEventListener("click", closeAllSelect);
+    </script>
+
+    <script>
+        var x, i, j, l, ll, selElmnt, a, b, c;
+        /*look for any elements with the class "custom-select ":*/
+        x = document.getElementsByClassName("custom-select3");
+        l = x.length;
+        for (i = 0; i < l; i++) {
+            selElmnt = x[i].getElementsByTagName("select")[0];
+            ll = selElmnt.length;
+            /*for each element, create a new DIV that will act as the selected item:*/
+            a = document.createElement("DIV");
+            a.setAttribute("class", "select-selected3");
+            a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+            x[i].appendChild(a);
+            /*for each element, create a new DIV that will contain the option list:*/
+            b = document.createElement("DIV");
+            b.setAttribute("class", "select-items3 select-hide3");
+            for (j = 1; j < ll; j++) {
+                /*for each option in the original select element,
+                create a new DIV that will act as an option item:*/
+                c = document.createElement("DIV");
+                c.innerHTML = selElmnt.options[j].innerHTML;
+                c.addEventListener("click", function(e) {
+                    /*when an item is clicked, update the original select box,
+                    and the selected item:*/
+                    var y, i, k, s, h, sl, yl;
+                    s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+                    sl = s.length;
+                    h = this.parentNode.previousSibling;
+                    for (i = 0; i < sl; i++) {
+                        if (s.options[i].innerHTML == this.innerHTML) {
+                            s.selectedIndex = i;
+                            h.innerHTML = this.innerHTML;
+                            y = this.parentNode.getElementsByClassName("same-as-selected3");
+                            yl = y.length;
+                            for (k = 0; k < yl; k++) {
+                                y[k].removeAttribute("class");
+                            }
+                            this.setAttribute("class", "same-as-selected3");
+                            break;
+                        }
+                    }
+                    h.click();
+                });
+                b.appendChild(c);
+            }
+            x[i].appendChild(b);
+            a.addEventListener("click", function(e) {
+                /*when the select box is clicked, close any other select boxes,
+                and open/close the current select box:*/
+                e.stopPropagation();
+                closeAllSelect(this);
+                this.nextSibling.classList.toggle("select-hide3");
+                this.classList.toggle("select-arrow-active3");
+            });
+        }
+
+        function closeAllSelect(elmnt) {
+            /*a function that will close all select boxes in the document,
+            except the current select box:*/
+            var x, y, i, xl, yl, arrNo = [];
+            x = document.getElementsByClassName("select-items3");
+            y = document.getElementsByClassName("select-selected3");
+            xl = x.length;
+            yl = y.length;
+            for (i = 0; i < yl; i++) {
+                if (elmnt == y[i]) {
+                    arrNo.push(i)
+                } else {
+                    y[i].classList.remove("select-arrow-active3");
+                }
+            }
+            for (i = 0; i < xl; i++) {
+                if (arrNo.indexOf(i)) {
+                    x[i].classList.add("select-hide3");
+                }
+            }
+        }
+        /*if the user clicks anywhere outside the select box,
+        then close all select boxes:*/
+        document.addEventListener("click", closeAllSelect);
+    </script>
+
+    <script>
+        var x, i, j, l, ll, selElmnt, a, b, c;
+        /*look for any elements with the class "custom-select ":*/
+        x = document.getElementsByClassName("custom-select4");
+        l = x.length;
+        for (i = 0; i < l; i++) {
+            selElmnt = x[i].getElementsByTagName("select")[0];
+            ll = selElmnt.length;
+            /*for each element, create a new DIV that will act as the selected item:*/
+            a = document.createElement("DIV");
+            a.setAttribute("class", "select-selected4");
+            a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+            x[i].appendChild(a);
+            /*for each element, create a new DIV that will contain the option list:*/
+            b = document.createElement("DIV");
+            b.setAttribute("class", "select-items4 select-hide4");
+            for (j = 1; j < ll; j++) {
+                /*for each option in the original select element,
+                create a new DIV that will act as an option item:*/
+                c = document.createElement("DIV");
+                c.innerHTML = selElmnt.options[j].innerHTML;
+                c.addEventListener("click", function(e) {
+                    /*when an item is clicked, update the original select box,
+                    and the selected item:*/
+                    var y, i, k, s, h, sl, yl;
+                    s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+                    sl = s.length;
+                    h = this.parentNode.previousSibling;
+                    for (i = 0; i < sl; i++) {
+                        if (s.options[i].innerHTML == this.innerHTML) {
+                            s.selectedIndex = i;
+                            h.innerHTML = this.innerHTML;
+                            y = this.parentNode.getElementsByClassName("same-as-selected4");
+                            yl = y.length;
+                            for (k = 0; k < yl; k++) {
+                                y[k].removeAttribute("class");
+                            }
+                            this.setAttribute("class", "same-as-selected4");
+                            break;
+                        }
+                    }
+                    h.click();
+                });
+                b.appendChild(c);
+            }
+            x[i].appendChild(b);
+            a.addEventListener("click", function(e) {
+                /*when the select box is clicked, close any other select boxes,
+                and open/close the current select box:*/
+                e.stopPropagation();
+                closeAllSelect(this);
+                this.nextSibling.classList.toggle("select-hide4");
+                this.classList.toggle("select-arrow-active4");
+            });
+        }
+
+        function closeAllSelect(elmnt) {
+            /*a function that will close all select boxes in the document,
+            except the current select box:*/
+            var x, y, i, xl, yl, arrNo = [];
+            x = document.getElementsByClassName("select-items4");
+            y = document.getElementsByClassName("select-selected4");
+            xl = x.length;
+            yl = y.length;
+            for (i = 0; i < yl; i++) {
+                if (elmnt == y[i]) {
+                    arrNo.push(i)
+                } else {
+                    y[i].classList.remove("select-arrow-active4");
+                }
+            }
+            for (i = 0; i < xl; i++) {
+                if (arrNo.indexOf(i)) {
+                    x[i].classList.add("select-hide4");
+                }
+            }
+        }
+        /*if the user clicks anywhere outside the select box,
+        then close all select boxes:*/
+        document.addEventListener("click", closeAllSelect);
+    </script>
+
+</body>
+
+</html>

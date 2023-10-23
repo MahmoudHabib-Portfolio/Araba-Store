@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+}
+
+.AboutHead {
+    background-color: #f5f5f5;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem !important;
+    box-shadow: 0px 0px 10.79px 2.21px rgba(0, 0, 0, 0.31);
+}
+
+.AboutHead .MSection {
+    background-color: white;
+    box-shadow: 0px 0px 10.79px 2.21px rgba(0, 0, 0, 0.31);
+    padding: 1rem 1rem !important;
+}
+
+.MSection .row {
+    padding-bottom: 2rem;
+}
+
+.MSection h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.MSection p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{ display: none; }

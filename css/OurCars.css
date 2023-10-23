@@ -1,0 +1,586 @@
+html,
+body {
+    overflow: visible !important;
+}
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{ display: none; }
+
+.Section6 {
+    z-index: 200 !important;
+}
+
+.MainHead {
+    position: relative;
+    background-image: url('../images/home/MainHead.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-color: #272727;
+    display: block;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 100%;
+    z-index: 100;
+}
+
+.MainHead h1 {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+
+.ProListing {
+    background-color: #f5f5f5;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 1.5rem) !important;
+    padding-left: var(--bs-gutter-x, 1.5rem) !important;
+    padding-top: var(--bs-gutter-y, 3rem) !important;
+    padding-bottom: var(--bs-gutter-y, 3rem) !important;
+}
+
+.filter {
+    background-color: white;
+    box-shadow: 0px 0px 10.79px 2.21px rgba(0, 0, 0, 0.31);
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    height: 25% !important;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0em;
+    display: block;
+    z-index: 100;
+}
+
+.filter .heading {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    text-align: center;
+    border-bottom: 3px solid #f2f2f2;
+}
+
+.filter .heading h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px !important;
+}
+
+.CarFilter {
+    padding: 1.5rem 2rem 0rem 2rem !important;
+}
+
+.CarFilter li {
+    display: list-item;
+    list-style: none;
+}
+
+
+/*the container must be positioned relative:*/
+
+.custom-select2 {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    border: 3px solid #d9eb3d;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1.5rem;
+    text-align: left !important;
+}
+
+.custom-select3 {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    border: 3px solid #d9eb3d;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1.5rem;
+    text-align: left !important;
+}
+
+.custom-select4 {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    border: 3px solid #d9eb3d;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1.5rem;
+    text-align: left !important;
+}
+
+.custom-select2 select {
+    display: none;
+    /*hide original SELECT element:*/
+}
+
+.custom-select3 select {
+    display: none;
+    /*hide original SELECT element:*/
+}
+
+.custom-select4 select {
+    display: none;
+    /*hide original SELECT element:*/
+}
+
+.select-selected2 {
+    color: #615e5e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    outline: none;
+}
+
+.select-selected3 {
+    color: #615e5e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    outline: none;
+}
+
+.select-selected4 {
+    color: #615e5e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    outline: none;
+}
+
+
+/*style the arrow inside the select element:*/
+
+.select-selected2:after {
+    display: none;
+}
+
+.select-selected3:after {
+    display: none;
+}
+
+.select-selected4:after {
+    display: none;
+}
+
+
+/*point the arrow upwards when the select box is open (active):*/
+
+.select-selected2.select-arrow-active2:after {
+    display: none;
+}
+
+.select-selected3.select-arrow-active3:after {
+    display: none;
+}
+
+.select-selected4.select-arrow-active4:after {
+    display: none;
+}
+
+
+/*style the items (options), including the selected item:*/
+
+.select-items2 div,
+.select-selected2 {
+    color: #615e5e;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    width: 100%;
+    z-index: 200;
+}
+
+.select-items3 div,
+.select-selected3 {
+    color: #615e5e;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    width: 100%;
+    z-index: 200;
+}
+
+.select-items4 div,
+.select-selected4 {
+    color: #615e5e;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    width: 100%;
+    z-index: 200;
+}
+
+
+/*style items (options):*/
+
+.select-items2 {
+    position: absolute;
+    background-color: white;
+    color: #615e5e;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.select-items3 {
+    position: absolute;
+    background-color: white;
+    color: #615e5e;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.select-items4 {
+    position: absolute;
+    background-color: white;
+    color: #615e5e;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*hide the items when the select box is closed:*/
+
+.select-hide2 {
+    display: none;
+}
+
+.select-hide3 {
+    display: none;
+}
+
+.select-hide4 {
+    display: none;
+}
+
+.select-items2 div:hover,
+.same-as-selected2 {
+    background-color: rgba(217, 235, 61, 0.5);
+}
+
+.select-items3 div:hover,
+.same-as-selected3 {
+    background-color: rgba(217, 235, 61, 0.5);
+}
+
+.select-items4 div:hover,
+.same-as-selected4 {
+    background-color: rgba(217, 235, 61, 0.5);
+}
+
+.custom-select2 span {
+    position: absolute;
+    color: #615e5e;
+    right: .3em;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.custom-select3 span {
+    position: absolute;
+    color: #615e5e;
+    right: .3em;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.custom-select4 span {
+    position: absolute;
+    color: #615e5e;
+    right: .3em;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.custom-select2 {
+    width: 100% !important;
+    border-radius: 0px !important;
+}
+
+.custom-select3 {
+    width: 100% !important;
+    border-radius: 0px !important;
+}
+
+.custom-select4 {
+    width: 100% !important;
+    border-radius: 0px !important;
+}
+
+.select-selected2 {
+    width: 100% !important;
+}
+
+.select-selected3 {
+    width: 100% !important;
+}
+
+.select-selected4 {
+    width: 100% !important;
+}
+
+.select-items2 {
+    width: 100% !important;
+}
+
+.select-items3 {
+    width: 100% !important;
+}
+
+.select-items4 {
+    width: 100% !important;
+}
+
+.CarList {
+    background-color: white;
+    box-shadow: 0px 0px 10.79px 2.21px rgba(0, 0, 0, 0.31);
+    width: 73% !important;
+    margin-left: 1.5em;
+    padding: 1.5rem 0rem !important;
+}
+
+.CarList .row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.ProFoto {
+    text-align: center;
+}
+
+.ProFoto img {
+    width: 80%;
+}
+
+.CardTitle {
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.MiddleCard {
+    border-right: 2px solid #f2f2f2;
+    border-left: 2px solid #f2f2f2;
+}
+
+.CardDesc {
+    padding-top: 0.5rem;
+}
+
+.RateSide {
+    float: left;
+}
+
+.RateSide li {
+    display: list-item;
+    list-style: none;
+    color: #b0b0b0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.RateSide li .b1 {
+    font-family: 'Calibri';
+    color: black !important;
+    font-weight: normal !important;
+    font-size: 15px !important;
+}
+
+.RateSide li .b2 {
+    font-weight: normal !important;
+}
+
+.RateSide li del {
+    font-family: 'Calibri';
+    color: red !important;
+    font-size: 10px !important;
+}
+
+.RentSide {
+    float: right;
+    padding-top: 1.2em;
+}
+
+.RentSide button {
+    border: 2px solid #1461d5;
+    outline: none;
+    width: 70px;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: transparent;
+    color: #1461d5;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.rating1>label {
+    font-size: 20px !important;
+}
+
+.rating2>label {
+    font-size: 20px !important;
+}
+
+.rating3>label {
+    font-size: 20px !important;
+}
+
+.rating4>label {
+    font-size: 20px !important;
+}
+
+.rating5>label {
+    font-size: 20px !important;
+}
+
+.rating6>label {
+    font-size: 20px !important;
+}
+
+.rating7>label {
+    font-size: 20px !important;
+}
+
+.rating8>label {
+    font-size: 20px !important;
+}
+
+.rating9>label {
+    font-size: 20px !important;
+}
+
+.rating10>label {
+    font-size: 20px !important;
+}
+
+.rating11>label {
+    font-size: 20px !important;
+}
+
+.rating12>label {
+    font-size: 20px !important;
+}
+
+.rating13>label {
+    font-size: 20px !important;
+}
+
+.rating14>label {
+    font-size: 20px !important;
+}
+
+.rating15>label {
+    font-size: 20px !important;
+}
+
+.ProductDesc {
+    margin-top: 4em;
+    border-top: 3px solid #f2f2f2;
+    padding-top: 0.5em;
+}
+
+.speed {
+    float: left;
+}
+
+.speed li {
+    list-style: none;
+    display: list-item;
+    text-align: center;
+    padding-bottom: 0.2rem;
+    color: #adadad;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.geartype {
+    float: left;
+    margin-left: 2em;
+}
+
+.geartype li {
+    list-style: none;
+    display: list-item;
+    text-align: center;
+    padding-bottom: 0.2rem;
+    color: #adadad;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.geartype li img {
+    margin-left: 2em !important;
+}
+
+.model {
+    float: right;
+}
+
+.model li {
+    list-style: none;
+    display: list-item;
+    text-align: center;
+    padding-bottom: 0.2rem;
+    color: #adadad;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.duplicate {
+    padding-top: 2em;
+}
+
+.bagination {
+    border-top: 3px solid #f2f2f2;
+    padding-top: 1em;
+    padding-left: 2em !important;
+    margin-top: 3em !important;
+}
+
+.page-link {
+    color: black !important;
+}
+
+.Page {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-link:hover {
+    color: black !important;
+    background-color: #d9eb3d !important;
+}
+
+.pagination li {
+    margin-left: 0.5em;
+}
